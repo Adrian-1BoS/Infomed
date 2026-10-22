@@ -1,0 +1,5 @@
+pandas
+groq
+rapidfuzz
+google-genai
+python-dotenv

@@ -1,0 +1,172 @@
+{
+  "paciente_id": 1,
+  "nome_paciente": "Irineu Silva",
+  "tel_paciente": "11911111111",
+  "responsavel": "Janaina Silva",
+  "tel_responsavel": "11911281111",
+  "remedio_solidos": [
+    {
+        "id": 17649,
+        "nome_fornecido": "Enalapril",
+        "nome_medicamento": "",
+        "dosagem_mg": 25.0,
+
+        "quantidade_tomar": 1.0,
+        "periodo": "matutino",
+        "horario": "08:00",
+        "pendente": false,
+        "ultima_atualizacao": "",
+        
+        "estoque": {
+            "estoque_caixas": 20.0,
+            "cartelas_por_caixa": 3.0,
+            "unidades_por_cartela": 20.0,
+            "estoque_atual": 1200.0
+        }
+    },
+    {
+        "id": 13053,
+        "nome_fornecido": "Fenobarbital",
+        "nome_medicamento": "",
+        "dosagem_mg": 100.0,
+
+        "quantidade_tomar": 1.0,
+        "periodo": "noite",
+        "horario": "20:00",
+        "pendente": false,
+        "ultima_atualizacao": "",
+        
+        "estoque": {
+            "estoque_caixas": 20.0,
+            "cartelas_por_caixa": 3.0,
+            "unidades_por_cartela": 20.0,
+            "estoque_atual": 1200.0
+        }
+    },
+    {
+        "id": 16536,
+        "nome_fornecido": "Harvoni",
+        "nome_medicamento": "",
+        "dosagem_mg": 90.0,
+
+        "quantidade_tomar": 1.0,
+        "periodo": "noite",
+        "horario": "20:00",
+        "pendente": false,
+        "ultima_atualizacao": "",
+        
+        "estoque": {
+            "estoque_caixas": 20.0,
+            "cartelas_por_caixa": 3.0,
+            "unidades_por_cartela": 20.0,
+            "estoque_atual": 1200.0
+        }
+    }
+  ],
+  "remedio_liquidos": [
+    {
+        "id": 15573,
+
+        "nome_fornecido": "Ibuprofeno",
+        "nome_medicamento": "",
+        "concentracao_mg_ml": 400.0,
+
+        "quantidade_gotas_tomar": 5.0,
+        "periodo_dia": "manha",
+        "horario_fixo": "09:00",
+        "pendente": false,
+        "ultima_atualizacao": "",
+
+        "estoque": {
+            "quantidade_frascos": 2.0,
+            "volume_por_frasco_ml": 20.0,
+            "ml_por_gota": 0.1,
+            "total_gotas_disponiveis": 400.0
+        }
+    }
+  ],
+  "remedio_injetavel": [
+    {
+        "id": 16020,
+
+        "nome_fornecido": "Insulina NPH",
+        "nome_medicamento": "",
+        "concentracao_ui_ml": 100.0,
+
+        "quantidade_gotas_tomar": 15.0,
+        "periodo_dia": "manha",
+        "horario_fixo": "09:00",
+        "pendente": false,
+        "ultima_atualizacao": "",
+
+        "estoque": {
+            "quantidade_frascos": 2,
+            "volume_por_frasco_ml": 200,
+            "ml_por_gota": 15,
+            "total_gotas_disponiveis": 400
+        }
+    },
+    {
+        "id": 16020,
+
+        "nome_fornecido": "Insulina NPH",
+        "nome_medicamento": "",
+        "concentracao_ui_ml": 100.0,
+
+        "quantidade_gotas_tomar": 15.0,
+        "periodo_dia": "noite",
+        "horario_fixo": "20:00",
+        "pendente": false,
+        "ultima_atualizacao": "",
+
+        "estoque": {
+            "quantidade_frascos": 2,
+            "volume_por_frasco_ml": 200,
+            "ml_por_dose": 15.0,
+            "total_dose_disponiveis": 400
+        }
+    },
+    {
+        "id": 16020,
+
+        "nome_fornecido": "Insulina Regular",
+        "nome_medicamento": "Bahiafarma Insulina Humana Nph",
+        "concentracao_ui_ml": 100.0,
+
+        "quantidade_gotas_tomar": 15.0,
+        "periodo_dia": "noite",
+        "horario_fixo": "15:00",
+        "pendente": false,
+        "ultima_atualizacao": "",
+
+        "estoque": {
+            "quantidade_frascos": 2,
+            "volume_por_frasco_ml": 20,
+            "ml_por_dose": 15.0,
+            "total_dose_disponiveis": 400
+        }
+    }
+  ],
+  "remedio_colirio": [
+    {
+        "id": 8058,
+
+        "nome_fornecido": "Claril",
+        "nome_medicamento": "Claril",
+        "concentracao_mg_ml": 100,
+
+        "quantidade_gotas": 1,
+        "periodo_dia": "noite",
+        "horario_fixo": "20:00",
+        "pendente": false,
+        "ultima_atualizacao": "",
+
+        "estoque": {
+            "quantidade_frascos": 2,
+            "volume_por_frasco_ml": 20,
+            "ml_por_gota": 0.15,
+            "total_gotas_disponiveis": 400
+        }
+    }
+  ]
+}

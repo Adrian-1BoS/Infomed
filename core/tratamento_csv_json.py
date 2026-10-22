@@ -10,38 +10,45 @@ from pathlib import Path
 # leitura de texto
 import pandas as pd
 
-
 # Variavel para separar medicamentos em 3 grupos usando key_words.
 def forma_farmaceutica(apresentacao):
     apres = f" {str(apresentacao).upper()} "
     
     # Usei gemini para me traser os padroes presentes na coluna J do .csv
-    injetaveis_key =[' INJ', 'SOL INJ', 'SUSP INJ', ' FRASCO AMPOLA ',' FA ',' SER ',' SERINGA ', ' CANETA ', ' CANETAS ']
-    liquido_key = ['XPE', 'GOTAS','XAROPE', 'SUSP','EMU', 'SOLUCAO', 'SUSPENSAO', 'SOL OR']
-    solidos_key = ['COMP', 'CAP', 'DRG', 'PILULA', 'SACHE', 'TABLETE','PASTILHA','POM', 'CREME','POMADA', 'GEL']
+    injetaveis_key = [' INJ', 'SOL INJ', 'SUSP INJ', ' FRASCO AMPOLA ', ' FA ', ' SER ', ' SERINGA ', ' CANETA ', ' CANETAS ']
+    colirios_key = ['OFT', 'COLIRIO', 'COLÍRIO', 'OFTALMICO', 'OFTÁLMICO']
+    liquidos_key = ['XPE', 'GOTAS', 'GOT ', 'XAROPE', 'SUSP', 'EMU', 'SOLUCAO', 'SUSPENSAO', 'SOL OR', 'SOL NAS', 'NASAL']
+    solidos_key = ['COMP', 'CAP', 'DRG', 'PILULA', 'SACHE', 'TABLETE', 'PASTILHA', 'POM', 'CREME', 'POMADA', 'GEL']    
     
     # se palavra chave (kw) na apresentação (coluna J) == kw em alguma das 3, atribui-la a mesma
     if any(kw in apres for kw in injetaveis_key):
         return 'injetavel'
-    elif any(kw in apres for kw in liquido_key):
+    elif any(kw in apres for kw in colirios_key):
+        return 'colirio'
+    elif any(kw in apres for kw in liquidos_key):
         return 'liquido'
     elif any(kw in apres for kw in solidos_key):
         return 'solido'
     else:
         return 'solido'
 
-# aproveita no csv e extrai a dosagem presente lá.
+# Aproveita no csv e extrai a dosagem presente lá. Tem alguns remedios que apresentam calculos (a verificar)
 def dosagem(apresentacao):
     apres = str(apresentacao)
     
-    # caso liquido, pega a dosagem (numero antecessor ao mg/ml)
+    # Pega a dosagem (numero antecessor ao mg/ml, mg, u, u/mg)
     # re.search == busca ___ r== py não leia os comandos (o regex formata) \d+ busca x numeros até batem em \., (se for decimal depois \d+) ou até bater em algo que não é numero e o re.IGNORECASE == não diferencie maiusculo de minusculo
     match_mg_ml = re.search(r'(\d+(?:[\.,]\d+)?)\s*MG/ML', apres, re.IGNORECASE)
     if match_mg_ml:
         return float(match_mg_ml.group(1).replace(',', '.')), 'mg_ml'
+    match_u_ml = re.search(r'(\d+(?:[\.,]\d+)?)\s*U/ML', apres, re.IGNORECASE)
+    if match_u_ml:
+        return float(match_u_ml.group(1).replace(',', '.')), 'u_ml'
     
-    # caso solido, pega a dosagem (numero antecessor ao mg)
-    # mesmo tratamento do mg/ml
+    match_mu = re.search(r'(\d+(?:[\.,]\d+)?)\s*MU\b', apres, re.IGNORECASE)
+    if match_mu:
+        return float(match_mu.group(1).replace(',', '.')), 'mu'
+    
     match_mg = re.search(r'(\d+(?:[\.,]\d+)?)\s*MG\b', apres, re.IGNORECASE)
     if match_mg:
         return float(match_mg.group(1).replace(',', '.')), 'mg'
@@ -53,6 +60,7 @@ def dosagem(apresentacao):
 no .csv as substancias são separadaspor ";" aqui, transformamos em lista
 e separamos no .json
 """
+
 def tratar_substancias(substancia_raw):
     subst_str = str(substancia_raw).strip()
     if not subst_str or subst_str.lower() in ['nan', 'none', '']:
@@ -76,7 +84,6 @@ def descricao_area_atuacao(classe_terapeutica):
         return texto.split(" - ", 1)[1].strip()
     return texto.strip()
     
-    
 def processar_csv_anvisa(caminho_csv, caminho_output_json):
     # Mudado para teclas encoding='utf-8' (padrão br para acentuação)
     try:
@@ -89,8 +96,10 @@ def processar_csv_anvisa(caminho_csv, caminho_output_json):
     #cria as respeqtivas areas para preencher dendro do colchete como visto no solidificados.json
     remedio_solido = []
     remedio_liquido = []
-    remedio_injetavel = []
-    
+    remedio_injetavel = [] 
+    remedio_colirio = []
+    nao_identificado =[]
+
     # cria um id para cada remedio do .json 
     id_counter = 1
 
@@ -141,7 +150,22 @@ def processar_csv_anvisa(caminho_csv, caminho_output_json):
             }
             remedio_liquido.append(item)
             
-        else:  # injetaveis
+        elif tipo == 'colirio':
+            item = {
+                "id": id_counter,
+                "nome": nome_produto,
+                "substancia_ativa": substancias_list,
+                "apresentacao": apresentacao,
+                "mg_ml": valor_dosagem if unidade == 'mg_ml' else None,
+                "codigo_area_atuacao": cod_classe_terapeutica,
+                "area_atuacao": area_atuacao,
+                "nomes_alternativos": nome_alt,
+                "efeitos_colaterais": [],
+                "incompatibilidades": []
+            }
+            remedio_colirio.append(item)
+            
+        elif tipo == 'injetavel':
             item = {
                 "id": id_counter,
                 "nome": nome_produto,
@@ -156,12 +180,30 @@ def processar_csv_anvisa(caminho_csv, caminho_output_json):
             }
             remedio_injetavel.append(item)
             
+        else:
+            item = {
+                "id": id_counter,
+                "nome": nome_produto,
+                "substancia_ativa": substancias_list,
+                "apresentacao": apresentacao,
+                "mg_ml": valor_dosagem if unidade == 'mg_ml' else None,
+                "codigo_area_atuacao": cod_classe_terapeutica,
+                "area_atuacao": area_atuacao,
+                "nomes_alternativos": nome_alt,
+                "efeitos_colaterais": [],
+                "incompatibilidades": []
+            }
+            nao_identificado.append(item)
+        
+            
         id_counter += 1
 
     dados_consolidados = {
         "remedio_solido": remedio_solido,
         "remedio_liquido": remedio_liquido,
-        "remedio_injetavel": remedio_injetavel
+        "remedio_injetavel": remedio_injetavel,
+        "remedio_colirio": remedio_colirio,
+        "nao_identificado": nao_identificado
     }
 
     with open(caminho_output_json, 'w', encoding='utf-8') as f:
