@@ -7,7 +7,7 @@
   "remedio_solidos": [
     {
         "id": 17649,
-        "nome_fornecido": "Enalapril",
+        "nome_fornecido": "Maleato de inalapril",
         "nome_medicamento": "",
         "dosagem_mg": 25.0,
 
@@ -151,8 +151,8 @@
     {
         "id": 8058,
 
-        "nome_fornecido": "Claril",
-        "nome_medicamento": "Claril",
+        "nome_fornecido": "Travoptic",
+        "nome_medicamento": "",
         "concentracao_mg_ml": 100,
 
         "quantidade_gotas": 1,

@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 """
 Classe auxiliar para padronizar as respostas da Groq
-permitindo que usem a sintaxe 'chunk.text' idêntica à do Gemini.
+permitindo que usem a sintaxe 'chunk.text' idêntica a do Gemini.
 """
 class TextChunk:
     def __init__(self, text: str):
@@ -42,10 +42,18 @@ class AIHandler:
         gemini-3.6-flash
         gemini-3.1-flash-lite
         gemini-2.5-flash-lite
+        
+        só de teste
+        "gemini-3.5-flash",
+        "gemini-3.1-flash-lite",
+        "gemini-2.5-flash-lite"
         """
         self.gemini_disponivel = True
         self.gemini_models = [
-            "gemini-3.5-flash",
+            "gemini-2.5-Flash",
+            "gemini-flash-latest",
+            "gemini-3.8-flash",
+            "gemini-3.6-flash",
             "gemini-3.1-flash-lite",
             "gemini-2.5-flash-lite"
         ]
@@ -76,7 +84,7 @@ class AIHandler:
     def gerar_resposta(self, prompt_sistema: str, pergunta: str) -> Union[Generator, str]:
         # Roteamento resiliente: Gemini (Principal) -> Groq (Suporte).
         
-        # 1. TENTA GEMINI PRIMEIRO
+        # 1. Gemini
         if self.gemini_disponivel:
             try:
                 stream = self._chamar_gemini_stream(prompt_sistema, pergunta)
@@ -102,11 +110,11 @@ class AIHandler:
                 self.gemini_disponivel = False
                 logger.error(f"Falha na inicialização do stream Gemini: {e}. Tentando Groq...")
 
-        # 2. SE GEMINI ESTIVER DESATIVADO OU FALHAR DE INÍCIO, USA GROQ
+        # 2. Se o Gimini falhar de inicio, pula direto para o Groq
         return self._chamar_groq(prompt_sistema, pergunta)
     
     def _chamar_gemini_stream(self, prompt_sistema: str, pergunta: str) -> Generator:
-        """Tenta iterar pelos modelos do Gemini em ordem de preferência antes de desistir."""
+        #Tenta iterar pelos modelos do Gemini em ordem de preferência antes de desistir.
         config = types.GenerateContentConfig(
             system_instruction=prompt_sistema
         )
@@ -123,11 +131,11 @@ class AIHandler:
                 # Se deu certo, consome o stream e sai do loop
                 for chunk in stream:
                     yield chunk
-                return  # Sucesso total, encerra a função
+                return  
                 
             except Exception as e:
                 ultimo_erro = e
-                logger.warning(f"⚠️ O modelo {modelo} falhou/indisponível ({e}). Tentando o próximo da lista...")
+                logger.warning(f"O modelo {modelo} falhou/indisponível ({e}). Tentando o próximo da lista...")
         
         # Se esgotar todos os modelos do Gemini, propaga o erro para o fallback da Groq assumir
         raise Exception(f"Todos os modelos do Gemini falharam. Último erro: {ultimo_erro}")
@@ -159,5 +167,5 @@ class AIHandler:
             return groq_wrapper()
 
         except Exception as e:
-            logger.error(f"Groq Fallback também falhou: {e}")
-            return "Serviços de inteligência artificial estão indisponíveis no momento."
+            logger.error(f"Groq também falhou: {e}")
+            return "As Inteligências artificiais estão indisponíveis no momento."

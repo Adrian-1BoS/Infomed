@@ -156051,33 +156051,24 @@
             "area_atuacao": "ANTIEPILÉPTICOS",
             "nomes_alternativos": [],
             "efeitos_colaterais": [
-                "Sedação excessiva",
-                "Depressão respiratória",
-                "Hipotensão",
-                "Alterações no humor (irritabilidade, depressão)",
-                "Ataxia e comprometimento da coordenação motora",
-                "Náuseas e vômitos",
-                "Distúrbios gastrointestinais (constipação, dor abdominal)",
-                "Erupções cutâneas e reações alérgicas (prurido, urticária)",
-                "Elevação das enzimas hepáticas",
-                "Anemia hemolítica (raro)",
-                "Alterações hematológicas (leucopenia, trombocitopenia)",
-                "Confusão mental e comprometimento cognitivo",
-                "Dependência física e psicológica"
+                "sedação",
+                "ataxia",
+                "depressão respiratória",
+                "hipotensão",
+                "erupções cutâneas",
+                "toxicidade hepática",
+                "anemia aplástica",
+                "disfunção cognitiva",
+                "dependência",
+                "síndrome de abstinência"
             ],
             "incompatibilidades": [
-                "Álcool etílico",
-                "Outros barbitúricos (ex.: tiopental, meticarbamol)",
-                "Benzodiazepínicos (ex.: diazepam, lorazepam)",
-                "Opioides (ex.: morfina, codeína)",
-                "Antidepressivos tricíclicos",
-                "Anticonvulsivantes de ação semelhante (ex.: fenitoína)",
-                "Anticoagulantes orais (ex.: varfarina) – risco aumentado de sangramento",
-                "Anticoncepcionais hormonais – redução da eficácia contraceptiva",
-                "Antibióticos macrolídeos (ex.: eritromicina) – aumento da toxicidade",
-                "Inibidores da CYP450 (ex.: cimetidina, fluoxetina) – aumento dos níveis plasmáticos",
-                "Indutores da CYP450 (ex.: rifampicina, carbamazepina) – diminuição da eficácia",
-                "Agentes anticolinérgicos (ex.: atropina) – potencialização de efeitos sedativos"
+                "álcool",
+                "benzodiazepínicos",
+                "opióides",
+                "warfarina",
+                "anticoncepcionais orais combinados",
+                "fenitoína"
             ]
         },
         {
@@ -156124,33 +156115,24 @@
             "area_atuacao": "ANTIEPILÉPTICOS",
             "nomes_alternativos": [],
             "efeitos_colaterais": [
-                "Sedação excessiva",
-                "Depressão respiratória",
-                "Hipotensão",
-                "Alterações no humor (irritabilidade, depressão)",
-                "Ataxia e comprometimento da coordenação motora",
-                "Náuseas e vômitos",
-                "Distúrbios gastrointestinais (constipação, dor abdominal)",
-                "Erupções cutâneas e reações alérgicas (prurido, urticária)",
-                "Elevação das enzimas hepáticas",
-                "Anemia hemolítica (raro)",
-                "Alterações hematológicas (leucopenia, trombocitopenia)",
-                "Confusão mental e comprometimento cognitivo",
-                "Dependência física e psicológica"
+                "sedação",
+                "ataxia",
+                "depressão respiratória",
+                "hipotensão",
+                "erupções cutâneas",
+                "toxicidade hepática",
+                "anemia aplástica",
+                "disfunção cognitiva",
+                "dependência",
+                "síndrome de abstinência"
             ],
             "incompatibilidades": [
-                "Álcool etílico",
-                "Outros barbitúricos (ex.: tiopental, meticarbamol)",
-                "Benzodiazepínicos (ex.: diazepam, lorazepam)",
-                "Opioides (ex.: morfina, codeína)",
-                "Antidepressivos tricíclicos",
-                "Anticonvulsivantes de ação semelhante (ex.: fenitoína)",
-                "Anticoagulantes orais (ex.: varfarina) – risco aumentado de sangramento",
-                "Anticoncepcionais hormonais – redução da eficácia contraceptiva",
-                "Antibióticos macrolídeos (ex.: eritromicina) – aumento da toxicidade",
-                "Inibidores da CYP450 (ex.: cimetidina, fluoxetina) – aumento dos níveis plasmáticos",
-                "Indutores da CYP450 (ex.: rifampicina, carbamazepina) – diminuição da eficácia",
-                "Agentes anticolinérgicos (ex.: atropina) – potencialização de efeitos sedativos"
+                "álcool",
+                "benzodiazepínicos",
+                "opióides",
+                "warfarina",
+                "anticoncepcionais orais combinados",
+                "fenitoína"
             ]
         },
         {
@@ -156165,33 +156147,24 @@
             "area_atuacao": "ANTIEPILÉPTICOS",
             "nomes_alternativos": [],
             "efeitos_colaterais": [
-                "Sedação excessiva",
-                "Depressão respiratória",
-                "Hipotensão",
-                "Alterações no humor (irritabilidade, depressão)",
-                "Ataxia e comprometimento da coordenação motora",
-                "Náuseas e vômitos",
-                "Distúrbios gastrointestinais (constipação, dor abdominal)",
-                "Erupções cutâneas e reações alérgicas (prurido, urticária)",
-                "Elevação das enzimas hepáticas",
-                "Anemia hemolítica (raro)",
-                "Alterações hematológicas (leucopenia, trombocitopenia)",
-                "Confusão mental e comprometimento cognitivo",
-                "Dependência física e psicológica"
+                "sedação",
+                "ataxia",
+                "depressão respiratória",
+                "hipotensão",
+                "erupções cutâneas",
+                "toxicidade hepática",
+                "anemia aplástica",
+                "disfunção cognitiva",
+                "dependência",
+                "síndrome de abstinência"
             ],
             "incompatibilidades": [
-                "Álcool etílico",
-                "Outros barbitúricos (ex.: tiopental, meticarbamol)",
-                "Benzodiazepínicos (ex.: diazepam, lorazepam)",
-                "Opioides (ex.: morfina, codeína)",
-                "Antidepressivos tricíclicos",
-                "Anticonvulsivantes de ação semelhante (ex.: fenitoína)",
-                "Anticoagulantes orais (ex.: varfarina) – risco aumentado de sangramento",
-                "Anticoncepcionais hormonais – redução da eficácia contraceptiva",
-                "Antibióticos macrolídeos (ex.: eritromicina) – aumento da toxicidade",
-                "Inibidores da CYP450 (ex.: cimetidina, fluoxetina) – aumento dos níveis plasmáticos",
-                "Indutores da CYP450 (ex.: rifampicina, carbamazepina) – diminuição da eficácia",
-                "Agentes anticolinérgicos (ex.: atropina) – potencialização de efeitos sedativos"
+                "álcool",
+                "benzodiazepínicos",
+                "opióides",
+                "warfarina",
+                "anticoncepcionais orais combinados",
+                "fenitoína"
             ]
         },
         {
@@ -156206,33 +156179,24 @@
             "area_atuacao": "ANTIEPILÉPTICOS",
             "nomes_alternativos": [],
             "efeitos_colaterais": [
-                "Sedação excessiva",
-                "Depressão respiratória",
-                "Hipotensão",
-                "Alterações no humor (irritabilidade, depressão)",
-                "Ataxia e comprometimento da coordenação motora",
-                "Náuseas e vômitos",
-                "Distúrbios gastrointestinais (constipação, dor abdominal)",
-                "Erupções cutâneas e reações alérgicas (prurido, urticária)",
-                "Elevação das enzimas hepáticas",
-                "Anemia hemolítica (raro)",
-                "Alterações hematológicas (leucopenia, trombocitopenia)",
-                "Confusão mental e comprometimento cognitivo",
-                "Dependência física e psicológica"
+                "sedação",
+                "ataxia",
+                "depressão respiratória",
+                "hipotensão",
+                "erupções cutâneas",
+                "toxicidade hepática",
+                "anemia aplástica",
+                "disfunção cognitiva",
+                "dependência",
+                "síndrome de abstinência"
             ],
             "incompatibilidades": [
-                "Álcool etílico",
-                "Outros barbitúricos (ex.: tiopental, meticarbamol)",
-                "Benzodiazepínicos (ex.: diazepam, lorazepam)",
-                "Opioides (ex.: morfina, codeína)",
-                "Antidepressivos tricíclicos",
-                "Anticonvulsivantes de ação semelhante (ex.: fenitoína)",
-                "Anticoagulantes orais (ex.: varfarina) – risco aumentado de sangramento",
-                "Anticoncepcionais hormonais – redução da eficácia contraceptiva",
-                "Antibióticos macrolídeos (ex.: eritromicina) – aumento da toxicidade",
-                "Inibidores da CYP450 (ex.: cimetidina, fluoxetina) – aumento dos níveis plasmáticos",
-                "Indutores da CYP450 (ex.: rifampicina, carbamazepina) – diminuição da eficácia",
-                "Agentes anticolinérgicos (ex.: atropina) – potencialização de efeitos sedativos"
+                "álcool",
+                "benzodiazepínicos",
+                "opióides",
+                "warfarina",
+                "anticoncepcionais orais combinados",
+                "fenitoína"
             ]
         },
         {
@@ -156247,33 +156211,24 @@
             "area_atuacao": "ANTIEPILÉPTICOS",
             "nomes_alternativos": [],
             "efeitos_colaterais": [
-                "Sedação excessiva",
-                "Depressão respiratória",
-                "Hipotensão",
-                "Alterações no humor (irritabilidade, depressão)",
-                "Ataxia e comprometimento da coordenação motora",
-                "Náuseas e vômitos",
-                "Distúrbios gastrointestinais (constipação, dor abdominal)",
-                "Erupções cutâneas e reações alérgicas (prurido, urticária)",
-                "Elevação das enzimas hepáticas",
-                "Anemia hemolítica (raro)",
-                "Alterações hematológicas (leucopenia, trombocitopenia)",
-                "Confusão mental e comprometimento cognitivo",
-                "Dependência física e psicológica"
+                "sedação",
+                "ataxia",
+                "depressão respiratória",
+                "hipotensão",
+                "erupções cutâneas",
+                "toxicidade hepática",
+                "anemia aplástica",
+                "disfunção cognitiva",
+                "dependência",
+                "síndrome de abstinência"
             ],
             "incompatibilidades": [
-                "Álcool etílico",
-                "Outros barbitúricos (ex.: tiopental, meticarbamol)",
-                "Benzodiazepínicos (ex.: diazepam, lorazepam)",
-                "Opioides (ex.: morfina, codeína)",
-                "Antidepressivos tricíclicos",
-                "Anticonvulsivantes de ação semelhante (ex.: fenitoína)",
-                "Anticoagulantes orais (ex.: varfarina) – risco aumentado de sangramento",
-                "Anticoncepcionais hormonais – redução da eficácia contraceptiva",
-                "Antibióticos macrolídeos (ex.: eritromicina) – aumento da toxicidade",
-                "Inibidores da CYP450 (ex.: cimetidina, fluoxetina) – aumento dos níveis plasmáticos",
-                "Indutores da CYP450 (ex.: rifampicina, carbamazepina) – diminuição da eficácia",
-                "Agentes anticolinérgicos (ex.: atropina) – potencialização de efeitos sedativos"
+                "álcool",
+                "benzodiazepínicos",
+                "opióides",
+                "warfarina",
+                "anticoncepcionais orais combinados",
+                "fenitoína"
             ]
         },
         {
@@ -156288,33 +156243,24 @@
             "area_atuacao": "ANTIEPILÉPTICOS",
             "nomes_alternativos": [],
             "efeitos_colaterais": [
-                "Sedação excessiva",
-                "Depressão respiratória",
-                "Hipotensão",
-                "Alterações no humor (irritabilidade, depressão)",
-                "Ataxia e comprometimento da coordenação motora",
-                "Náuseas e vômitos",
-                "Distúrbios gastrointestinais (constipação, dor abdominal)",
-                "Erupções cutâneas e reações alérgicas (prurido, urticária)",
-                "Elevação das enzimas hepáticas",
-                "Anemia hemolítica (raro)",
-                "Alterações hematológicas (leucopenia, trombocitopenia)",
-                "Confusão mental e comprometimento cognitivo",
-                "Dependência física e psicológica"
+                "sedação",
+                "ataxia",
+                "depressão respiratória",
+                "hipotensão",
+                "erupções cutâneas",
+                "toxicidade hepática",
+                "anemia aplástica",
+                "disfunção cognitiva",
+                "dependência",
+                "síndrome de abstinência"
             ],
             "incompatibilidades": [
-                "Álcool etílico",
-                "Outros barbitúricos (ex.: tiopental, meticarbamol)",
-                "Benzodiazepínicos (ex.: diazepam, lorazepam)",
-                "Opioides (ex.: morfina, codeína)",
-                "Antidepressivos tricíclicos",
-                "Anticonvulsivantes de ação semelhante (ex.: fenitoína)",
-                "Anticoagulantes orais (ex.: varfarina) – risco aumentado de sangramento",
-                "Anticoncepcionais hormonais – redução da eficácia contraceptiva",
-                "Antibióticos macrolídeos (ex.: eritromicina) – aumento da toxicidade",
-                "Inibidores da CYP450 (ex.: cimetidina, fluoxetina) – aumento dos níveis plasmáticos",
-                "Indutores da CYP450 (ex.: rifampicina, carbamazepina) – diminuição da eficácia",
-                "Agentes anticolinérgicos (ex.: atropina) – potencialização de efeitos sedativos"
+                "álcool",
+                "benzodiazepínicos",
+                "opióides",
+                "warfarina",
+                "anticoncepcionais orais combinados",
+                "fenitoína"
             ]
         },
         {
@@ -186356,40 +186302,30 @@
             ],
             "efeitos_colaterais": [
                 "Dor abdominal",
+                "Náuseas",
+                "Vômitos",
                 "Dispepsia",
-                "Úlcera gástrica ou duodenal",
+                "Úlcera gástrica",
                 "Hemorragia gastrointestinal",
-                "Náuseas e vômitos",
-                "Diarreia",
                 "Edema",
-                "Hipertensão arterial",
-                "Insuficiência renal aguda",
-                "Elevação de enzimas hepáticas",
-                "Reações cutâneas (erupções, prurido)",
-                "Urticária",
-                "Broncoespasmo em asmáticos",
-                "Tontura",
+                "Erupção cutânea",
+                "Prurido",
                 "Cefaleia",
-                "Zumbido (tinnitus)",
-                "Aumento do risco de eventos cardiovasculares (infarto, AVC)",
-                "Retenção de líquidos",
-                "Anemia hemolítica em pacientes com deficiência de G6PD"
+                "Tontura"
             ],
             "incompatibilidades": [
-                "Outros anti-inflamatórios não esteroides (AINEs)",
-                "Ácido acetilsalicílico (AAS)",
-                "Anticoagulantes orais (varfarina, acenocumarol)",
-                "Heparina e heparinas de baixo peso molecular",
-                "Corticoides sistêmicos",
-                "Inibidores da enzima conversora de angiotensina (IECA) e bloqueadores dos receptores de angiotensina II (BRA)",
-                "Diuréticos de alça",
-                "Litio",
+                "Ácido acetilsalicílico",
+                "Diclofenaco",
+                "Naproxeno",
+                "Warfarina",
+                "Heparina",
+                "Clopidogrel",
+                "Corticosteroides",
+                "Inibidores da enzima de conversão da angiotensina (IECA)",
+                "Bloqueadores dos receptores da angiotensina II (BRA)",
+                "Lítio",
                 "Metotrexato",
-                "Ciclosporina",
-                "Inibidores seletivos da recaptação de serotonina (ISRS)",
-                "Antidepressivos tricíclicos",
-                "Álcool em excesso",
-                "Outros medicamentos que afetam a função plaquetária"
+                "Álcool etílico"
             ]
         },
         {
@@ -186407,40 +186343,30 @@
             ],
             "efeitos_colaterais": [
                 "Dor abdominal",
+                "Náuseas",
+                "Vômitos",
                 "Dispepsia",
-                "Úlcera gástrica ou duodenal",
+                "Úlcera gástrica",
                 "Hemorragia gastrointestinal",
-                "Náuseas e vômitos",
-                "Diarreia",
                 "Edema",
-                "Hipertensão arterial",
-                "Insuficiência renal aguda",
-                "Elevação de enzimas hepáticas",
-                "Reações cutâneas (erupções, prurido)",
-                "Urticária",
-                "Broncoespasmo em asmáticos",
-                "Tontura",
+                "Erupção cutânea",
+                "Prurido",
                 "Cefaleia",
-                "Zumbido (tinnitus)",
-                "Aumento do risco de eventos cardiovasculares (infarto, AVC)",
-                "Retenção de líquidos",
-                "Anemia hemolítica em pacientes com deficiência de G6PD"
+                "Tontura"
             ],
             "incompatibilidades": [
-                "Outros anti-inflamatórios não esteroides (AINEs)",
-                "Ácido acetilsalicílico (AAS)",
-                "Anticoagulantes orais (varfarina, acenocumarol)",
-                "Heparina e heparinas de baixo peso molecular",
-                "Corticoides sistêmicos",
-                "Inibidores da enzima conversora de angiotensina (IECA) e bloqueadores dos receptores de angiotensina II (BRA)",
-                "Diuréticos de alça",
-                "Litio",
+                "Ácido acetilsalicílico",
+                "Diclofenaco",
+                "Naproxeno",
+                "Warfarina",
+                "Heparina",
+                "Clopidogrel",
+                "Corticosteroides",
+                "Inibidores da enzima de conversão da angiotensina (IECA)",
+                "Bloqueadores dos receptores da angiotensina II (BRA)",
+                "Lítio",
                 "Metotrexato",
-                "Ciclosporina",
-                "Inibidores seletivos da recaptação de serotonina (ISRS)",
-                "Antidepressivos tricíclicos",
-                "Álcool em excesso",
-                "Outros medicamentos que afetam a função plaquetária"
+                "Álcool etílico"
             ]
         },
         {
@@ -186458,40 +186384,30 @@
             ],
             "efeitos_colaterais": [
                 "Dor abdominal",
+                "Náuseas",
+                "Vômitos",
                 "Dispepsia",
-                "Úlcera gástrica ou duodenal",
+                "Úlcera gástrica",
                 "Hemorragia gastrointestinal",
-                "Náuseas e vômitos",
-                "Diarreia",
                 "Edema",
-                "Hipertensão arterial",
-                "Insuficiência renal aguda",
-                "Elevação de enzimas hepáticas",
-                "Reações cutâneas (erupções, prurido)",
-                "Urticária",
-                "Broncoespasmo em asmáticos",
-                "Tontura",
+                "Erupção cutânea",
+                "Prurido",
                 "Cefaleia",
-                "Zumbido (tinnitus)",
-                "Aumento do risco de eventos cardiovasculares (infarto, AVC)",
-                "Retenção de líquidos",
-                "Anemia hemolítica em pacientes com deficiência de G6PD"
+                "Tontura"
             ],
             "incompatibilidades": [
-                "Outros anti-inflamatórios não esteroides (AINEs)",
-                "Ácido acetilsalicílico (AAS)",
-                "Anticoagulantes orais (varfarina, acenocumarol)",
-                "Heparina e heparinas de baixo peso molecular",
-                "Corticoides sistêmicos",
-                "Inibidores da enzima conversora de angiotensina (IECA) e bloqueadores dos receptores de angiotensina II (BRA)",
-                "Diuréticos de alça",
-                "Litio",
+                "Ácido acetilsalicílico",
+                "Diclofenaco",
+                "Naproxeno",
+                "Warfarina",
+                "Heparina",
+                "Clopidogrel",
+                "Corticosteroides",
+                "Inibidores da enzima de conversão da angiotensina (IECA)",
+                "Bloqueadores dos receptores da angiotensina II (BRA)",
+                "Lítio",
                 "Metotrexato",
-                "Ciclosporina",
-                "Inibidores seletivos da recaptação de serotonina (ISRS)",
-                "Antidepressivos tricíclicos",
-                "Álcool em excesso",
-                "Outros medicamentos que afetam a função plaquetária"
+                "Álcool etílico"
             ]
         },
         {
@@ -195499,23 +195415,22 @@
                 "Fadiga",
                 "Dor de cabeça",
                 "Náusea",
-                "Vômito",
-                "Diarréia",
+                "Diarreia",
                 "Insônia",
-                "Irritação cutânea",
                 "Anemia",
-                "Elevação de enzimas hepáticas (AST/ALT)",
-                "Perda de apetite"
+                "Icterícia",
+                "Elevação de enzimas hepáticas",
+                "Erupção cutânea"
             ],
             "incompatibilidades": [
-                "Rifampicina (indutor forte de CYP3A4/P-gp)",
-                "Carbamazepina (indutor de CYP3A4)",
-                "Fenitoína (indutor de CYP3A4)",
-                "Erva de São João (St. John’s wort) (indutor de CYP3A4)",
-                "Amiodarona (risco de bradicardia severa quando combinada com sofosbuvir)",
-                "Anticonvulsivantes induzidos (ex.: fenobarbital)",
-                "Antirretrovirais protease inhibitors potentes (ex.: atazanavir/ritonavir, lopinavir/ritonavir)",
-                "Antiácidos, bloqueadores H2 e inibidores da bomba de prótons (reduzem a absorção de ledipasvir)"
+                "Rifampicina (indutor de CYP3A4/P‑gp)",
+                "Carbamazepina (indutor de CYP3A4/P‑gp)",
+                "Amiodarona",
+                "Atazanavir",
+                "Darunavir/ritonavir",
+                "Lopinavir/ritonavir",
+                "Elexacaftor/tezacaftor/ivacaftor",
+                "Inibidores fortes de P‑gp (ex.: cetoconazol, ciclosporina)"
             ]
         },
         {
@@ -210577,8 +210492,27 @@
             "nomes_alternativos": [
                 "Maleato De Enalapril"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": []
+            "efeitos_colaterais": [
+                "Tosse",
+                "Hipotensão ortostática",
+                "Tontura",
+                "Hipercalemia",
+                "Erupção cutânea",
+                "Angioedema",
+                "Disfunção renal",
+                "Alterações no sabor",
+                "Fadiga"
+            ],
+            "incompatibilidades": [
+                "Aliskiren",
+                "Diuréticos poupadores de potássio",
+                "Suplementos ou alimentos ricos em potássio",
+                "AINEs (ex.: ibuprofeno, diclofenaco)",
+                "Lítio",
+                "Outros inibidores da enzima conversora de angiotensina (IECA) ou antagonistas dos receptores de angiotensina II (BRA)",
+                "Gravidez (primeiro trimestre)",
+                "Amiodarona (por aumento de níveis plasmáticos de enalapril)"
+            ]
         },
         {
             "id": 17650,
@@ -210593,8 +210527,27 @@
             "nomes_alternativos": [
                 "Maleato De Enalapril"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": []
+            "efeitos_colaterais": [
+                "Tosse",
+                "Hipotensão ortostática",
+                "Tontura",
+                "Hipercalemia",
+                "Erupção cutânea",
+                "Angioedema",
+                "Disfunção renal",
+                "Alterações no sabor",
+                "Fadiga"
+            ],
+            "incompatibilidades": [
+                "Aliskiren",
+                "Diuréticos poupadores de potássio",
+                "Suplementos ou alimentos ricos em potássio",
+                "AINEs (ex.: ibuprofeno, diclofenaco)",
+                "Lítio",
+                "Outros inibidores da enzima conversora de angiotensina (IECA) ou antagonistas dos receptores de angiotensina II (BRA)",
+                "Gravidez (primeiro trimestre)",
+                "Amiodarona (por aumento de níveis plasmáticos de enalapril)"
+            ]
         },
         {
             "id": 17651,
@@ -210609,8 +210562,27 @@
             "nomes_alternativos": [
                 "Maleato De Enalapril"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": []
+            "efeitos_colaterais": [
+                "Tosse",
+                "Hipotensão ortostática",
+                "Tontura",
+                "Hipercalemia",
+                "Erupção cutânea",
+                "Angioedema",
+                "Disfunção renal",
+                "Alterações no sabor",
+                "Fadiga"
+            ],
+            "incompatibilidades": [
+                "Aliskiren",
+                "Diuréticos poupadores de potássio",
+                "Suplementos ou alimentos ricos em potássio",
+                "AINEs (ex.: ibuprofeno, diclofenaco)",
+                "Lítio",
+                "Outros inibidores da enzima conversora de angiotensina (IECA) ou antagonistas dos receptores de angiotensina II (BRA)",
+                "Gravidez (primeiro trimestre)",
+                "Amiodarona (por aumento de níveis plasmáticos de enalapril)"
+            ]
         },
         {
             "id": 17652,
@@ -211405,27 +211377,8 @@
             "nomes_alternativos": [
                 "Maleato De Enalapril"
             ],
-            "efeitos_colaterais": [
-                "Tontura ou sensação de desmaio (hipotensão ortostática)",
-                "Tosse seca persistente",
-                "Hipercalemia (níveis elevados de potássio)",
-                "Náuseas, vômitos ou desconforto abdominal",
-                "Alterações na função renal (creatinina e ureia elevadas)",
-                "Erupções cutâneas ou prurido",
-                "Edema facial ou angioedema",
-                "Fadiga ou fraqueza muscular",
-                "Elevação transitória de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio (ex.: espironolactona, amilorida) – risco de hipercalemia",
-                "Suplementos de potássio ou sais de potássio – risco de hipercalemia",
-                "Anti-inflamatórios não esteroides (AINEs) – podem reduzir o efeito anti-hipertensivo e comprometer a função renal",
-                "Litotrópicos (ex.: ciclosporina) – aumento do risco de lesão renal",
-                "Inibidores da renina direta (ex.: aliscireno) – potencial aumento da hipotensão e disfunção renal",
-                "Suplementos de lítio – risco de toxicidade por aumento de níveis de lítio",
-                "Inibidores da neprilisina (ex.: sacubitril/valsartana) – contraindicado em combinação com inibidores da ECA",
-                "Antibióticos que interferem no metabolismo renal (ex.: aminoglicosídeos) – podem potencializar a nefrotoxicidade"
-            ]
+            "efeitos_colaterais": [],
+            "incompatibilidades": []
         },
         {
             "id": 17706,
@@ -211440,27 +211393,8 @@
             "nomes_alternativos": [
                 "Maleato De Enalapril"
             ],
-            "efeitos_colaterais": [
-                "Tontura ou sensação de desmaio (hipotensão ortostática)",
-                "Tosse seca persistente",
-                "Hipercalemia (níveis elevados de potássio)",
-                "Náuseas, vômitos ou desconforto abdominal",
-                "Alterações na função renal (creatinina e ureia elevadas)",
-                "Erupções cutâneas ou prurido",
-                "Edema facial ou angioedema",
-                "Fadiga ou fraqueza muscular",
-                "Elevação transitória de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio (ex.: espironolactona, amilorida) – risco de hipercalemia",
-                "Suplementos de potássio ou sais de potássio – risco de hipercalemia",
-                "Anti-inflamatórios não esteroides (AINEs) – podem reduzir o efeito anti-hipertensivo e comprometer a função renal",
-                "Litotrópicos (ex.: ciclosporina) – aumento do risco de lesão renal",
-                "Inibidores da renina direta (ex.: aliscireno) – potencial aumento da hipotensão e disfunção renal",
-                "Suplementos de lítio – risco de toxicidade por aumento de níveis de lítio",
-                "Inibidores da neprilisina (ex.: sacubitril/valsartana) – contraindicado em combinação com inibidores da ECA",
-                "Antibióticos que interferem no metabolismo renal (ex.: aminoglicosídeos) – podem potencializar a nefrotoxicidade"
-            ]
+            "efeitos_colaterais": [],
+            "incompatibilidades": []
         },
         {
             "id": 17707,
@@ -211475,27 +211409,8 @@
             "nomes_alternativos": [
                 "Maleato De Enalapril"
             ],
-            "efeitos_colaterais": [
-                "Tontura ou sensação de desmaio (hipotensão ortostática)",
-                "Tosse seca persistente",
-                "Hipercalemia (níveis elevados de potássio)",
-                "Náuseas, vômitos ou desconforto abdominal",
-                "Alterações na função renal (creatinina e ureia elevadas)",
-                "Erupções cutâneas ou prurido",
-                "Edema facial ou angioedema",
-                "Fadiga ou fraqueza muscular",
-                "Elevação transitória de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio (ex.: espironolactona, amilorida) – risco de hipercalemia",
-                "Suplementos de potássio ou sais de potássio – risco de hipercalemia",
-                "Anti-inflamatórios não esteroides (AINEs) – podem reduzir o efeito anti-hipertensivo e comprometer a função renal",
-                "Litotrópicos (ex.: ciclosporina) – aumento do risco de lesão renal",
-                "Inibidores da renina direta (ex.: aliscireno) – potencial aumento da hipotensão e disfunção renal",
-                "Suplementos de lítio – risco de toxicidade por aumento de níveis de lítio",
-                "Inibidores da neprilisina (ex.: sacubitril/valsartana) – contraindicado em combinação com inibidores da ECA",
-                "Antibióticos que interferem no metabolismo renal (ex.: aminoglicosídeos) – podem potencializar a nefrotoxicidade"
-            ]
+            "efeitos_colaterais": [],
+            "incompatibilidades": []
         },
         {
             "id": 17708,
@@ -318858,33 +318773,24 @@
             "nomes_alternativos": [],
             "viscosidade": "",
             "efeitos_colaterais": [
-                "Sedação excessiva",
-                "Depressão respiratória",
-                "Hipotensão",
-                "Alterações no humor (irritabilidade, depressão)",
-                "Ataxia e comprometimento da coordenação motora",
-                "Náuseas e vômitos",
-                "Distúrbios gastrointestinais (constipação, dor abdominal)",
-                "Erupções cutâneas e reações alérgicas (prurido, urticária)",
-                "Elevação das enzimas hepáticas",
-                "Anemia hemolítica (raro)",
-                "Alterações hematológicas (leucopenia, trombocitopenia)",
-                "Confusão mental e comprometimento cognitivo",
-                "Dependência física e psicológica"
+                "sedação",
+                "ataxia",
+                "depressão respiratória",
+                "hipotensão",
+                "erupções cutâneas",
+                "toxicidade hepática",
+                "anemia aplástica",
+                "disfunção cognitiva",
+                "dependência",
+                "síndrome de abstinência"
             ],
             "incompatibilidades": [
-                "Álcool etílico",
-                "Outros barbitúricos (ex.: tiopental, meticarbamol)",
-                "Benzodiazepínicos (ex.: diazepam, lorazepam)",
-                "Opioides (ex.: morfina, codeína)",
-                "Antidepressivos tricíclicos",
-                "Anticonvulsivantes de ação semelhante (ex.: fenitoína)",
-                "Anticoagulantes orais (ex.: varfarina) – risco aumentado de sangramento",
-                "Anticoncepcionais hormonais – redução da eficácia contraceptiva",
-                "Antibióticos macrolídeos (ex.: eritromicina) – aumento da toxicidade",
-                "Inibidores da CYP450 (ex.: cimetidina, fluoxetina) – aumento dos níveis plasmáticos",
-                "Indutores da CYP450 (ex.: rifampicina, carbamazepina) – diminuição da eficácia",
-                "Agentes anticolinérgicos (ex.: atropina) – potencialização de efeitos sedativos"
+                "álcool",
+                "benzodiazepínicos",
+                "opióides",
+                "warfarina",
+                "anticoncepcionais orais combinados",
+                "fenitoína"
             ]
         },
         {
@@ -321768,40 +321674,30 @@
             "viscosidade": "",
             "efeitos_colaterais": [
                 "Dor abdominal",
+                "Náuseas",
+                "Vômitos",
                 "Dispepsia",
-                "Úlcera gástrica ou duodenal",
+                "Úlcera gástrica",
                 "Hemorragia gastrointestinal",
-                "Náuseas e vômitos",
-                "Diarreia",
                 "Edema",
-                "Hipertensão arterial",
-                "Insuficiência renal aguda",
-                "Elevação de enzimas hepáticas",
-                "Reações cutâneas (erupções, prurido)",
-                "Urticária",
-                "Broncoespasmo em asmáticos",
-                "Tontura",
+                "Erupção cutânea",
+                "Prurido",
                 "Cefaleia",
-                "Zumbido (tinnitus)",
-                "Aumento do risco de eventos cardiovasculares (infarto, AVC)",
-                "Retenção de líquidos",
-                "Anemia hemolítica em pacientes com deficiência de G6PD"
+                "Tontura"
             ],
             "incompatibilidades": [
-                "Outros anti-inflamatórios não esteroides (AINEs)",
-                "Ácido acetilsalicílico (AAS)",
-                "Anticoagulantes orais (varfarina, acenocumarol)",
-                "Heparina e heparinas de baixo peso molecular",
-                "Corticoides sistêmicos",
-                "Inibidores da enzima conversora de angiotensina (IECA) e bloqueadores dos receptores de angiotensina II (BRA)",
-                "Diuréticos de alça",
-                "Litio",
+                "Ácido acetilsalicílico",
+                "Diclofenaco",
+                "Naproxeno",
+                "Warfarina",
+                "Heparina",
+                "Clopidogrel",
+                "Corticosteroides",
+                "Inibidores da enzima de conversão da angiotensina (IECA)",
+                "Bloqueadores dos receptores da angiotensina II (BRA)",
+                "Lítio",
                 "Metotrexato",
-                "Ciclosporina",
-                "Inibidores seletivos da recaptação de serotonina (ISRS)",
-                "Antidepressivos tricíclicos",
-                "Álcool em excesso",
-                "Outros medicamentos que afetam a função plaquetária"
+                "Álcool etílico"
             ]
         },
         {
@@ -377811,25 +377707,19 @@
                 "Insulina Glargina"
             ],
             "efeitos_colaterais": [
-                "Hipoglicemia (sintomas como sudorese, tontura, tremores, confusão)",
+                "Hipoglicemia",
                 "Ganho de peso",
-                "Reações no local da aplicação (vermelhidão, edema, prurido, dor)",
-                "Lipodistrofia (acúmulo ou perda de tecido adiposo na área da injeção)",
-                "Reações alérgicas (urticária, angioedema, anafilaxia)",
+                "Reações no local de aplicação (vermelhidão, edema, prurido)",
+                "Lipodistrofia",
                 "Edema periférico",
-                "Cefaleia",
-                "Náusea",
-                "Vômito",
-                "Visão turva"
+                "Hipersensibilidade (reação alérgica)",
+                "Hipoglicemia grave"
             ],
             "incompatibilidades": [
-                "Não deve ser misturada no mesmo frasco ou seringa com outras insulinas ou medicamentos.",
-                "Uso concomitante com sulfonilureias (ex.: glibenclamida, glimepirida) aumenta o risco de hipoglicemia.",
-                "Uso concomitante com meglitinidas (ex.: repaglinida, nateglinida) aumenta o risco de hipoglicemia.",
-                "Álcool pode potencializar a hipoglicemia quando associado ao uso de insulina glargina.",
-                "Betabloqueadores podem mascarar os sintomas de hipoglicemia.",
-                "Corticosteroides e agentes hiperglicemiantes podem reduzir a eficácia da insulina glargina, exigindo ajuste de dose.",
-                "Hormônios tireoidianos, hormônio do crescimento e catecolaminas podem alterar a necessidade de dose de insulina."
+                "Não misturar com outras insulinas ou medicamentos em mesma seringa",
+                "Não diluir em solução salina, glicerinada ou outro diluente",
+                "Incompatível com bombas de infusão não específicas para insulina glargina",
+                "Evitar uso concomitante de betabloqueadores que mascaram sinais de hipoglicemia"
             ]
         },
         {
@@ -377846,25 +377736,19 @@
                 "Insulina Glargina"
             ],
             "efeitos_colaterais": [
-                "Hipoglicemia (sintomas como sudorese, tontura, tremores, confusão)",
+                "Hipoglicemia",
                 "Ganho de peso",
-                "Reações no local da aplicação (vermelhidão, edema, prurido, dor)",
-                "Lipodistrofia (acúmulo ou perda de tecido adiposo na área da injeção)",
-                "Reações alérgicas (urticária, angioedema, anafilaxia)",
+                "Reações no local de aplicação (vermelhidão, edema, prurido)",
+                "Lipodistrofia",
                 "Edema periférico",
-                "Cefaleia",
-                "Náusea",
-                "Vômito",
-                "Visão turva"
+                "Hipersensibilidade (reação alérgica)",
+                "Hipoglicemia grave"
             ],
             "incompatibilidades": [
-                "Não deve ser misturada no mesmo frasco ou seringa com outras insulinas ou medicamentos.",
-                "Uso concomitante com sulfonilureias (ex.: glibenclamida, glimepirida) aumenta o risco de hipoglicemia.",
-                "Uso concomitante com meglitinidas (ex.: repaglinida, nateglinida) aumenta o risco de hipoglicemia.",
-                "Álcool pode potencializar a hipoglicemia quando associado ao uso de insulina glargina.",
-                "Betabloqueadores podem mascarar os sintomas de hipoglicemia.",
-                "Corticosteroides e agentes hiperglicemiantes podem reduzir a eficácia da insulina glargina, exigindo ajuste de dose.",
-                "Hormônios tireoidianos, hormônio do crescimento e catecolaminas podem alterar a necessidade de dose de insulina."
+                "Não misturar com outras insulinas ou medicamentos em mesma seringa",
+                "Não diluir em solução salina, glicerinada ou outro diluente",
+                "Incompatível com bombas de infusão não específicas para insulina glargina",
+                "Evitar uso concomitante de betabloqueadores que mascaram sinais de hipoglicemia"
             ]
         },
         {
@@ -377881,25 +377765,19 @@
                 "Insulina Glargina"
             ],
             "efeitos_colaterais": [
-                "Hipoglicemia (sintomas como sudorese, tontura, tremores, confusão)",
+                "Hipoglicemia",
                 "Ganho de peso",
-                "Reações no local da aplicação (vermelhidão, edema, prurido, dor)",
-                "Lipodistrofia (acúmulo ou perda de tecido adiposo na área da injeção)",
-                "Reações alérgicas (urticária, angioedema, anafilaxia)",
+                "Reações no local de aplicação (vermelhidão, edema, prurido)",
+                "Lipodistrofia",
                 "Edema periférico",
-                "Cefaleia",
-                "Náusea",
-                "Vômito",
-                "Visão turva"
+                "Hipersensibilidade (reação alérgica)",
+                "Hipoglicemia grave"
             ],
             "incompatibilidades": [
-                "Não deve ser misturada no mesmo frasco ou seringa com outras insulinas ou medicamentos.",
-                "Uso concomitante com sulfonilureias (ex.: glibenclamida, glimepirida) aumenta o risco de hipoglicemia.",
-                "Uso concomitante com meglitinidas (ex.: repaglinida, nateglinida) aumenta o risco de hipoglicemia.",
-                "Álcool pode potencializar a hipoglicemia quando associado ao uso de insulina glargina.",
-                "Betabloqueadores podem mascarar os sintomas de hipoglicemia.",
-                "Corticosteroides e agentes hiperglicemiantes podem reduzir a eficácia da insulina glargina, exigindo ajuste de dose.",
-                "Hormônios tireoidianos, hormônio do crescimento e catecolaminas podem alterar a necessidade de dose de insulina."
+                "Não misturar com outras insulinas ou medicamentos em mesma seringa",
+                "Não diluir em solução salina, glicerinada ou outro diluente",
+                "Incompatível com bombas de infusão não específicas para insulina glargina",
+                "Evitar uso concomitante de betabloqueadores que mascaram sinais de hipoglicemia"
             ]
         },
         {
@@ -378654,19 +378532,17 @@
             "efeitos_colaterais": [
                 "Hipoglicemia",
                 "Ganho de peso",
-                "Reações no local da aplicação (vermelhidão, dor, edema)",
-                "Lipodistrofia",
-                "Reações alérgicas (urticária, angioedema, anafilaxia)",
-                "Edema periférico",
+                "Reação no local da aplicação (vermelhidão, edema, lipodistrofia)",
+                "Edema",
                 "Hipocalemia",
-                "Hipocalcemia"
+                "Reação alérgica"
             ],
             "incompatibilidades": [
-                "Mistura com outras insulinas de ação diferente pode levar à precipitação",
-                "Uso concomitante com beta‑bloqueadores pode mascarar os sinais de hipoglicemia",
-                "Uso concomitante com sulfonilureias pode aumentar o risco de hipoglicemia",
-                "Não deve ser misturado com soluções que contenham dextrose ou manitol",
-                "Incompatível com soluções contendo álcool ou solventes orgânicos"
+                "Soluções de heparina",
+                "Catecolaminas (ex.: dopamina, noradrenalina)",
+                "Soluções contendo bicarbonato de sódio",
+                "Soluções com pH > 7,5",
+                "Glucagon"
             ]
         },
         {
@@ -409556,29 +409432,8 @@
                 "Cloridrato De Nafazolina",
                 "Maleato De Feniramina"
             ],
-            "efeitos_colaterais": [
-                "Irritação local da mucosa nasal (secura, ardor, coceira)",
-                "Congestão de rebote (uso prolongado)",
-                "Taquicardia e aumento da pressão arterial",
-                "Ansiedade, insônia e nervosismo",
-                "Cefaleia",
-                "Boca seca, visão turva e retenção urinária (efeitos anticolinérgicos da feniramina)",
-                "Sonolência, fadiga e diminuição da capacidade de atenção",
-                "Tontura e hipotensão ortostática",
-                "Distúrbios gastrointestinais (náusea, vômito, constipação)",
-                "Reações alérgicas raras (erupções cutâneas, urticária)"
-            ],
-            "incompatibilidades": [
-                "Uso concomitante com inibidores da monoamina oxidase (IMAO) – risco de hipertensão súbita",
-                "Uso simultâneo de outros vasoconstritores ou simpatomiméticos (ex.: pseudoefedrina, fenilefrina) – aumento do efeito pressórico",
-                "Combinação com outros anti-histamínicos de primeira geração – potencialização de sedação e efeitos anticolinérgicos",
-                "Uso com álcool ou depressores do SNC – intensificação da sonolência e comprometimento cognitivo",
-                "Presença de hipertensão grave, doença coronariana ou hipertireoidismo – contraindicação ao uso de nafazolina",
-                "Glaucoma de ângulo fechado, hiperplasia prostática benigna ou retenção urinária – contraindicação ao uso de feniramina",
-                "Uso com antidepressivos tricíclicos ou outros fármacos que prolongam o intervalo QT – risco de arritmias",
-                "Combinação com outros fármacos que causem retenção urinária (ex.: anticolinérgicos, bloqueadores alfa‑adrenérgicos) – aumento da retenção",
-                "Uso concomitante de drogas que provocam broncoespasmo (ex.: betabloqueadores não seletivos) – risco aumentado de efeito vasoconstritor"
-            ]
+            "efeitos_colaterais": [],
+            "incompatibilidades": []
         },
         {
             "id": 8059,
@@ -413033,8 +412888,24 @@
             "nomes_alternativos": [
                 "Travoprosta"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": []
+            "efeitos_colaterais": [
+                "Hipermia conjuntival",
+                "Sensação de queimação ou ardor ocular",
+                "Coceira ocular",
+                "Visão borrada temporária",
+                "Aumento de pelos na pálpebra",
+                "Pigmentação da íris",
+                "Escurecimento da pele periocular",
+                "Dor ocular",
+                "Cefaleia",
+                "Secura ocular"
+            ],
+            "incompatibilidades": [
+                "Não misturar com outros colírios contendo análogos de prostaglandina",
+                "Evitar uso concomitante com lentes de contato (remover antes da aplicação)",
+                "Não combinar com colírios contendo conservantes incompatíveis (ex.: cloreto de benzalconio)",
+                "Não usar em conjunto com anti-inflamatórios não esteroides oftálmicos sem orientação médica"
+            ]
         },
         {
             "id": 24659,

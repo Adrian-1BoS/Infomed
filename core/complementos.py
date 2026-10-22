@@ -57,11 +57,10 @@ def buscar_medicamento(nome_fornecido, db_medicamentos):
 
     return melhor_match, maior_score, melhor_id, melhor_nome_oficial
 
-
 def complementar_db_farmaco(db_json_path, usuario_json_path):
     """
-    Varre APENAS os medicamentos do usuário e preenche efeitos_colaterais e incompatibilidades.
-    Aplica CACHE por substância ativa e herança local para evitar requisições redundantes na IA.
+    Varre os medicamentos do usuário e preenche efeitos_colaterais e incompatibilidades.
+    Aplica CACHE por substância ativa e herança local para reaproveitar os dados da IA.
     """
     db_dados = carregar_json(db_json_path)
     usuario_dados = carregar_json(usuario_json_path)
@@ -115,9 +114,7 @@ def complementar_db_farmaco(db_json_path, usuario_json_path):
                     chave_cache = tuple(sorted([s.strip().lower() for s in substancias_list if s]))
                     substancias = ", ".join(substancias_list)
 
-                    # -------------------------------------------------------------
-                    # TÁTICA 1: Verificar se já está no CACHE da sessão atual
-                    # -------------------------------------------------------------
+                    # Verificar se já está no CACHE da sessão atual 
                     if chave_cache in cache_substancias:
                         dados_cached = cache_substancias[chave_cache]
                         item["efeitos_colaterais"] = dados_cached["efeitos_colaterais"]
@@ -126,10 +123,7 @@ def complementar_db_farmaco(db_json_path, usuario_json_path):
                         print(f"DEBUG: Dados de '{nome_med}' copiados via substância ativa: ({substancias})")
                         continue
 
-                    # -------------------------------------------------------------
-                    # TÁTICA 2: Procurar na própria BASE LOCAL se outro medicamento 
-                    # com a mesma substância já possui esses dados
-                    # -------------------------------------------------------------
+                    # Procurar na própria BASE LOCAL se outro medicamento com a mesma substância já possui esses dados
                     encontrado_na_base = False
                     for cat_busca in categorias_db:
                         for item_busca in db_dados.get(cat_busca, []):
@@ -153,21 +147,26 @@ def complementar_db_farmaco(db_json_path, usuario_json_path):
                     if encontrado_na_base:
                         continue
 
-                    # -------------------------------------------------------------
-                    # TÁTICA 3: Se não achou em nenhum lugar, faz a requisição na IA
-                    # -------------------------------------------------------------
+
+                    # Se não achou em nenhum lugar, faz a requisição na IA
                     print(f"DEBUG: Consultando IA para: {nome_med} (Substâncias: {substancias})...")
                     
+                    
                     prompt_farmaceutico = (
-                        "Você é um profissional farmacêutico que trabalha com o Dicionário de Especialidades Farmacêuticas "
-                        "de cor e salteado, usando-o como referência absoluta em suas pesquisas e consultas. "
-                        "Sua função é retornar estritamente no formato JSON o preenchimento dessas duas colunas:\n"
-                        '{\n  "efeitos_colaterais": [...],\n  "incompatibilidades": [...]\n}\n'
-                        "Sendo incompatibilidades focadas nas substâncias ativas presentes de acordo com a ANVISA."
+                        "Você é um profissional farmacêutico clínico especialista na regulamentação da ANVISA e no Dicionário de Especialidades Farmacêuticas (DEF). "
+                                "Sua função é retornar estritamente no formato JSON as colunas 'efeitos_colaterais' e 'incompatibilidades'.\n"
+                                "REGRAS OBRIGATÓRIAS:\n"
+                                "1. Utilize exclusivamente a nomenclatura oficial brasileira (DCB) em 'PORTUGUÊS' para todas as substâncias.\n"
+                                "2. Exclua absolutamente substâncias estrangeiras, banidas ou sem registro ativo na ANVISA no Brasil.\n"
+                                "3. Seja direto e evite descrições genéricas ou redundantes em formato de texto longo; utilize o nome da classe ou substância de forma concisa.\n"
+                                'Formato de saída estrito:\n'
+                                '{\n  "efeitos_colaterais": ["..."],\n  "incompatibilidades": ["..."]\n}'
+                            )
+                
+                    pergunta_farmaceutica = (
+                        f"Traga o JSON de efeitos colaterais e incompatibilidades para o "
+                        f"medicamento '{nome_med}' contendo as substâncias ativas em lista separado por virgula: {substancias}."
                     )
-                
-                    pergunta_farmaceutica = f"Traga o JSON em forma de lista de efeitos colaterais e incompatibilidades para o medicamento '{nome_med}' contendo as substâncias ativas: {substancias}."
-                
                     try:
                         resposta_ai = ai_handler.gerar_resposta(prompt_farmaceutico, pergunta_farmaceutica)
                         

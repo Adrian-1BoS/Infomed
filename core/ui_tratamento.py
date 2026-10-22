@@ -1,3 +1,8 @@
+"""
+    Aqui sera o principal tratamento UI x dados, processando os dados do usuario
+    para um banco de dados mais consiso
+"""
+
 from pathlib import Path
 import sys
 
