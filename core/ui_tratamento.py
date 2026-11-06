@@ -4,7 +4,7 @@
 """
 
 from pathlib import Path
-import sys
+import sys, json
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR.parent / "data"
@@ -40,7 +40,8 @@ def processar_tratamento_completo(usuario_json_path, db_json_path, output_json_p
             nome_fornecido = remedio.get("nome_fornecido", "")
             print(f"\nProcessando [{chave_usuario}]: '{nome_fornecido}'")
             
-            match, score, med_id, nome_oficial = buscar_medicamento(nome_fornecido, db_medicamentos)
+            # Executa a busca local por similaridade de string (Fuzzy)
+            match, score, med_id, nome_oficial = buscar_medicamento(remedio, db_medicamentos)
             
             if score >= limiar_fuzzy:
                 print(f"Fuzzy - [Local Match] Encontrado (Score: {score}): '{match}' (ID: {med_id})")
@@ -52,32 +53,54 @@ def processar_tratamento_completo(usuario_json_path, db_json_path, output_json_p
                 prompt_sistema = (
                     "Você é um assistente farmacêutico especialista. "
                     "Verifique se o medicamento informado existe ou a qual medicamento comercial/genérico oficial ele se refere no Brasil. "
-                    "Responda apenas com o nome oficial correto do medicamento ou 'Desconhecido'."
+                    "Responda estritamente apenas com o nome oficial correto do medicamento ou a palavra 'Desconhecido'. Não adicione pontuação ou explicações."
                 )
                 pergunta = f"O paciente informou o medicamento '{nome_fornecido}'. Qual é o nome oficial correto?"
                 
                 resposta_ai = ai_handler.gerar_resposta(prompt_sistema, pergunta)
                 
+                # Tratamento robusto do retorno da IA
                 texto_resposta = ""
-                if hasattr(resposta_ai, '__iter__') and not isinstance(resposta_ai, str):
+                if isinstance(resposta_ai, str):
+                    texto_resposta = resposta_ai
+                elif hasattr(resposta_ai, 'text'):
+                    texto_resposta = resposta_ai.text
+                elif hasattr(resposta_ai, '__iter__'):
                     for chunk in resposta_ai:
-                        if hasattr(chunk, 'text'):
+                        if isinstance(chunk, str):
+                            texto_resposta += chunk
+                        elif hasattr(chunk, 'text'):
                             texto_resposta += chunk.text
-                else:
-                    texto_resposta = str(resposta_ai)
                 
                 texto_resposta = texto_resposta.strip()
                 print(f"  -> Resposta da IA: {texto_resposta}")
                 
                 if texto_resposta and "desconhecido" not in texto_resposta.lower():
-                    remedio["nome_medicamento"] = texto_resposta
+                    # Segunda tentativa: Busca na base local usando o termo corrigido pela IA
                     match_ia, score_ia, med_id_ia, nome_oficial_ia = buscar_medicamento(texto_resposta, db_medicamentos)
+                    
                     if score_ia >= limiar_fuzzy:
                         remedio["id"] = med_id_ia
                         remedio["nome_medicamento"] = nome_oficial_ia
                         print(f"IA Match - Mapeado para base local: '{nome_oficial_ia}' (ID: {med_id_ia})")
+                    else:
+                        # Fallback: Se a IA achou um nome mas ele não consta no seu DB local
+                        remedio["nome_medicamento"] = texto_resposta
+                        remedio["id"] = None  # Ou um ID padrão/flag para auditoria manual
+                        print(f"DEBUG: Nome traduzido pela IA ('{texto_resposta}'), mas não encontrado no DB local.")
                 else:
+                    remedio["id"] = None
                     print("DEBUG: Medicamento não validado pela IA ou inconclusivo.")
+
+    # SALVAMENTO DO ARQUIVO ATUALIZADO (Faltava no seu código original)
+    try:
+        with open(output_json_path, 'w', encoding='utf-8') as f:
+            json.dump(usuario_dados, f, ensure_ascii=False, indent=4)
+        print(f"\n[Sucesso] Arquivo atualizado salvo em: {output_json_path}")
+    except Exception as e:
+        print(f"\n[Erro] Falha ao salvar o arquivo de saída: {e}")
+
+
 
     # Salva o resultado final do usuário atualizado
     salvar_json(usuario_dados, output_json_path)
@@ -89,6 +112,7 @@ def processar_tratamento_completo(usuario_json_path, db_json_path, output_json_p
     
     verificar_incompatibilidades(output_json_path, db_json_path, "relatorio_incompatibilidades.json")
 
+    return usuario_dados
 if __name__ == "__main__":
     usuario_path = DATA_DIR / "usuario.json"
     db_path = DATA_DIR / "solidificados.json"

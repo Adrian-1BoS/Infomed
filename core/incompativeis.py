@@ -36,6 +36,7 @@ def extrair_todos_medicamentos_usuario(usuario_dados):
                 nome = item.get("nome_medicamento") or item.get("nome_fornecido")
                 med_id = item.get("id")
                 
+                
                 horario = item.get("horario") or item.get("horario_fixo") or "Não especificado"
                 periodo = item.get("periodo") or item.get("periodo_dia") or "Não especificado"
 

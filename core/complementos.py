@@ -24,17 +24,34 @@ def salvar_json(dados, caminho):
 def normalizar_texto(texto):
     return str(texto).strip().lower()
 
-def buscar_medicamento(nome_fornecido, db_medicamentos):
+def buscar_medicamento(remedio_usuario, db_medicamentos):
     """
-    Busca o melhor match usando fuzzy matching contra:
-    - nome
-    - nomes_alternativos
-    - substancia_ativa
+    Busca o melhor match usando fuzzy matching e desempata pela dosagem/concentração.
+    Suporta chaves dinâmicas como 'por_cento', 'mg_g', 'mg_ml' e 'mg'.
     """
+    # 1. Identifica se a entrada é um dicionário (fluxo normal) ou string (fallback IA)
+    if isinstance(remedio_usuario, dict):
+        nome_fornecido = remedio_usuario.get("nome_fornecido") or remedio_usuario.get("nome_medicamento") or ""
+        
+        # Captura qualquer indicador de dosagem numérica que venha do JSON do usuário
+        dosagem_usuario = (
+            remedio_usuario.get("dosagem_mg") or 
+            remedio_usuario.get("concentracao_mg_ml") or 
+            remedio_usuario.get("concentracao_ui_ml") or
+            remedio_usuario.get("por_cento") or
+            remedio_usuario.get("mg_g")
+        )
+    else:
+        nome_fornecido = str(remedio_usuario)
+        dosagem_usuario = None
+
     melhor_match = None
-    maior_score = 0
+    maior_score = -1
     melhor_id = None
     melhor_nome_oficial = None
+    menor_diferenca_dosagem = float('inf')
+
+    nome_fornecido_norm = normalizar_texto(nome_fornecido)
 
     for item in db_medicamentos:
         candidatos = []
@@ -47,15 +64,45 @@ def buscar_medicamento(nome_fornecido, db_medicamentos):
             if subst:
                 candidatos.append(subst)
 
+        # 2. Captura a dosagem do banco local varrendo todas as chaves possíveis que criamos
+        dosagem_db = (
+            item.get("mg") if item.get("mg") is not None else
+            item.get("mg_ml") if item.get("mg_ml") is not None else
+            item.get("por_cento") if item.get("por_cento") is not None else
+            item.get("mg_g") if item.get("mg_g") is not None else None
+        )
+
         for cand in candidatos:
-            score = fuzz.ratio(normalizar_texto(nome_fornecido), normalizar_texto(cand))
+            score = fuzz.ratio(nome_fornecido_norm, normalizar_texto(cand))
+            
+            # Condição A: Se encontrou um score de texto estritamente maior
             if score > maior_score:
                 maior_score = score
                 melhor_match = cand
                 melhor_id = item.get("id")
                 melhor_nome_oficial = item.get("nome")
+                if dosagem_usuario is not None and dosagem_db is not None:
+                    try:
+                        menor_diferenca_dosagem = abs(float(dosagem_usuario) - float(dosagem_db))
+                    except (ValueError, TypeError):
+                        menor_diferenca_dosagem = float('inf')
+            
+            # Condição B: Empate estrito no texto (ex: "Glicose" vs duas opções no banco)
+            elif score == maior_score and score > 0:
+                if dosagem_usuario is not None and dosagem_db is not None:
+                    try:
+                        dif_atual = abs(float(dosagem_usuario) - float(dosagem_db))
+                        # Se este registro do banco estiver mais próximo da dosagem do paciente, ele assume o ID
+                        if dif_atual < menor_diferenca_dosagem:
+                            menor_diferenca_dosagem = dif_atual
+                            melhor_match = cand
+                            melhor_id = item.get("id")
+                            melhor_nome_oficial = item.get("nome")
+                    except (ValueError, TypeError):
+                        pass
 
     return melhor_match, maior_score, melhor_id, melhor_nome_oficial
+
 
 def complementar_db_farmaco(db_json_path, usuario_json_path):
     """

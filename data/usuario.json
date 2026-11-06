@@ -6,7 +6,7 @@
   "tel_responsavel": "11911281111",
   "remedio_solidos": [
     {
-        "id": 17649,
+        "id": "",
         "nome_fornecido": "Maleato de inalapril",
         "nome_medicamento": "",
         "dosagem_mg": 25.0,
@@ -25,7 +25,7 @@
         }
     },
     {
-        "id": 13053,
+        "id": "",
         "nome_fornecido": "Fenobarbital",
         "nome_medicamento": "",
         "dosagem_mg": 100.0,
@@ -44,7 +44,7 @@
         }
     },
     {
-        "id": 16536,
+        "id": "",
         "nome_fornecido": "Harvoni",
         "nome_medicamento": "",
         "dosagem_mg": 90.0,
@@ -65,7 +65,7 @@
   ],
   "remedio_liquidos": [
     {
-        "id": 15573,
+        "id": "",
 
         "nome_fornecido": "Ibuprofeno",
         "nome_medicamento": "",
@@ -87,7 +87,7 @@
   ],
   "remedio_injetavel": [
     {
-        "id": 16020,
+        "id": "",
 
         "nome_fornecido": "Insulina NPH",
         "nome_medicamento": "",
@@ -107,7 +107,7 @@
         }
     },
     {
-        "id": 16020,
+        "id": "",
 
         "nome_fornecido": "Insulina NPH",
         "nome_medicamento": "",
@@ -127,7 +127,7 @@
         }
     },
     {
-        "id": 16020,
+        "id": "",
 
         "nome_fornecido": "Insulina Regular",
         "nome_medicamento": "Bahiafarma Insulina Humana Nph",
@@ -149,7 +149,7 @@
   ],
   "remedio_colirio": [
     {
-        "id": 8058,
+        "id": "",
 
         "nome_fornecido": "Travoptic",
         "nome_medicamento": "",
