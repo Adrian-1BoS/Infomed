@@ -135383,8 +135383,44 @@
                 "Maleato De Clorfeniramina",
                 "Ácido Ascórbico"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Agranulocitose",
+                "Anemia aplástica",
+                "Choque anafilático",
+                "Reações cutâneas graves (Síndrome de Stevens-Johnson, Necrólise Epidérmica Tóxica)",
+                "Hipotensão",
+                "Leucopenia",
+                "Trombocitopenia",
+                "Sonolência",
+                "Sedação",
+                "Boca seca",
+                "Visão turva",
+                "Constipação",
+                "Retenção urinária",
+                "Tontura",
+                "Nervosismo",
+                "Taquicardia",
+                "Distúrbios gastrointestinais (náuseas, vômitos, diarreia, cólicas) em altas doses",
+                "Cálculos renais (em indivíduos predispostos, com altas doses de Ácido Ascórbico)"
+            ],
+            "incompatibilidades": [
+                "Álcool",
+                "Ciclosporina",
+                "Metotrexato",
+                "Clorpromazina",
+                "Depressores do sistema nervoso central",
+                "Inibidores da monoaminoxidase (IMAOs)",
+                "Anticolinérgicos",
+                "Desferroxamina",
+                "Varfarina (altas doses de Ácido Ascórbico)",
+                "Outros anti-inflamatórios não esteroides (AINEs)",
+                "Lítio",
+                "Captopril",
+                "Triamtereno",
+                "Fenilbutazona",
+                "Amina simpaticomimética",
+                "Salicilatos"
+            ],
             "mg": 1.0
         },
         {
@@ -156369,8 +156405,39 @@
             "nomes_alternativos": [
                 "Fenobarbital"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Sonolência",
+                "Sedação",
+                "Ataxia",
+                "Nistagmo",
+                "Vertigem",
+                "Náuseas",
+                "Vômitos",
+                "Reações cutâneas",
+                "Depressão respiratória",
+                "Dependência física",
+                "Sintomas de abstinência",
+                "Agitação (paradoxal)",
+                "Anemia megaloblástica"
+            ],
+            "incompatibilidades": [
+                "Álcool etílico",
+                "Benzodiazepínicos",
+                "Antidepressivos (tricíclicos)",
+                "Antihistamínicos (sedativos)",
+                "Opioides",
+                "Anticoagulantes orais (ex: Varfarina)",
+                "Contraceptivos orais",
+                "Corticosteroides",
+                "Fenitoína",
+                "Carbamazepina",
+                "Ácido valproico",
+                "Doxiciclina",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Itraconazol",
+                "Voriconazol"
+            ],
             "mg": 50.0
         },
         {
@@ -156385,8 +156452,39 @@
             "nomes_alternativos": [
                 "Fenobarbital"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Sonolência",
+                "Sedação",
+                "Ataxia",
+                "Nistagmo",
+                "Vertigem",
+                "Náuseas",
+                "Vômitos",
+                "Reações cutâneas",
+                "Depressão respiratória",
+                "Dependência física",
+                "Sintomas de abstinência",
+                "Agitação (paradoxal)",
+                "Anemia megaloblástica"
+            ],
+            "incompatibilidades": [
+                "Álcool etílico",
+                "Benzodiazepínicos",
+                "Antidepressivos (tricíclicos)",
+                "Antihistamínicos (sedativos)",
+                "Opioides",
+                "Anticoagulantes orais (ex: Varfarina)",
+                "Contraceptivos orais",
+                "Corticosteroides",
+                "Fenitoína",
+                "Carbamazepina",
+                "Ácido valproico",
+                "Doxiciclina",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Itraconazol",
+                "Voriconazol"
+            ],
             "mg": 100.0
         },
         {
@@ -186249,8 +186347,38 @@
             "nomes_alternativos": [
                 "Ibuprofeno"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Distúrbios gastrointestinais (dor abdominal, náusea, vômito, diarreia, constipação)",
+                "Sangramento gastrointestinal",
+                "Úlcera péptica",
+                "Cefaleia",
+                "Tontura",
+                "Reações cutâneas (erupção, prurido)",
+                "Edema",
+                "Hipertensão",
+                "Insuficiência renal",
+                "Asma",
+                "Broncoespasmo",
+                "Reações de hipersensibilidade",
+                "Distúrbios hematológicos (trombocitopenia, anemia aplástica, agranulocitose)",
+                "Hepatite"
+            ],
+            "incompatibilidades": [
+                "Outros Anti-inflamatórios Não Esteroides (AINEs)",
+                "Ácido Acetilsalicílico",
+                "Anticoagulantes Orais (ex: Varfarina)",
+                "Glicocorticoides",
+                "Lítio",
+                "Metotrexato",
+                "Diuréticos",
+                "Inibidores da Enzima Conversora de Angiotensina (ECA)",
+                "Betabloqueadores",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Antibióticos Quinolonas",
+                "Inibidores Seletivos da Recaptação de Serotonina (ISRS)",
+                "Digoxina"
+            ],
             "mg": 400.0
         },
         {
@@ -186265,8 +186393,38 @@
             "nomes_alternativos": [
                 "Ibuprofeno"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Distúrbios gastrointestinais (dor abdominal, náusea, vômito, diarreia, constipação)",
+                "Sangramento gastrointestinal",
+                "Úlcera péptica",
+                "Cefaleia",
+                "Tontura",
+                "Reações cutâneas (erupção, prurido)",
+                "Edema",
+                "Hipertensão",
+                "Insuficiência renal",
+                "Asma",
+                "Broncoespasmo",
+                "Reações de hipersensibilidade",
+                "Distúrbios hematológicos (trombocitopenia, anemia aplástica, agranulocitose)",
+                "Hepatite"
+            ],
+            "incompatibilidades": [
+                "Outros Anti-inflamatórios Não Esteroides (AINEs)",
+                "Ácido Acetilsalicílico",
+                "Anticoagulantes Orais (ex: Varfarina)",
+                "Glicocorticoides",
+                "Lítio",
+                "Metotrexato",
+                "Diuréticos",
+                "Inibidores da Enzima Conversora de Angiotensina (ECA)",
+                "Betabloqueadores",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Antibióticos Quinolonas",
+                "Inibidores Seletivos da Recaptação de Serotonina (ISRS)",
+                "Digoxina"
+            ],
             "mg": 400.0
         },
         {
@@ -186281,8 +186439,38 @@
             "nomes_alternativos": [
                 "Ibuprofeno"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Distúrbios gastrointestinais (dor abdominal, náusea, vômito, diarreia, constipação)",
+                "Sangramento gastrointestinal",
+                "Úlcera péptica",
+                "Cefaleia",
+                "Tontura",
+                "Reações cutâneas (erupção, prurido)",
+                "Edema",
+                "Hipertensão",
+                "Insuficiência renal",
+                "Asma",
+                "Broncoespasmo",
+                "Reações de hipersensibilidade",
+                "Distúrbios hematológicos (trombocitopenia, anemia aplástica, agranulocitose)",
+                "Hepatite"
+            ],
+            "incompatibilidades": [
+                "Outros Anti-inflamatórios Não Esteroides (AINEs)",
+                "Ácido Acetilsalicílico",
+                "Anticoagulantes Orais (ex: Varfarina)",
+                "Glicocorticoides",
+                "Lítio",
+                "Metotrexato",
+                "Diuréticos",
+                "Inibidores da Enzima Conversora de Angiotensina (ECA)",
+                "Betabloqueadores",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Antibióticos Quinolonas",
+                "Inibidores Seletivos da Recaptação de Serotonina (ISRS)",
+                "Digoxina"
+            ],
             "mg": 400.0
         },
         {
@@ -186297,8 +186485,38 @@
             "nomes_alternativos": [
                 "Ibuprofeno"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Distúrbios gastrointestinais (dor abdominal, náusea, vômito, diarreia, constipação)",
+                "Sangramento gastrointestinal",
+                "Úlcera péptica",
+                "Cefaleia",
+                "Tontura",
+                "Reações cutâneas (erupção, prurido)",
+                "Edema",
+                "Hipertensão",
+                "Insuficiência renal",
+                "Asma",
+                "Broncoespasmo",
+                "Reações de hipersensibilidade",
+                "Distúrbios hematológicos (trombocitopenia, anemia aplástica, agranulocitose)",
+                "Hepatite"
+            ],
+            "incompatibilidades": [
+                "Outros Anti-inflamatórios Não Esteroides (AINEs)",
+                "Ácido Acetilsalicílico",
+                "Anticoagulantes Orais (ex: Varfarina)",
+                "Glicocorticoides",
+                "Lítio",
+                "Metotrexato",
+                "Diuréticos",
+                "Inibidores da Enzima Conversora de Angiotensina (ECA)",
+                "Betabloqueadores",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Antibióticos Quinolonas",
+                "Inibidores Seletivos da Recaptação de Serotonina (ISRS)",
+                "Digoxina"
+            ],
             "mg": 400.0
         },
         {
@@ -186313,8 +186531,38 @@
             "nomes_alternativos": [
                 "Ibuprofeno"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Distúrbios gastrointestinais (dor abdominal, náusea, vômito, diarreia, constipação)",
+                "Sangramento gastrointestinal",
+                "Úlcera péptica",
+                "Cefaleia",
+                "Tontura",
+                "Reações cutâneas (erupção, prurido)",
+                "Edema",
+                "Hipertensão",
+                "Insuficiência renal",
+                "Asma",
+                "Broncoespasmo",
+                "Reações de hipersensibilidade",
+                "Distúrbios hematológicos (trombocitopenia, anemia aplástica, agranulocitose)",
+                "Hepatite"
+            ],
+            "incompatibilidades": [
+                "Outros Anti-inflamatórios Não Esteroides (AINEs)",
+                "Ácido Acetilsalicílico",
+                "Anticoagulantes Orais (ex: Varfarina)",
+                "Glicocorticoides",
+                "Lítio",
+                "Metotrexato",
+                "Diuréticos",
+                "Inibidores da Enzima Conversora de Angiotensina (ECA)",
+                "Betabloqueadores",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Antibióticos Quinolonas",
+                "Inibidores Seletivos da Recaptação de Serotonina (ISRS)",
+                "Digoxina"
+            ],
             "mg": 400.0
         },
         {
@@ -186329,8 +186577,38 @@
             "nomes_alternativos": [
                 "Ibuprofeno"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Distúrbios gastrointestinais (dor abdominal, náusea, vômito, diarreia, constipação)",
+                "Sangramento gastrointestinal",
+                "Úlcera péptica",
+                "Cefaleia",
+                "Tontura",
+                "Reações cutâneas (erupção, prurido)",
+                "Edema",
+                "Hipertensão",
+                "Insuficiência renal",
+                "Asma",
+                "Broncoespasmo",
+                "Reações de hipersensibilidade",
+                "Distúrbios hematológicos (trombocitopenia, anemia aplástica, agranulocitose)",
+                "Hepatite"
+            ],
+            "incompatibilidades": [
+                "Outros Anti-inflamatórios Não Esteroides (AINEs)",
+                "Ácido Acetilsalicílico",
+                "Anticoagulantes Orais (ex: Varfarina)",
+                "Glicocorticoides",
+                "Lítio",
+                "Metotrexato",
+                "Diuréticos",
+                "Inibidores da Enzima Conversora de Angiotensina (ECA)",
+                "Betabloqueadores",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Antibióticos Quinolonas",
+                "Inibidores Seletivos da Recaptação de Serotonina (ISRS)",
+                "Digoxina"
+            ],
             "mg": 400.0
         },
         {
@@ -186345,8 +186623,38 @@
             "nomes_alternativos": [
                 "Ibuprofeno"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Distúrbios gastrointestinais (dor abdominal, náusea, vômito, diarreia, constipação)",
+                "Sangramento gastrointestinal",
+                "Úlcera péptica",
+                "Cefaleia",
+                "Tontura",
+                "Reações cutâneas (erupção, prurido)",
+                "Edema",
+                "Hipertensão",
+                "Insuficiência renal",
+                "Asma",
+                "Broncoespasmo",
+                "Reações de hipersensibilidade",
+                "Distúrbios hematológicos (trombocitopenia, anemia aplástica, agranulocitose)",
+                "Hepatite"
+            ],
+            "incompatibilidades": [
+                "Outros Anti-inflamatórios Não Esteroides (AINEs)",
+                "Ácido Acetilsalicílico",
+                "Anticoagulantes Orais (ex: Varfarina)",
+                "Glicocorticoides",
+                "Lítio",
+                "Metotrexato",
+                "Diuréticos",
+                "Inibidores da Enzima Conversora de Angiotensina (ECA)",
+                "Betabloqueadores",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Antibióticos Quinolonas",
+                "Inibidores Seletivos da Recaptação de Serotonina (ISRS)",
+                "Digoxina"
+            ],
             "mg": 400.0
         },
         {
@@ -188603,8 +188911,38 @@
             "nomes_alternativos": [
                 "Ibuprofeno"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Distúrbios gastrointestinais (dor abdominal, náusea, vômito, diarreia, constipação)",
+                "Sangramento gastrointestinal",
+                "Úlcera péptica",
+                "Cefaleia",
+                "Tontura",
+                "Reações cutâneas (erupção, prurido)",
+                "Edema",
+                "Hipertensão",
+                "Insuficiência renal",
+                "Asma",
+                "Broncoespasmo",
+                "Reações de hipersensibilidade",
+                "Distúrbios hematológicos (trombocitopenia, anemia aplástica, agranulocitose)",
+                "Hepatite"
+            ],
+            "incompatibilidades": [
+                "Outros Anti-inflamatórios Não Esteroides (AINEs)",
+                "Ácido Acetilsalicílico",
+                "Anticoagulantes Orais (ex: Varfarina)",
+                "Glicocorticoides",
+                "Lítio",
+                "Metotrexato",
+                "Diuréticos",
+                "Inibidores da Enzima Conversora de Angiotensina (ECA)",
+                "Betabloqueadores",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Antibióticos Quinolonas",
+                "Inibidores Seletivos da Recaptação de Serotonina (ISRS)",
+                "Digoxina"
+            ],
             "mg": 400.0
         },
         {
@@ -188619,8 +188957,38 @@
             "nomes_alternativos": [
                 "Ibuprofeno"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Distúrbios gastrointestinais (dor abdominal, náusea, vômito, diarreia, constipação)",
+                "Sangramento gastrointestinal",
+                "Úlcera péptica",
+                "Cefaleia",
+                "Tontura",
+                "Reações cutâneas (erupção, prurido)",
+                "Edema",
+                "Hipertensão",
+                "Insuficiência renal",
+                "Asma",
+                "Broncoespasmo",
+                "Reações de hipersensibilidade",
+                "Distúrbios hematológicos (trombocitopenia, anemia aplástica, agranulocitose)",
+                "Hepatite"
+            ],
+            "incompatibilidades": [
+                "Outros Anti-inflamatórios Não Esteroides (AINEs)",
+                "Ácido Acetilsalicílico",
+                "Anticoagulantes Orais (ex: Varfarina)",
+                "Glicocorticoides",
+                "Lítio",
+                "Metotrexato",
+                "Diuréticos",
+                "Inibidores da Enzima Conversora de Angiotensina (ECA)",
+                "Betabloqueadores",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Antibióticos Quinolonas",
+                "Inibidores Seletivos da Recaptação de Serotonina (ISRS)",
+                "Digoxina"
+            ],
             "mg": 400.0
         },
         {
@@ -188635,8 +189003,38 @@
             "nomes_alternativos": [
                 "Ibuprofeno"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Distúrbios gastrointestinais (dor abdominal, náusea, vômito, diarreia, constipação)",
+                "Sangramento gastrointestinal",
+                "Úlcera péptica",
+                "Cefaleia",
+                "Tontura",
+                "Reações cutâneas (erupção, prurido)",
+                "Edema",
+                "Hipertensão",
+                "Insuficiência renal",
+                "Asma",
+                "Broncoespasmo",
+                "Reações de hipersensibilidade",
+                "Distúrbios hematológicos (trombocitopenia, anemia aplástica, agranulocitose)",
+                "Hepatite"
+            ],
+            "incompatibilidades": [
+                "Outros Anti-inflamatórios Não Esteroides (AINEs)",
+                "Ácido Acetilsalicílico",
+                "Anticoagulantes Orais (ex: Varfarina)",
+                "Glicocorticoides",
+                "Lítio",
+                "Metotrexato",
+                "Diuréticos",
+                "Inibidores da Enzima Conversora de Angiotensina (ECA)",
+                "Betabloqueadores",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Antibióticos Quinolonas",
+                "Inibidores Seletivos da Recaptação de Serotonina (ISRS)",
+                "Digoxina"
+            ],
             "mg": 400.0
         },
         {
@@ -188651,8 +189049,38 @@
             "nomes_alternativos": [
                 "Ibuprofeno"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Distúrbios gastrointestinais (dor abdominal, náusea, vômito, diarreia, constipação)",
+                "Sangramento gastrointestinal",
+                "Úlcera péptica",
+                "Cefaleia",
+                "Tontura",
+                "Reações cutâneas (erupção, prurido)",
+                "Edema",
+                "Hipertensão",
+                "Insuficiência renal",
+                "Asma",
+                "Broncoespasmo",
+                "Reações de hipersensibilidade",
+                "Distúrbios hematológicos (trombocitopenia, anemia aplástica, agranulocitose)",
+                "Hepatite"
+            ],
+            "incompatibilidades": [
+                "Outros Anti-inflamatórios Não Esteroides (AINEs)",
+                "Ácido Acetilsalicílico",
+                "Anticoagulantes Orais (ex: Varfarina)",
+                "Glicocorticoides",
+                "Lítio",
+                "Metotrexato",
+                "Diuréticos",
+                "Inibidores da Enzima Conversora de Angiotensina (ECA)",
+                "Betabloqueadores",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Antibióticos Quinolonas",
+                "Inibidores Seletivos da Recaptação de Serotonina (ISRS)",
+                "Digoxina"
+            ],
             "mg": 400.0
         },
         {
@@ -188667,8 +189095,38 @@
             "nomes_alternativos": [
                 "Ibuprofeno"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Distúrbios gastrointestinais (dor abdominal, náusea, vômito, diarreia, constipação)",
+                "Sangramento gastrointestinal",
+                "Úlcera péptica",
+                "Cefaleia",
+                "Tontura",
+                "Reações cutâneas (erupção, prurido)",
+                "Edema",
+                "Hipertensão",
+                "Insuficiência renal",
+                "Asma",
+                "Broncoespasmo",
+                "Reações de hipersensibilidade",
+                "Distúrbios hematológicos (trombocitopenia, anemia aplástica, agranulocitose)",
+                "Hepatite"
+            ],
+            "incompatibilidades": [
+                "Outros Anti-inflamatórios Não Esteroides (AINEs)",
+                "Ácido Acetilsalicílico",
+                "Anticoagulantes Orais (ex: Varfarina)",
+                "Glicocorticoides",
+                "Lítio",
+                "Metotrexato",
+                "Diuréticos",
+                "Inibidores da Enzima Conversora de Angiotensina (ECA)",
+                "Betabloqueadores",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Antibióticos Quinolonas",
+                "Inibidores Seletivos da Recaptação de Serotonina (ISRS)",
+                "Digoxina"
+            ],
             "mg": 400.0
         },
         {
@@ -188683,8 +189141,38 @@
             "nomes_alternativos": [
                 "Ibuprofeno"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Distúrbios gastrointestinais (dor abdominal, náusea, vômito, diarreia, constipação)",
+                "Sangramento gastrointestinal",
+                "Úlcera péptica",
+                "Cefaleia",
+                "Tontura",
+                "Reações cutâneas (erupção, prurido)",
+                "Edema",
+                "Hipertensão",
+                "Insuficiência renal",
+                "Asma",
+                "Broncoespasmo",
+                "Reações de hipersensibilidade",
+                "Distúrbios hematológicos (trombocitopenia, anemia aplástica, agranulocitose)",
+                "Hepatite"
+            ],
+            "incompatibilidades": [
+                "Outros Anti-inflamatórios Não Esteroides (AINEs)",
+                "Ácido Acetilsalicílico",
+                "Anticoagulantes Orais (ex: Varfarina)",
+                "Glicocorticoides",
+                "Lítio",
+                "Metotrexato",
+                "Diuréticos",
+                "Inibidores da Enzima Conversora de Angiotensina (ECA)",
+                "Betabloqueadores",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Antibióticos Quinolonas",
+                "Inibidores Seletivos da Recaptação de Serotonina (ISRS)",
+                "Digoxina"
+            ],
             "mg": 400.0
         },
         {
@@ -188699,8 +189187,38 @@
             "nomes_alternativos": [
                 "Ibuprofeno"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Distúrbios gastrointestinais (dor abdominal, náusea, vômito, diarreia, constipação)",
+                "Sangramento gastrointestinal",
+                "Úlcera péptica",
+                "Cefaleia",
+                "Tontura",
+                "Reações cutâneas (erupção, prurido)",
+                "Edema",
+                "Hipertensão",
+                "Insuficiência renal",
+                "Asma",
+                "Broncoespasmo",
+                "Reações de hipersensibilidade",
+                "Distúrbios hematológicos (trombocitopenia, anemia aplástica, agranulocitose)",
+                "Hepatite"
+            ],
+            "incompatibilidades": [
+                "Outros Anti-inflamatórios Não Esteroides (AINEs)",
+                "Ácido Acetilsalicílico",
+                "Anticoagulantes Orais (ex: Varfarina)",
+                "Glicocorticoides",
+                "Lítio",
+                "Metotrexato",
+                "Diuréticos",
+                "Inibidores da Enzima Conversora de Angiotensina (ECA)",
+                "Betabloqueadores",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Antibióticos Quinolonas",
+                "Inibidores Seletivos da Recaptação de Serotonina (ISRS)",
+                "Digoxina"
+            ],
             "mg": 400.0
         },
         {
@@ -188715,8 +189233,38 @@
             "nomes_alternativos": [
                 "Ibuprofeno"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Distúrbios gastrointestinais (dor abdominal, náusea, vômito, diarreia, constipação)",
+                "Sangramento gastrointestinal",
+                "Úlcera péptica",
+                "Cefaleia",
+                "Tontura",
+                "Reações cutâneas (erupção, prurido)",
+                "Edema",
+                "Hipertensão",
+                "Insuficiência renal",
+                "Asma",
+                "Broncoespasmo",
+                "Reações de hipersensibilidade",
+                "Distúrbios hematológicos (trombocitopenia, anemia aplástica, agranulocitose)",
+                "Hepatite"
+            ],
+            "incompatibilidades": [
+                "Outros Anti-inflamatórios Não Esteroides (AINEs)",
+                "Ácido Acetilsalicílico",
+                "Anticoagulantes Orais (ex: Varfarina)",
+                "Glicocorticoides",
+                "Lítio",
+                "Metotrexato",
+                "Diuréticos",
+                "Inibidores da Enzima Conversora de Angiotensina (ECA)",
+                "Betabloqueadores",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Antibióticos Quinolonas",
+                "Inibidores Seletivos da Recaptação de Serotonina (ISRS)",
+                "Digoxina"
+            ],
             "mg": 400.0
         },
         {
@@ -188731,8 +189279,38 @@
             "nomes_alternativos": [
                 "Ibuprofeno"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Distúrbios gastrointestinais (dor abdominal, náusea, vômito, diarreia, constipação)",
+                "Sangramento gastrointestinal",
+                "Úlcera péptica",
+                "Cefaleia",
+                "Tontura",
+                "Reações cutâneas (erupção, prurido)",
+                "Edema",
+                "Hipertensão",
+                "Insuficiência renal",
+                "Asma",
+                "Broncoespasmo",
+                "Reações de hipersensibilidade",
+                "Distúrbios hematológicos (trombocitopenia, anemia aplástica, agranulocitose)",
+                "Hepatite"
+            ],
+            "incompatibilidades": [
+                "Outros Anti-inflamatórios Não Esteroides (AINEs)",
+                "Ácido Acetilsalicílico",
+                "Anticoagulantes Orais (ex: Varfarina)",
+                "Glicocorticoides",
+                "Lítio",
+                "Metotrexato",
+                "Diuréticos",
+                "Inibidores da Enzima Conversora de Angiotensina (ECA)",
+                "Betabloqueadores",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Antibióticos Quinolonas",
+                "Inibidores Seletivos da Recaptação de Serotonina (ISRS)",
+                "Digoxina"
+            ],
             "mg": 400.0
         },
         {
@@ -188747,8 +189325,38 @@
             "nomes_alternativos": [
                 "Ibuprofeno"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Distúrbios gastrointestinais (dor abdominal, náusea, vômito, diarreia, constipação)",
+                "Sangramento gastrointestinal",
+                "Úlcera péptica",
+                "Cefaleia",
+                "Tontura",
+                "Reações cutâneas (erupção, prurido)",
+                "Edema",
+                "Hipertensão",
+                "Insuficiência renal",
+                "Asma",
+                "Broncoespasmo",
+                "Reações de hipersensibilidade",
+                "Distúrbios hematológicos (trombocitopenia, anemia aplástica, agranulocitose)",
+                "Hepatite"
+            ],
+            "incompatibilidades": [
+                "Outros Anti-inflamatórios Não Esteroides (AINEs)",
+                "Ácido Acetilsalicílico",
+                "Anticoagulantes Orais (ex: Varfarina)",
+                "Glicocorticoides",
+                "Lítio",
+                "Metotrexato",
+                "Diuréticos",
+                "Inibidores da Enzima Conversora de Angiotensina (ECA)",
+                "Betabloqueadores",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Antibióticos Quinolonas",
+                "Inibidores Seletivos da Recaptação de Serotonina (ISRS)",
+                "Digoxina"
+            ],
             "mg": 400.0
         },
         {
@@ -188763,8 +189371,38 @@
             "nomes_alternativos": [
                 "Ibuprofeno"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Distúrbios gastrointestinais (dor abdominal, náusea, vômito, diarreia, constipação)",
+                "Sangramento gastrointestinal",
+                "Úlcera péptica",
+                "Cefaleia",
+                "Tontura",
+                "Reações cutâneas (erupção, prurido)",
+                "Edema",
+                "Hipertensão",
+                "Insuficiência renal",
+                "Asma",
+                "Broncoespasmo",
+                "Reações de hipersensibilidade",
+                "Distúrbios hematológicos (trombocitopenia, anemia aplástica, agranulocitose)",
+                "Hepatite"
+            ],
+            "incompatibilidades": [
+                "Outros Anti-inflamatórios Não Esteroides (AINEs)",
+                "Ácido Acetilsalicílico",
+                "Anticoagulantes Orais (ex: Varfarina)",
+                "Glicocorticoides",
+                "Lítio",
+                "Metotrexato",
+                "Diuréticos",
+                "Inibidores da Enzima Conversora de Angiotensina (ECA)",
+                "Betabloqueadores",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Antibióticos Quinolonas",
+                "Inibidores Seletivos da Recaptação de Serotonina (ISRS)",
+                "Digoxina"
+            ],
             "mg": 400.0
         },
         {
@@ -319076,8 +319714,39 @@
             "nomes_alternativos": [
                 "Fenobarbital"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Sonolência",
+                "Sedação",
+                "Ataxia",
+                "Nistagmo",
+                "Vertigem",
+                "Náuseas",
+                "Vômitos",
+                "Reações cutâneas",
+                "Depressão respiratória",
+                "Dependência física",
+                "Sintomas de abstinência",
+                "Agitação (paradoxal)",
+                "Anemia megaloblástica"
+            ],
+            "incompatibilidades": [
+                "Álcool etílico",
+                "Benzodiazepínicos",
+                "Antidepressivos (tricíclicos)",
+                "Antihistamínicos (sedativos)",
+                "Opioides",
+                "Anticoagulantes orais (ex: Varfarina)",
+                "Contraceptivos orais",
+                "Corticosteroides",
+                "Fenitoína",
+                "Carbamazepina",
+                "Ácido valproico",
+                "Doxiciclina",
+                "Ciclosporina",
+                "Tacrolimo",
+                "Itraconazol",
+                "Voriconazol"
+            ],
             "mg_ml": 40.0,
             "viscosidade": ""
         },

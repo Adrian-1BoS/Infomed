@@ -25,7 +25,11 @@ from complementos import carregar_json, salvar_json
 
 def extrair_todos_medicamentos_usuario(usuario_dados):
     """
-    Consolida todos os medicamentos do paciente das diferentes listas em uma única lista tratada.
+    Consolida todos os medicamentos informados pelo paciente das diferentes 
+    listas em uma única lista padronizada e formatada.
+    
+    :param usuario_dados: Dicionário com as categorias de medicamentos.
+    :return: list[dict] - Lista de dicionários contendo os dados tratados de cada medicamento.
     """
     categorias = ["remedio_solidos", "remedio_liquidos", "remedio_injetavel", "remedio_colirio"]
     lista_medicamentos = []
@@ -48,9 +52,9 @@ def extrair_todos_medicamentos_usuario(usuario_dados):
                         "horario": horario,
                         "periodo": periodo
                     })
-
+    print("Debug: tipo =", type(lista_medicamentos))
+    print(lista_medicamentos)
     return lista_medicamentos
-
 
 def buscar_dados_base_local(med_id, nome_med, db_dados):
     """
@@ -66,7 +70,6 @@ def buscar_dados_base_local(med_id, nome_med, db_dados):
                 return item
 
     return None
-
 
 def verificar_incompatibilidades(usuario_json_path="usuario_atualizado.json", db_json_path="solidificados.json", output_relatorio_path="relatorio_incompatibilidades.json"):
     """

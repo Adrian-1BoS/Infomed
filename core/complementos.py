@@ -1,6 +1,7 @@
 import json
 import os
 import sys
+import re
 from rapidfuzz import fuzz
 from pathlib import Path
 
@@ -24,22 +25,47 @@ def salvar_json(dados, caminho):
 def normalizar_texto(texto):
     return str(texto).strip().lower()
 
+def extrair_dosagem_emergencial(apresentacao):
+    """
+    Caso o item do DB possua dosagem nula, extrai o valor numérico em tempo 
+    de execução para viabilizar o desempate matemático com os dados do usuário.
+    """
+    if not apresentacao:
+        return None
+    apres = str(apresentacao).upper()
+    padrao_complexo = r'(?:\(([^)]+)\)|(\d+(?:[\.,]\d+)?))\s*(MG/ML|U/ML|MU|MG/G|MG|%)'
+    match = re.search(padrao_complexo, apres)
+    if not match:
+        return None
+        
+    trecho_numerico = match.group(1) if match.group(1) else match.group(2)
+    padrao_numeros = r'(\d+(?:[\.,]\d+)?)'
+    valores_encontrados = re.findall(padrao_numeros, trecho_numerico)
+    
+    if not valores_encontrados:
+        return None
+    try:
+        return sum([float(val.replace(',', '.')) for val in valores_encontrados])
+    except (ValueError, TypeError):
+        return None
+
 def buscar_medicamento(remedio_usuario, db_medicamentos):
     """
     Busca o melhor match usando fuzzy matching e desempata pela dosagem/concentração.
-    Suporta chaves dinâmicas como 'por_cento', 'mg_g', 'mg_ml' e 'mg'.
+    Suporta chaves dinâmicas vindas da UI do usuário e faz fallback de extração no DB local.
     """
     # 1. Identifica se a entrada é um dicionário (fluxo normal) ou string (fallback IA)
     if isinstance(remedio_usuario, dict):
         nome_fornecido = remedio_usuario.get("nome_fornecido") or remedio_usuario.get("nome_medicamento") or ""
         
-        # Captura qualquer indicador de dosagem numérica que venha do JSON do usuário
+        # Captura qualquer indicador de dosagem numérica estruturado na UI do Usuário
         dosagem_usuario = (
             remedio_usuario.get("dosagem_mg") or 
             remedio_usuario.get("concentracao_mg_ml") or 
             remedio_usuario.get("concentracao_ui_ml") or
             remedio_usuario.get("por_cento") or
-            remedio_usuario.get("mg_g")
+            remedio_usuario.get("mg_g") or
+            remedio_usuario.get("mg")
         )
     else:
         nome_fornecido = str(remedio_usuario)
@@ -64,13 +90,18 @@ def buscar_medicamento(remedio_usuario, db_medicamentos):
             if subst:
                 candidatos.append(subst)
 
-        # 2. Captura a dosagem do banco local varrendo todas as chaves possíveis que criamos
+        # 2. Captura a dosagem estática do banco local
         dosagem_db = (
             item.get("mg") if item.get("mg") is not None else
             item.get("mg_ml") if item.get("mg_ml") is not None else
             item.get("por_cento") if item.get("por_cento") is not None else
             item.get("mg_g") if item.get("mg_g") is not None else None
         )
+        
+        # FALLBACK DINÂMICO: Se no seu DB o valor constar como null (dos 2610 registros), 
+        # nós calculamos ele sob demanda a partir do texto da apresentação para não perder o desempate.
+        if dosagem_db is None and item.get("apresentacao"):
+            dosagem_db = extrair_dosagem_emergencial(item["apresentacao"])
 
         for cand in candidatos:
             score = fuzz.ratio(nome_fornecido_norm, normalizar_texto(cand))
@@ -87,12 +118,12 @@ def buscar_medicamento(remedio_usuario, db_medicamentos):
                     except (ValueError, TypeError):
                         menor_diferenca_dosagem = float('inf')
             
-            # Condição B: Empate estrito no texto (ex: "Glicose" vs duas opções no banco)
+            # Condição B: Empate estrito no texto (Ex: Duas insulinas ou Glicose 25% vs 50%)
             elif score == maior_score and score > 0:
                 if dosagem_usuario is not None and dosagem_db is not None:
                     try:
                         dif_atual = abs(float(dosagem_usuario) - float(dosagem_db))
-                        # Se este registro do banco estiver mais próximo da dosagem do paciente, ele assume o ID
+                        # O item que possuir a menor distância matemática da dosagem informada assume o ID
                         if dif_atual < menor_diferenca_dosagem:
                             menor_diferenca_dosagem = dif_atual
                             melhor_match = cand
@@ -157,7 +188,7 @@ def complementar_db_farmaco(db_json_path, usuario_json_path):
                     nome_med = item.get("nome")
                     substancias_list = item.get("substancia_ativa", [])
                     
-                    # Cria uma chave única baseada na substância ativa (ex: "fenobarbital" ou "ledipasvir, sofosbuvir")
+                    # Cria uma chave única baseada na substância ativa
                     chave_cache = tuple(sorted([s.strip().lower() for s in substancias_list if s]))
                     substancias = ", ".join(substancias_list)
 
@@ -194,42 +225,46 @@ def complementar_db_farmaco(db_json_path, usuario_json_path):
                     if encontrado_na_base:
                         continue
 
-
-                    # Se não achou em nenhum lugar, faz a requisição na IA
+                    # Se não achou em nenhum lugar (Cache ou Base), faz a requisição para a IA
                     print(f"DEBUG: Consultando IA para: {nome_med} (Substâncias: {substancias})...")
-                    
                     
                     prompt_farmaceutico = (
                         "Você é um profissional farmacêutico clínico especialista na regulamentação da ANVISA e no Dicionário de Especialidades Farmacêuticas (DEF). "
-                                "Sua função é retornar estritamente no formato JSON as colunas 'efeitos_colaterais' e 'incompatibilidades'.\n"
-                                "REGRAS OBRIGATÓRIAS:\n"
-                                "1. Utilize exclusivamente a nomenclatura oficial brasileira (DCB) em 'PORTUGUÊS' para todas as substâncias.\n"
-                                "2. Exclua absolutamente substâncias estrangeiras, banidas ou sem registro ativo na ANVISA no Brasil.\n"
-                                "3. Seja direto e evite descrições genéricas ou redundantes em formato de texto longo; utilize o nome da classe ou substância de forma concisa.\n"
-                                'Formato de saída estrito:\n'
-                                '{\n  "efeitos_colaterais": ["..."],\n  "incompatibilidades": ["..."]\n}'
-                            )
+                        "Sua função é retornar estritamente no formato JSON as colunas 'efeitos_colaterais' e 'incompatibilidades'.\n"
+                        "REGRAS OBRIGATÓRIAS:\n"
+                        "1. Utilize exclusivamente a nomenclatura oficial brasileira (DCB) em 'PORTUGUÊS' para todas as substâncias.\n"
+                        "2. Exclua absolutamente substâncias estrangeiras, banidas ou sem registro ativo na ANVISA no Brasil.\n"
+                        "3. Seja direto e evite descrições genéricas ou redundantes em formato de texto longo; utilize o nome da classe ou substância de forma concisa.\n"
+                        'Formato de saída estrito:\n'
+                        '{\n  "efeitos_colaterais": ["..."],\n  "incompatibilidades": ["..."]\n}'
+                    )
                 
                     pergunta_farmaceutica = (
                         f"Traga o JSON de efeitos colaterais e incompatibilidades para o "
                         f"medicamento '{nome_med}' contendo as substâncias ativas em lista separado por virgula: {substancias}."
                     )
+                    
                     try:
                         resposta_ai = ai_handler.gerar_resposta(prompt_farmaceutico, pergunta_farmaceutica)
                         
                         texto_resposta = ""
-                        if hasattr(resposta_ai, '__iter__') and not isinstance(resposta_ai, str):
+                        # Tratamento robusto do retorno (Suporta Strings, Chunks e iteradores do AIHandler)
+                        if isinstance(resposta_ai, str):
+                            texto_resposta = resposta_ai
+                        elif hasattr(resposta_ai, 'text'):
+                            texto_resposta = resposta_ai.text
+                        elif hasattr(resposta_ai, '__iter__'):
                             for chunk in resposta_ai:
-                                if hasattr(chunk, 'text'):
+                                if isinstance(chunk, str):
+                                    texto_resposta += chunk
+                                elif hasattr(chunk, 'text'):
                                     texto_resposta += chunk.text
-                        else:
-                            texto_resposta = str(resposta_ai)
                         
                         json_limpo = texto_resposta.strip()
                         if "```json" in json_limpo:
                             json_limpo = json_limpo.split("```json")[1].split("```")[0].strip()
                         elif "```" in json_limpo:
-                            json_limpo = json_limpo.split("```json")[0].split("```")[0].strip()
+                            json_limpo = json_limpo.split("```")[1].split("```")[0].strip()
                             
                         dados_extras = json.loads(json_limpo)
                         
@@ -240,7 +275,7 @@ def complementar_db_farmaco(db_json_path, usuario_json_path):
                             item["efeitos_colaterais"] = efeitos
                             item["incompatibilidades"] = incompat
                             
-                            # Guarda no cache para as próximas iterações
+                            # Guarda no cache de memória para evitar requisições repetidas nesta sessão
                             cache_substancias[chave_cache] = {
                                 "efeitos_colaterais": efeitos,
                                 "incompatibilidades": incompat
@@ -248,9 +283,11 @@ def complementar_db_farmaco(db_json_path, usuario_json_path):
                             
                             atualizou_algum = True
                             print(f"DEBUG: Sucesso ao atualizar e cachear dados de '{nome_med}'!")
+                            
                     except Exception as e:
                         print(f"DEBUG: Erro ao converter resposta da IA para '{nome_med}': {e}")
 
+    # 3. Salvamento e Finalização do Processo de Carga
     if atualizou_algum:
         salvar_json(db_dados, db_json_path)
         print(f"DEBUG: Base de dados '{db_json_path}' atualizada com sucesso (com reutilização por substância)!")
