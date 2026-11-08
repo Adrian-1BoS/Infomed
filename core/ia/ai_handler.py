@@ -48,8 +48,8 @@ class AIHandler:
         "gemini-3.1-flash-lite",
         "gemini-2.5-flash-lite"
         """
-        self.gemini_disponivel = True
-        #self.gemini_disponivel = False
+        #self.gemini_disponivel = True
+        self.gemini_disponivel = False
         self.gemini_models = [
         "gemini-2.5-flash",
         "gemini-flash-latest",

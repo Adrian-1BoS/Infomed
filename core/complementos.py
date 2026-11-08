@@ -51,25 +51,24 @@ def extrair_dosagem_emergencial(apresentacao):
 
 def buscar_medicamento(remedio_usuario, db_medicamentos):
     """
-    Busca o melhor match usando fuzzy matching e desempata pela dosagem/concentração.
-    Suporta chaves dinâmicas vindas da UI do usuário e faz fallback de extração no DB local.
+    Busca o melhor match usando fuzzy matching com camadas estritas de prioridade por campo
+    (1º Nome Oficial, 2º Nomes Alternativos, 3º Substância Ativa) e desempata por dosagem.
     """
-    # 1. Identifica se a entrada é um dicionário (fluxo normal) ou string (fallback IA)
+    nome_fornecido = ""
+    grandeza_usuario = None
+    dosagem_usuario = None
+
+    # 1. CAPTURA E CLASSIFICAÇÃO DA GRANDEZA DA UI
     if isinstance(remedio_usuario, dict):
         nome_fornecido = remedio_usuario.get("nome_fornecido") or remedio_usuario.get("nome_medicamento") or ""
-        
-        # Captura qualquer indicador de dosagem numérica estruturado na UI do Usuário
-        dosagem_usuario = (
-            remedio_usuario.get("dosagem_mg") or 
-            remedio_usuario.get("concentracao_mg_ml") or 
-            remedio_usuario.get("concentracao_ui_ml") or
-            remedio_usuario.get("por_cento") or
-            remedio_usuario.get("mg_g") or
-            remedio_usuario.get("mg")
-        )
+        ordem_chaves_ui = ["dosagem_mg", "mg", "concentracao_mg_ml", "concentracao_ui_ml", "por_cento", "mg_g"]
+        for chave in ordem_chaves_ui:
+            if remedio_usuario.get(chave) is not None:
+                dosagem_usuario = remedio_usuario.get(chave)
+                grandeza_usuario = chave
+                break
     else:
         nome_fornecido = str(remedio_usuario)
-        dosagem_usuario = None
 
     melhor_match = None
     maior_score = -1
@@ -80,60 +79,74 @@ def buscar_medicamento(remedio_usuario, db_medicamentos):
     nome_fornecido_norm = normalizar_texto(nome_fornecido)
 
     for item in db_medicamentos:
-        candidatos = []
-        if item.get("nome"):
-            candidatos.append(item["nome"])
-        for alt in item.get("nomes_alternativos", []):
-            if alt:
-                candidatos.append(alt)
-        for subst in item.get("substancia_ativa", []):
-            if subst:
-                candidatos.append(subst)
+        # 2. ESTRUTURAÇÃO DE CAMADAS COM PENALIZAÇÃO DE SCORE (Fim do falso positivo)
+        # Cada tupla contém: (lista_de_textos, string_da_camada, penalidade_de_score)
+        camadas_busca = [
+            ([item.get("nome")] if item.get("nome") else [], "nome_oficial", 0),
+            (item.get("nomes_alternativos", []), "nome_alternativo", 5),
+            (item.get("substancia_ativa", []), "substancia_ativa", 15)
+        ]
 
-        # 2. Captura a dosagem estática do banco local
-        dosagem_db = (
-            item.get("mg") if item.get("mg") is not None else
-            item.get("mg_ml") if item.get("mg_ml") is not None else
-            item.get("por_cento") if item.get("por_cento") is not None else
-            item.get("mg_g") if item.get("mg_g") is not None else None
-        )
+        # Captura e classificação da grandeza do banco local
+        dosagem_db = None
+        grandeza_db = None
+        if item.get("mg") is not None:
+            dosagem_db, grandeza_db = item["mg"], "mg"
+        elif item.get("mg_ml") is not None:
+            dosagem_db, grandeza_db = item["mg_ml"], "concentracao_mg_ml"
+        elif item.get("por_cento") is not None:
+            dosagem_db, grandeza_db = item["por_cento"], "por_cento"
+        elif item.get("mg_g") is not None:
+            dosagem_db, grandeza_db = item["mg_g"], "mg_g"
         
-        # FALLBACK DINÂMICO: Se no seu DB o valor constar como null (dos 2610 registros), 
-        # nós calculamos ele sob demanda a partir do texto da apresentação para não perder o desempate.
         if dosagem_db is None and item.get("apresentacao"):
             dosagem_db = extrair_dosagem_emergencial(item["apresentacao"])
+            grandeza_db = "mg"
 
-        for cand in candidatos:
-            score = fuzz.ratio(nome_fornecido_norm, normalizar_texto(cand))
-            
-            # Condição A: Se encontrou um score de texto estritamente maior
-            if score > maior_score:
-                maior_score = score
-                melhor_match = cand
-                melhor_id = item.get("id")
-                melhor_nome_oficial = item.get("nome")
-                if dosagem_usuario is not None and dosagem_db is not None:
-                    try:
-                        menor_diferenca_dosagem = abs(float(dosagem_usuario) - float(dosagem_db))
-                    except (ValueError, TypeError):
+        if grandeza_usuario == "dosagem_mg": grandeza_usuario = "mg"
+
+        # Varre as camadas aplicando as penalidades de relevância
+        for textos_candidatos, camada, penalidade in camadas_busca:
+            for cand in textos_candidatos:
+                if not cand:
+                    continue
+                
+                # Calcula o score fuzzy bruto do texto
+                score_bruto = fuzz.ratio(nome_fornecido_norm, normalizar_texto(cand))
+                
+                # Aplica a penalidade baseada na importância do campo (Garante relevância)
+                score_final = max(0, score_bruto - penalidade)
+                
+                # Condição A: Encontrou um score de relevância estritamente maior
+                if score_final > maior_score:
+                    maior_score = score_final
+                    melhor_match = cand
+                    melhor_id = item.get("id")
+                    melhor_nome_oficial = item.get("nome")
+                    
+                    if dosagem_usuario is not None and dosagem_db is not None and grandeza_usuario == grandeza_db:
+                        try:
+                            menor_diferenca_dosagem = abs(float(dosagem_usuario) - float(dosagem_db))
+                        except (ValueError, TypeError):
+                            menor_diferenca_dosagem = float('inf')
+                    else:
                         menor_diferenca_dosagem = float('inf')
-            
-            # Condição B: Empate estrito no texto (Ex: Duas insulinas ou Glicose 25% vs 50%)
-            elif score == maior_score and score > 0:
-                if dosagem_usuario is not None and dosagem_db is not None:
-                    try:
-                        dif_atual = abs(float(dosagem_usuario) - float(dosagem_db))
-                        # O item que possuir a menor distância matemática da dosagem informada assume o ID
-                        if dif_atual < menor_diferenca_dosagem:
-                            menor_diferenca_dosagem = dif_atual
-                            melhor_match = cand
-                            melhor_id = item.get("id")
-                            melhor_nome_oficial = item.get("nome")
-                    except (ValueError, TypeError):
-                        pass
+                
+                # Condição B: EMPATE MATEMÁTICO DE RELEVÂNCIA (O desempate de dosagem entra em ação)
+                elif score_final == maior_score and score_final > 0:
+                    if dosagem_usuario is not None and dosagem_db is not None:
+                        if grandeza_usuario == grandeza_db:
+                            try:
+                                dif_atual = abs(float(dosagem_usuario) - float(dosagem_db))
+                                if dif_atual < menor_diferenca_dosagem:
+                                    menor_diferenca_dosagem = dif_atual
+                                    melhor_match = cand
+                                    melhor_id = item.get("id")
+                                    melhor_nome_oficial = item.get("nome")
+                            except (ValueError, TypeError):
+                                pass
 
     return melhor_match, maior_score, melhor_id, melhor_nome_oficial
-
 
 def complementar_db_farmaco(db_json_path, usuario_json_path):
     """

@@ -107,6 +107,16 @@ def receber_e_tratar_medicamentos(payload: ProntuarioRawPayload):
         )
 
     try:
+        lista_completa_medicamentos = []
+        
+        # 1. Adiciona os novos que vieram da UI
+        if payload.medications:
+            lista_completa_medicamentos.extend(payload.medications)
+            
+        # 2. Adiciona os que o paciente já tomava e vieram no histórico
+        if payload.existing_medications:
+            lista_completa_medicamentos.extend(payload.existing_medications)
+            
         # Mapeia o JSON estruturado internacional do Bubble para o dicionário que o core espera ler
         dados_legados_adaptados = {
             "paciente_id": payload.patient_id,
@@ -114,7 +124,7 @@ def receber_e_tratar_medicamentos(payload: ProntuarioRawPayload):
             "tel_paciente": payload.patient_phone,       
             "responsavel": payload.responsible_name,     
             "tel_responsavel": payload.responsible_phone, 
-            "medicamentos": payload.medications,
+            "medicamentos": lista_completa_medicamentos,
         }
 
         # 1. Salva o payload tratado em formato de arquivo para o seu pipeline ler

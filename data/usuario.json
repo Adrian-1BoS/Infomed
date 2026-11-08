@@ -24,6 +24,23 @@
     },
     {
       "id": "",
+      "nome_fornecido": "Dipirona",
+      "nome_medicamento": "",
+      "dosagem_mg": 25.0,
+      "quantidade_tomar": 1.0,
+      "periodo": "matutino",
+      "horario": "08:00",
+      "pendente": false,
+      "ultima_atualizacao": "",
+      "estoque": {
+        "estoque_caixas": 20.0,
+        "cartelas_por_caixa": 3.0,
+        "unidades_por_cartela": 20.0,
+        "estoque_atual": 1200.0
+      }
+    },
+    {
+      "id": "",
       "nome_fornecido": "Fenobarbital",
       "nome_medicamento": "",
       "dosagem_mg": 100.0,

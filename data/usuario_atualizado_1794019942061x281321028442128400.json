@@ -1,0 +1,106 @@
+{
+    "paciente_id": "1794019942061x281321028442128400",
+    "nome_paciente": "teste ",
+    "tel_paciente": "11911111111",
+    "responsavel": "teste ",
+    "tel_responsavel": "11911281111",
+    "remedio_solidos": [
+        {
+            "nome_fornecido": "glifage",
+            "dosagem_mg": 0,
+            "quantidade_tomar": 500,
+            "periodo": "manhã",
+            "horario": "08:00",
+            "pendente": true,
+            "ultima_atualizacao": "",
+            "estoque": {
+                "estoque_caixas": 2,
+                "cartelas_por_caixa": 1,
+                "unidades_por_cartela": 1,
+                "estoque_atual": 2
+            },
+            "nome_medicamento": "Glifage",
+            "id": 7612
+        },
+        {
+            "nome_fornecido": "Dipirona",
+            "nome_medicamento": "Dipirona",
+            "dosagem_mg": 500,
+            "quantidade_tomar": 1.0,
+            "periodo": "manhã",
+            "horario": "08:00",
+            "id": 11138,
+            "pendente": false
+        },
+        {
+            "nome_fornecido": "Gardenal ",
+            "nome_medicamento": "Gardenal",
+            "dosagem_mg": 100,
+            "quantidade_tomar": 1.0,
+            "periodo": "manhã",
+            "horario": "08:00",
+            "id": 13066,
+            "pendente": false
+        },
+        {
+            "nome_fornecido": "Quetipin",
+            "nome_medicamento": "Quetipin",
+            "dosagem_mg": 25,
+            "quantidade_tomar": 1.0,
+            "periodo": "manhã",
+            "horario": "08:00",
+            "id": 14662,
+            "pendente": false
+        },
+        {
+            "nome_fornecido": "Gardenal",
+            "nome_medicamento": "Gardenal",
+            "dosagem_mg": 100,
+            "quantidade_tomar": 1.0,
+            "periodo": "manhã",
+            "horario": "08:00",
+            "id": 13066,
+            "pendente": false
+        },
+        {
+            "nome_fornecido": "Quetipin",
+            "nome_medicamento": "Quetipin",
+            "dosagem_mg": 25,
+            "quantidade_tomar": 1.0,
+            "periodo": "manhã",
+            "horario": "08:00",
+            "id": 14662,
+            "pendente": false
+        }
+    ],
+    "remedio_liquidos": [],
+    "remedio_injetavel": [],
+    "remedio_colirio": [],
+    "nao_identificados": [],
+    "alertas_incompatibilidade": [
+        {
+            "medicamento_1": "Gardenal (fenobarbital)",
+            "horario_1": "Não especificado (Não especificado)",
+            "medicamento_2": "Quetipin (quetiapina)",
+            "horario_2": "Não especificado (Não especificado)",
+            "severidade": "MEDIA",
+            "conflito_horario": false,
+            "detalhes": [
+                "Fenobarbital induz enzimas hepáticas (CYP3A4) e diminui a concentração plasmática da quetiapina, podendo reduzir sua eficácia."
+            ],
+            "fonte": "ia_clinica"
+        },
+        {
+            "medicamento_1": "Gardenal (fenobarbital)",
+            "horario_1": "Não especificado (Não especificado)",
+            "medicamento_2": "Dipirona (metamizol)",
+            "horario_2": "Não especificado (Não especificado)",
+            "severidade": "MEDIA",
+            "conflito_horario": false,
+            "detalhes": [
+                "Uso concomitante pode aumentar o risco de depressão medular e efeitos hematológicos adversos, como agranulocitose."
+            ],
+            "fonte": "ia_clinica"
+        }
+    ]
+}
