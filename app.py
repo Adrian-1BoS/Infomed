@@ -130,36 +130,32 @@ def receber_e_tratar_medicamentos(payload: ProntuarioRawPayload):
             output_json_path=str(output_temp_file)
         )
         
-        # 3. DINAMISMO & CONTRATO DE ALERTAS:
-        # Buscamos a lista real gerada pelo seu motor de análise cruzada (incompativeis.py).
-        # Se ela não existir ou estiver vazia, avaliamos se é um teste do editor do Bubble.
+        # 3. TRATAMENTO DINÂMICO DE GAVETAS E METADADOS REAIS (Sem dados estáticos)
+        # Varre as possíveis gavetas geradas pelo core para estruturar os dados que o Bubble espera
+        chaves_gavetas = ["remedio_solidos", "remedio_liquidos", "remedio_injetavel", "remedio_colirio", "nao_identificados"]
+        
+        for chave_gaveta in chaves_gavetas:
+            if chave_gaveta in prontuario_final_categorizado and isinstance(prontuario_final_categorizado[chave_gaveta], list):
+                for remedio in prontuario_final_categorizado[chave_gaveta]:
+                    
+                    # Captura dinâmica dos efeitos gerados pelas suas rotinas em disco
+                    if "efeitos_colaterais" not in remedio and "detalhes" in remedio:
+                        remedio["efeitos_colaterais"] = remedio["detalhes"]
+                    elif "efeitos_colaterais" not in remedio:
+                        remedio["efeitos_colaterais"] = "" # Preserva campo sem injetar textos falsos/mocados
+                    
+                    # Define dinamicamente o nome da gaveta baseado na lista de match
+                    remedio["gaveta_nome"] = chave_gaveta
+
+        # 4. DINAMISMO PURO DE ALERTAS:
+        # Se o seu motor farmacêutico (incompativeis.py) não gerou a chave ou ela veio vazia,
+        # apenas garantimos que uma lista vazia válida seja enviada para a interface não quebrar.
         if "alertas_incompatibilidade" not in prontuario_final_categorizado or not prontuario_final_categorizado["alertas_incompatibilidade"]:
-            
-            # Se for o ID de teste fixo "1" ou nome padrão do editor do Bubble,
-            # forçamos a amostra populada para o Bubble capturar o Schema de primeira!
-            if str(payload.patient_id) == "1" or "Irineu" in str(payload.patient_name):
-                logger.info("Injetando amostra estruturada de alertas para validação no Bubble API Connector...")
-                prontuario_final_categorizado["alertas_incompatibilidade"] = [
-                    {
-                        "medicamento_1": "Fenobarbital",
-                        "horario_1": "noite (20:00)",
-                        "medicamento_2": "Harvoni",
-                        "horario_2": "noite (20:00)",
-                        "severidade": "ALTA",
-                        "conflito_horario": True,
-                        "detalhes": [
-                            "Incompatibilidade descrita para Harvoni: 'Fenobarbital'"
-                        ],
-                        "fonte": "base_local"
-                    }
-                ]
-            else:
-                # No uso real do aplicativo, se não houver riscos, devolve a lista limpa
-                prontuario_final_categorizado["alertas_incompatibilidade"] = []
+            prontuario_final_categorizado["alertas_incompatibilidade"] = []
 
         logger.info(f"Pipeline concluído com sucesso para o paciente {payload.patient_id}. Enviando resposta...")
         
-        # 4. Devolve o prontuário perfeitamente formatado e categorizado por gavetas para a UI
+        # 5. Devolve o prontuário gerado em tempo real com todas as gavetas e interações limpas
         return prontuario_final_categorizado
 
     except json.JSONDecodeError as jde:

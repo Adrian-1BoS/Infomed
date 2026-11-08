@@ -4,7 +4,7 @@
 """
 
 from pathlib import Path
-import sys
+import sys, os
 import json
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -174,11 +174,32 @@ def processar_tratamento_completo(usuario_json_path, db_json_path, output_json_p
     
     print("\nIniciando análise cruzada de incompatibilidades do paciente...")
     try:
-        verificar_incompatibilidades(output_json_path, db_json_path, str(DATA_DIR / "relatorio_incompatibilidades.json"))
+        relatorio_path = str(DATA_DIR / "relatorio_incompatibilidades.json")
+        verificar_incompatibilidades(output_json_path, db_json_path, relatorio_path)
         print("[Sucesso] Relatório de incompatibilidades gerado.")
+        
+        # ⚡ LEITURA ROBUSTA: Abre o arquivo gerado fisicamente em disco pela IA
+        if os.path.exists(relatorio_path):
+            with open(relatorio_path, 'r', encoding='utf-8') as rf:
+                relatorio_dados = json.load(rf)
+                
+                # Desembrulha o JSON dinamicamente, não importa o formato de escrita do motor
+                if isinstance(relatorio_dados, dict) and "alertas_incompatibilidade" in relatorio_dados:
+                    dados_finais_paciente["alertas_incompatibilidade"] = relatorio_dados["alertas_incompatibilidade"]
+                elif isinstance(relatorio_dados, dict) and "alertas" in relatorio_dados:
+                    dados_finais_paciente["alertas_incompatibilidade"] = relatorio_dados["alertas"]
+                elif isinstance(relatorio_dados, list):
+                    dados_finais_paciente["alertas_incompatibilidade"] = relatorio_dados
+                else:
+                    dados_finais_paciente["alertas_incompatibilidade"] = []
+        else:
+            dados_finais_paciente["alertas_incompatibilidade"] = []
+                    
     except Exception as e:
         print(f"[Erro] Falha ao rodar a análise de incompatibilidades do paciente: {e}")
+        dados_finais_paciente["alertas_incompatibilidade"] = []
 
+    # Devolve o dicionário contendo as gavetas populadas e as interações extraídas do disco
     return dados_finais_paciente
 
 if __name__ == "__main__":
