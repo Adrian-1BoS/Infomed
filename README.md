@@ -13,10 +13,10 @@ O Infomed é uma plataforma de gestão de estoque e triagem de compatibilidade. 
 No Python, temos alguns motores;
 
 ### app.py
-
+Aqui funciona como uma escuta, traz as informações do bubble e quando processado leva de volta quando os dados são processados, para o bubble e para o n8n
 
 ### ai_handler.py
-[ai_handler.py](core/ia/ai_handler.py) basicamente é o aquivo de chamada/comunicação com as ias do [google](https://aistudio.google.com) e do [groq](https://console.groq.com) (configure suas apis em .env.example) se uma não retornar ou falhar no meio do caminho, a outra continua de onde parou. Servindo principalmete para receber e devolver prompts, se ja tiver configurado seu .env, pode utilizar o teste_ai.py para ver se retornam.
+[ai_handler.py](core/ia/ai_handler.py) basicamente é o arquivo de chamada/comunicação com as ias do [google](https://aistudio.google.com) e do [groq](https://console.groq.com) (configure suas apis em .env.example) se uma não retornar ou falhar no meio do caminho, a outra continua de onde parou. Servindo principalmente para receber e devolver prompts, se ja tiver configurado seu .env, pode utilizar o teste_ai.py para ver se retornam.
 
 ### complementos.py
 [complementos.py](core/complementos.py) ele busca os dados no [db](data/solidificados.json) e se tiver dados fatando, ele complementa os dados de capos imcompatibilidades e efeitos colaterais que veio da requisição do remedio x usando prompt de contexto e os de busca, veja em prompt_farmaceutico; montado para encaixotar o que veio da UI o maximo possivel para entregar o melhor resultado no match.
