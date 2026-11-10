@@ -4,6 +4,8 @@
 
 O Infomed é uma plataforma de gestão de estoque e triagem de compatibilidade. Podendo ser usado por 1 pessoa ou 1 cuidador que gerencia os medicamentos de seus pacientes.
 
+![fluxograma](data/images/Fluxograma.png)
+
 # Backend com python
 
 No Python, temos alguns motores;
