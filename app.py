@@ -293,4 +293,4 @@ if __name__ == "__main__":
     import uvicorn
     # Liga o servidor na porta 8080 apontando para o proxy de rede do PowerShell.
     # O parâmetro 'reload=True' atualiza o servidor automaticamente ao alterar o arquivo.
-    uvicorn.run("app:app", host="127.0.0.1", port=8090, reload=True)
+    uvicorn.run("app:app", host="127.0.0.1", port=8080, reload=True)

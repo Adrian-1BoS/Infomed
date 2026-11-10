@@ -8346,8 +8346,26 @@
             "codigo_area_atuacao": "J1C1",
             "area_atuacao": "PENICILINAS ORAIS DE AMPLO ESPECTRO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "colite pseudomembranosa",
+                "hipersensibilidade grave (anafilaxia)",
+                "elevação de enzimas hepáticas",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "warfarina (potencializa efeito anticoagulante)",
+                "probenecida (reduz excreção renal)",
+                "anticoncepcionais orais (pode reduzir eficácia)",
+                "metotrexato (aumenta toxicidade)",
+                "antibióticos bacteriostáticos (ex.: tetraciclina, cloranfenicol, macrolídeos) – antagonismo bactericida",
+                "alopurinol (aumenta risco de rash)",
+                "vacinas de vida viva (pode reduzir resposta imune)"
+            ],
             "mg_ml": 50.0
         },
         {
@@ -8360,8 +8378,26 @@
             "codigo_area_atuacao": "J1C1",
             "area_atuacao": "PENICILINAS ORAIS DE AMPLO ESPECTRO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "colite pseudomembranosa",
+                "hipersensibilidade grave (anafilaxia)",
+                "elevação de enzimas hepáticas",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "warfarina (potencializa efeito anticoagulante)",
+                "probenecida (reduz excreção renal)",
+                "anticoncepcionais orais (pode reduzir eficácia)",
+                "metotrexato (aumenta toxicidade)",
+                "antibióticos bacteriostáticos (ex.: tetraciclina, cloranfenicol, macrolídeos) – antagonismo bactericida",
+                "alopurinol (aumenta risco de rash)",
+                "vacinas de vida viva (pode reduzir resposta imune)"
+            ],
             "mg": 500.0
         },
         {
@@ -8406,8 +8442,26 @@
             "codigo_area_atuacao": "J1C1",
             "area_atuacao": "PENICILINAS ORAIS DE AMPLO ESPECTRO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "colite pseudomembranosa",
+                "hipersensibilidade grave (anafilaxia)",
+                "elevação de enzimas hepáticas",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "warfarina (potencializa efeito anticoagulante)",
+                "probenecida (reduz excreção renal)",
+                "anticoncepcionais orais (pode reduzir eficácia)",
+                "metotrexato (aumenta toxicidade)",
+                "antibióticos bacteriostáticos (ex.: tetraciclina, cloranfenicol, macrolídeos) – antagonismo bactericida",
+                "alopurinol (aumenta risco de rash)",
+                "vacinas de vida viva (pode reduzir resposta imune)"
+            ],
             "mg_ml": 50.0
         },
         {
@@ -8420,8 +8474,26 @@
             "codigo_area_atuacao": "J1C1",
             "area_atuacao": "PENICILINAS ORAIS DE AMPLO ESPECTRO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "colite pseudomembranosa",
+                "hipersensibilidade grave (anafilaxia)",
+                "elevação de enzimas hepáticas",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "warfarina (potencializa efeito anticoagulante)",
+                "probenecida (reduz excreção renal)",
+                "anticoncepcionais orais (pode reduzir eficácia)",
+                "metotrexato (aumenta toxicidade)",
+                "antibióticos bacteriostáticos (ex.: tetraciclina, cloranfenicol, macrolídeos) – antagonismo bactericida",
+                "alopurinol (aumenta risco de rash)",
+                "vacinas de vida viva (pode reduzir resposta imune)"
+            ],
             "mg": 500.0
         },
         {
@@ -8434,8 +8506,26 @@
             "codigo_area_atuacao": "J1C1",
             "area_atuacao": "PENICILINAS ORAIS DE AMPLO ESPECTRO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "colite pseudomembranosa",
+                "hipersensibilidade grave (anafilaxia)",
+                "elevação de enzimas hepáticas",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "warfarina (potencializa efeito anticoagulante)",
+                "probenecida (reduz excreção renal)",
+                "anticoncepcionais orais (pode reduzir eficácia)",
+                "metotrexato (aumenta toxicidade)",
+                "antibióticos bacteriostáticos (ex.: tetraciclina, cloranfenicol, macrolídeos) – antagonismo bactericida",
+                "alopurinol (aumenta risco de rash)",
+                "vacinas de vida viva (pode reduzir resposta imune)"
+            ],
             "mg": 500.0
         },
         {
@@ -8448,8 +8538,26 @@
             "codigo_area_atuacao": "J1C1",
             "area_atuacao": "PENICILINAS ORAIS DE AMPLO ESPECTRO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "colite pseudomembranosa",
+                "hipersensibilidade grave (anafilaxia)",
+                "elevação de enzimas hepáticas",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "warfarina (potencializa efeito anticoagulante)",
+                "probenecida (reduz excreção renal)",
+                "anticoncepcionais orais (pode reduzir eficácia)",
+                "metotrexato (aumenta toxicidade)",
+                "antibióticos bacteriostáticos (ex.: tetraciclina, cloranfenicol, macrolídeos) – antagonismo bactericida",
+                "alopurinol (aumenta risco de rash)",
+                "vacinas de vida viva (pode reduzir resposta imune)"
+            ],
             "mg": 500.0
         },
         {
@@ -8462,8 +8570,26 @@
             "codigo_area_atuacao": "J1C1",
             "area_atuacao": "PENICILINAS ORAIS DE AMPLO ESPECTRO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "colite pseudomembranosa",
+                "hipersensibilidade grave (anafilaxia)",
+                "elevação de enzimas hepáticas",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "warfarina (potencializa efeito anticoagulante)",
+                "probenecida (reduz excreção renal)",
+                "anticoncepcionais orais (pode reduzir eficácia)",
+                "metotrexato (aumenta toxicidade)",
+                "antibióticos bacteriostáticos (ex.: tetraciclina, cloranfenicol, macrolídeos) – antagonismo bactericida",
+                "alopurinol (aumenta risco de rash)",
+                "vacinas de vida viva (pode reduzir resposta imune)"
+            ],
             "mg": 500.0
         },
         {
@@ -8476,8 +8602,26 @@
             "codigo_area_atuacao": "J1C1",
             "area_atuacao": "PENICILINAS ORAIS DE AMPLO ESPECTRO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "colite pseudomembranosa",
+                "hipersensibilidade grave (anafilaxia)",
+                "elevação de enzimas hepáticas",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "warfarina (potencializa efeito anticoagulante)",
+                "probenecida (reduz excreção renal)",
+                "anticoncepcionais orais (pode reduzir eficácia)",
+                "metotrexato (aumenta toxicidade)",
+                "antibióticos bacteriostáticos (ex.: tetraciclina, cloranfenicol, macrolídeos) – antagonismo bactericida",
+                "alopurinol (aumenta risco de rash)",
+                "vacinas de vida viva (pode reduzir resposta imune)"
+            ],
             "mg": 500.0
         },
         {
@@ -8490,8 +8634,26 @@
             "codigo_area_atuacao": "J1C1",
             "area_atuacao": "PENICILINAS ORAIS DE AMPLO ESPECTRO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "colite pseudomembranosa",
+                "hipersensibilidade grave (anafilaxia)",
+                "elevação de enzimas hepáticas",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "warfarina (potencializa efeito anticoagulante)",
+                "probenecida (reduz excreção renal)",
+                "anticoncepcionais orais (pode reduzir eficácia)",
+                "metotrexato (aumenta toxicidade)",
+                "antibióticos bacteriostáticos (ex.: tetraciclina, cloranfenicol, macrolídeos) – antagonismo bactericida",
+                "alopurinol (aumenta risco de rash)",
+                "vacinas de vida viva (pode reduzir resposta imune)"
+            ],
             "mg": 500.0
         },
         {
@@ -8504,8 +8666,26 @@
             "codigo_area_atuacao": "J1C1",
             "area_atuacao": "PENICILINAS ORAIS DE AMPLO ESPECTRO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "colite pseudomembranosa",
+                "hipersensibilidade grave (anafilaxia)",
+                "elevação de enzimas hepáticas",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "warfarina (potencializa efeito anticoagulante)",
+                "probenecida (reduz excreção renal)",
+                "anticoncepcionais orais (pode reduzir eficácia)",
+                "metotrexato (aumenta toxicidade)",
+                "antibióticos bacteriostáticos (ex.: tetraciclina, cloranfenicol, macrolídeos) – antagonismo bactericida",
+                "alopurinol (aumenta risco de rash)",
+                "vacinas de vida viva (pode reduzir resposta imune)"
+            ],
             "mg": 500.0
         },
         {
@@ -8518,8 +8698,26 @@
             "codigo_area_atuacao": "J1C1",
             "area_atuacao": "PENICILINAS ORAIS DE AMPLO ESPECTRO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "colite pseudomembranosa",
+                "hipersensibilidade grave (anafilaxia)",
+                "elevação de enzimas hepáticas",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "warfarina (potencializa efeito anticoagulante)",
+                "probenecida (reduz excreção renal)",
+                "anticoncepcionais orais (pode reduzir eficácia)",
+                "metotrexato (aumenta toxicidade)",
+                "antibióticos bacteriostáticos (ex.: tetraciclina, cloranfenicol, macrolídeos) – antagonismo bactericida",
+                "alopurinol (aumenta risco de rash)",
+                "vacinas de vida viva (pode reduzir resposta imune)"
+            ],
             "mg": 500.0
         },
         {
@@ -8532,8 +8730,26 @@
             "codigo_area_atuacao": "J1C1",
             "area_atuacao": "PENICILINAS ORAIS DE AMPLO ESPECTRO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "colite pseudomembranosa",
+                "hipersensibilidade grave (anafilaxia)",
+                "elevação de enzimas hepáticas",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "warfarina (potencializa efeito anticoagulante)",
+                "probenecida (reduz excreção renal)",
+                "anticoncepcionais orais (pode reduzir eficácia)",
+                "metotrexato (aumenta toxicidade)",
+                "antibióticos bacteriostáticos (ex.: tetraciclina, cloranfenicol, macrolídeos) – antagonismo bactericida",
+                "alopurinol (aumenta risco de rash)",
+                "vacinas de vida viva (pode reduzir resposta imune)"
+            ],
             "mg_ml": 50.0
         },
         {
@@ -8546,8 +8762,26 @@
             "codigo_area_atuacao": "J1C1",
             "area_atuacao": "PENICILINAS ORAIS DE AMPLO ESPECTRO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "colite pseudomembranosa",
+                "hipersensibilidade grave (anafilaxia)",
+                "elevação de enzimas hepáticas",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "warfarina (potencializa efeito anticoagulante)",
+                "probenecida (reduz excreção renal)",
+                "anticoncepcionais orais (pode reduzir eficácia)",
+                "metotrexato (aumenta toxicidade)",
+                "antibióticos bacteriostáticos (ex.: tetraciclina, cloranfenicol, macrolídeos) – antagonismo bactericida",
+                "alopurinol (aumenta risco de rash)",
+                "vacinas de vida viva (pode reduzir resposta imune)"
+            ],
             "mg_ml": 50.0
         },
         {
@@ -8560,8 +8794,26 @@
             "codigo_area_atuacao": "J1C1",
             "area_atuacao": "PENICILINAS ORAIS DE AMPLO ESPECTRO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "colite pseudomembranosa",
+                "hipersensibilidade grave (anafilaxia)",
+                "elevação de enzimas hepáticas",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "warfarina (potencializa efeito anticoagulante)",
+                "probenecida (reduz excreção renal)",
+                "anticoncepcionais orais (pode reduzir eficácia)",
+                "metotrexato (aumenta toxicidade)",
+                "antibióticos bacteriostáticos (ex.: tetraciclina, cloranfenicol, macrolídeos) – antagonismo bactericida",
+                "alopurinol (aumenta risco de rash)",
+                "vacinas de vida viva (pode reduzir resposta imune)"
+            ],
             "mg_ml": 50.0
         },
         {
@@ -8574,8 +8826,26 @@
             "codigo_area_atuacao": "J1C1",
             "area_atuacao": "PENICILINAS ORAIS DE AMPLO ESPECTRO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "colite pseudomembranosa",
+                "hipersensibilidade grave (anafilaxia)",
+                "elevação de enzimas hepáticas",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "warfarina (potencializa efeito anticoagulante)",
+                "probenecida (reduz excreção renal)",
+                "anticoncepcionais orais (pode reduzir eficácia)",
+                "metotrexato (aumenta toxicidade)",
+                "antibióticos bacteriostáticos (ex.: tetraciclina, cloranfenicol, macrolídeos) – antagonismo bactericida",
+                "alopurinol (aumenta risco de rash)",
+                "vacinas de vida viva (pode reduzir resposta imune)"
+            ],
             "mg_ml": 50.0
         },
         {
@@ -8718,8 +8988,25 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "urticária",
+                "reação de hipersensibilidade grave (anafilaxia)",
+                "colite pseudomembranosa",
+                "elevação de enzimas hepáticas"
+            ],
+            "incompatibilidades": [
+                "antibióticos bacteriostáticos (tetraciclinas, cloranfenicol, macrolídeos)",
+                "antácidos contendo alumínio ou magnésio",
+                "suplementos de ferro, zinco ou cálcio",
+                "metotrexato (aumento de toxicidade)",
+                "allopurinol (aumento de rash cutâneo)",
+                "probenecida (aumento de concentração plasmática da amoxicilina)"
+            ],
             "mg": 875.0
         },
         {
@@ -8782,8 +9069,25 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "urticária",
+                "reação de hipersensibilidade grave (anafilaxia)",
+                "colite pseudomembranosa",
+                "elevação de enzimas hepáticas"
+            ],
+            "incompatibilidades": [
+                "antibióticos bacteriostáticos (tetraciclinas, cloranfenicol, macrolídeos)",
+                "antácidos contendo alumínio ou magnésio",
+                "suplementos de ferro, zinco ou cálcio",
+                "metotrexato (aumento de toxicidade)",
+                "allopurinol (aumento de rash cutâneo)",
+                "probenecida (aumento de concentração plasmática da amoxicilina)"
+            ],
             "mg_ml": 50.0
         },
         {
@@ -8798,8 +9102,25 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "urticária",
+                "reação de hipersensibilidade grave (anafilaxia)",
+                "colite pseudomembranosa",
+                "elevação de enzimas hepáticas"
+            ],
+            "incompatibilidades": [
+                "antibióticos bacteriostáticos (tetraciclinas, cloranfenicol, macrolídeos)",
+                "antácidos contendo alumínio ou magnésio",
+                "suplementos de ferro, zinco ou cálcio",
+                "metotrexato (aumento de toxicidade)",
+                "allopurinol (aumento de rash cutâneo)",
+                "probenecida (aumento de concentração plasmática da amoxicilina)"
+            ],
             "mg_ml": 100.0
         },
         {
@@ -8846,8 +9167,25 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "urticária",
+                "reação de hipersensibilidade grave (anafilaxia)",
+                "colite pseudomembranosa",
+                "elevação de enzimas hepáticas"
+            ],
+            "incompatibilidades": [
+                "antibióticos bacteriostáticos (tetraciclinas, cloranfenicol, macrolídeos)",
+                "antácidos contendo alumínio ou magnésio",
+                "suplementos de ferro, zinco ou cálcio",
+                "metotrexato (aumento de toxicidade)",
+                "allopurinol (aumento de rash cutâneo)",
+                "probenecida (aumento de concentração plasmática da amoxicilina)"
+            ],
             "mg": 500.0
         },
         {
@@ -8862,8 +9200,25 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "urticária",
+                "reação de hipersensibilidade grave (anafilaxia)",
+                "colite pseudomembranosa",
+                "elevação de enzimas hepáticas"
+            ],
+            "incompatibilidades": [
+                "antibióticos bacteriostáticos (tetraciclinas, cloranfenicol, macrolídeos)",
+                "antácidos contendo alumínio ou magnésio",
+                "suplementos de ferro, zinco ou cálcio",
+                "metotrexato (aumento de toxicidade)",
+                "allopurinol (aumento de rash cutâneo)",
+                "probenecida (aumento de concentração plasmática da amoxicilina)"
+            ],
             "mg_ml": 50.0
         },
         {
@@ -8878,8 +9233,25 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "urticária",
+                "reação de hipersensibilidade grave (anafilaxia)",
+                "colite pseudomembranosa",
+                "elevação de enzimas hepáticas"
+            ],
+            "incompatibilidades": [
+                "antibióticos bacteriostáticos (tetraciclinas, cloranfenicol, macrolídeos)",
+                "antácidos contendo alumínio ou magnésio",
+                "suplementos de ferro, zinco ou cálcio",
+                "metotrexato (aumento de toxicidade)",
+                "allopurinol (aumento de rash cutâneo)",
+                "probenecida (aumento de concentração plasmática da amoxicilina)"
+            ],
             "mg_ml": 50.0
         },
         {
@@ -8910,8 +9282,25 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "urticária",
+                "reação de hipersensibilidade grave (anafilaxia)",
+                "colite pseudomembranosa",
+                "elevação de enzimas hepáticas"
+            ],
+            "incompatibilidades": [
+                "antibióticos bacteriostáticos (tetraciclinas, cloranfenicol, macrolídeos)",
+                "antácidos contendo alumínio ou magnésio",
+                "suplementos de ferro, zinco ou cálcio",
+                "metotrexato (aumento de toxicidade)",
+                "allopurinol (aumento de rash cutâneo)",
+                "probenecida (aumento de concentração plasmática da amoxicilina)"
+            ],
             "mg": 500.0
         },
         {
@@ -8926,8 +9315,25 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "urticária",
+                "reação de hipersensibilidade grave (anafilaxia)",
+                "colite pseudomembranosa",
+                "elevação de enzimas hepáticas"
+            ],
+            "incompatibilidades": [
+                "antibióticos bacteriostáticos (tetraciclinas, cloranfenicol, macrolídeos)",
+                "antácidos contendo alumínio ou magnésio",
+                "suplementos de ferro, zinco ou cálcio",
+                "metotrexato (aumento de toxicidade)",
+                "allopurinol (aumento de rash cutâneo)",
+                "probenecida (aumento de concentração plasmática da amoxicilina)"
+            ],
             "mg": 500.0
         },
         {
@@ -8942,8 +9348,25 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "urticária",
+                "reação de hipersensibilidade grave (anafilaxia)",
+                "colite pseudomembranosa",
+                "elevação de enzimas hepáticas"
+            ],
+            "incompatibilidades": [
+                "antibióticos bacteriostáticos (tetraciclinas, cloranfenicol, macrolídeos)",
+                "antácidos contendo alumínio ou magnésio",
+                "suplementos de ferro, zinco ou cálcio",
+                "metotrexato (aumento de toxicidade)",
+                "allopurinol (aumento de rash cutâneo)",
+                "probenecida (aumento de concentração plasmática da amoxicilina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9006,8 +9429,25 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "urticária",
+                "reação de hipersensibilidade grave (anafilaxia)",
+                "colite pseudomembranosa",
+                "elevação de enzimas hepáticas"
+            ],
+            "incompatibilidades": [
+                "antibióticos bacteriostáticos (tetraciclinas, cloranfenicol, macrolídeos)",
+                "antácidos contendo alumínio ou magnésio",
+                "suplementos de ferro, zinco ou cálcio",
+                "metotrexato (aumento de toxicidade)",
+                "allopurinol (aumento de rash cutâneo)",
+                "probenecida (aumento de concentração plasmática da amoxicilina)"
+            ],
             "mg": 875.0
         },
         {
@@ -9182,8 +9622,25 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "urticária",
+                "reação de hipersensibilidade grave (anafilaxia)",
+                "colite pseudomembranosa",
+                "elevação de enzimas hepáticas"
+            ],
+            "incompatibilidades": [
+                "antibióticos bacteriostáticos (tetraciclinas, cloranfenicol, macrolídeos)",
+                "antácidos contendo alumínio ou magnésio",
+                "suplementos de ferro, zinco ou cálcio",
+                "metotrexato (aumento de toxicidade)",
+                "allopurinol (aumento de rash cutâneo)",
+                "probenecida (aumento de concentração plasmática da amoxicilina)"
+            ],
             "mg_ml": 50.0
         },
         {
@@ -9198,8 +9655,25 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "urticária",
+                "reação de hipersensibilidade grave (anafilaxia)",
+                "colite pseudomembranosa",
+                "elevação de enzimas hepáticas"
+            ],
+            "incompatibilidades": [
+                "antibióticos bacteriostáticos (tetraciclinas, cloranfenicol, macrolídeos)",
+                "antácidos contendo alumínio ou magnésio",
+                "suplementos de ferro, zinco ou cálcio",
+                "metotrexato (aumento de toxicidade)",
+                "allopurinol (aumento de rash cutâneo)",
+                "probenecida (aumento de concentração plasmática da amoxicilina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9214,8 +9688,25 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "urticária",
+                "reação de hipersensibilidade grave (anafilaxia)",
+                "colite pseudomembranosa",
+                "elevação de enzimas hepáticas"
+            ],
+            "incompatibilidades": [
+                "antibióticos bacteriostáticos (tetraciclinas, cloranfenicol, macrolídeos)",
+                "antácidos contendo alumínio ou magnésio",
+                "suplementos de ferro, zinco ou cálcio",
+                "metotrexato (aumento de toxicidade)",
+                "allopurinol (aumento de rash cutâneo)",
+                "probenecida (aumento de concentração plasmática da amoxicilina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9230,8 +9721,25 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "urticária",
+                "reação de hipersensibilidade grave (anafilaxia)",
+                "colite pseudomembranosa",
+                "elevação de enzimas hepáticas"
+            ],
+            "incompatibilidades": [
+                "antibióticos bacteriostáticos (tetraciclinas, cloranfenicol, macrolídeos)",
+                "antácidos contendo alumínio ou magnésio",
+                "suplementos de ferro, zinco ou cálcio",
+                "metotrexato (aumento de toxicidade)",
+                "allopurinol (aumento de rash cutâneo)",
+                "probenecida (aumento de concentração plasmática da amoxicilina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9246,8 +9754,25 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "urticária",
+                "reação de hipersensibilidade grave (anafilaxia)",
+                "colite pseudomembranosa",
+                "elevação de enzimas hepáticas"
+            ],
+            "incompatibilidades": [
+                "antibióticos bacteriostáticos (tetraciclinas, cloranfenicol, macrolídeos)",
+                "antácidos contendo alumínio ou magnésio",
+                "suplementos de ferro, zinco ou cálcio",
+                "metotrexato (aumento de toxicidade)",
+                "allopurinol (aumento de rash cutâneo)",
+                "probenecida (aumento de concentração plasmática da amoxicilina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9262,8 +9787,25 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "urticária",
+                "reação de hipersensibilidade grave (anafilaxia)",
+                "colite pseudomembranosa",
+                "elevação de enzimas hepáticas"
+            ],
+            "incompatibilidades": [
+                "antibióticos bacteriostáticos (tetraciclinas, cloranfenicol, macrolídeos)",
+                "antácidos contendo alumínio ou magnésio",
+                "suplementos de ferro, zinco ou cálcio",
+                "metotrexato (aumento de toxicidade)",
+                "allopurinol (aumento de rash cutâneo)",
+                "probenecida (aumento de concentração plasmática da amoxicilina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9278,8 +9820,25 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "urticária",
+                "reação de hipersensibilidade grave (anafilaxia)",
+                "colite pseudomembranosa",
+                "elevação de enzimas hepáticas"
+            ],
+            "incompatibilidades": [
+                "antibióticos bacteriostáticos (tetraciclinas, cloranfenicol, macrolídeos)",
+                "antácidos contendo alumínio ou magnésio",
+                "suplementos de ferro, zinco ou cálcio",
+                "metotrexato (aumento de toxicidade)",
+                "allopurinol (aumento de rash cutâneo)",
+                "probenecida (aumento de concentração plasmática da amoxicilina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9310,8 +9869,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9326,8 +9903,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9342,8 +9937,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 875.0
         },
         {
@@ -9438,8 +10051,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9454,8 +10085,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9470,8 +10119,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9486,8 +10153,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 875.0
         },
         {
@@ -9502,8 +10187,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9614,8 +10317,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 875.0
         },
         {
@@ -9630,8 +10351,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9646,8 +10385,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9662,8 +10419,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 875.0
         },
         {
@@ -9710,8 +10485,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9742,8 +10535,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9758,8 +10569,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg_ml": 50.0
         },
         {
@@ -9774,8 +10603,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg_ml": 50.0
         },
         {
@@ -9790,8 +10637,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg_ml": 50.0
         },
         {
@@ -9806,8 +10671,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9822,8 +10705,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9838,8 +10739,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9854,8 +10773,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9870,8 +10807,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9886,8 +10841,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 500.0
         },
         {
@@ -9902,8 +10875,26 @@
             "nomes_alternativos": [
                 "Amoxicilina Trihidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Náuseas",
+                "Vômitos",
+                "Diarréia",
+                "Colite pseudomembranosa",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade",
+                "Hepatotoxicidade",
+                "Neutropenia",
+                "Alterações renais"
+            ],
+            "incompatibilidades": [
+                "Antiácidos contendo alumínio ou magnésio",
+                "Sucralfato",
+                "Tetraciclina",
+                "Cloranfenicol",
+                "Macrolídeos (ex.: eritromicina)",
+                "Uso concomitante com bacteriostáticos (ex.: clindamicina)"
+            ],
             "mg": 500.0
         },
         {
@@ -10387,8 +11378,24 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Diarreia",
+                "Náuseas",
+                "Vômitos",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade graves (anafilaxia)",
+                "Colite pseudomembranosa",
+                "Alterações hepáticas (elevações de enzimas)",
+                "Candidíase oral"
+            ],
+            "incompatibilidades": [
+                "Probenecida",
+                "Anticoncepcional oral",
+                "Varfarina",
+                "Metotrexato",
+                "Alopurinol"
+            ],
             "mg_ml": 100.0
         },
         {
@@ -51543,8 +52550,26 @@
             "nomes_alternativos": [
                 "Citrato De Cafeína"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Insônia",
+                "Taquicardia",
+                "Palpitações",
+                "Náusea",
+                "Vômito",
+                "Ansiedade",
+                "Tremores",
+                "Hipertensão arterial",
+                "Distúrbios gastrointestinais",
+                "Alterações do sono"
+            ],
+            "incompatibilidades": [
+                "Inibidores da CYP1A2 (ex.: ciprofloxacino, fluvoxamina)",
+                "Antidepressivos tricíclicos",
+                "Inibidores da monoamina oxidase (IMAO)",
+                "Anticoagulantes orais (ex.: varfarina)",
+                "Anti‑hipertensivos (ex.: betabloqueadores)",
+                "Ácido acetilsalicílico – risco de toxicidade gástrica"
+            ],
             "mg": 530.0
         },
         {
@@ -192039,8 +193064,26 @@
             "nomes_alternativos": [
                 "Insulina Humana"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "hipoglicemia",
+                "hiperinsulinemia",
+                "ganho de peso",
+                "edema periférico",
+                "reação local no sítio de aplicação (vermelhidão, prurido, dor)",
+                "hipersensibilidade (rash, urticária, anafilaxia)",
+                "cãibras musculares",
+                "náusea",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "betabloqueadores (mascaram sinais de hipoglicemia)",
+                "agentes simpaticomiméticos (potencializam hiperglicemia)",
+                "corticoides (aumentam necessidade de insulina)",
+                "diuréticos tiazídicos (reduzem glicemia)",
+                "ácidos alfa‑hidroxílicos e retinoides tópicos (aumentam risco de hipoglicemia local)",
+                "sulfonilureias (potencializam hipoglicemia)",
+                "inibidores da DPP‑4 (potencializam hipoglicemia)"
+            ],
             "mg": 0.7
         },
         {
@@ -192055,8 +193098,26 @@
             "nomes_alternativos": [
                 "Insulina Humana"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "hipoglicemia",
+                "hiperinsulinemia",
+                "ganho de peso",
+                "edema periférico",
+                "reação local no sítio de aplicação (vermelhidão, prurido, dor)",
+                "hipersensibilidade (rash, urticária, anafilaxia)",
+                "cãibras musculares",
+                "náusea",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "betabloqueadores (mascaram sinais de hipoglicemia)",
+                "agentes simpaticomiméticos (potencializam hiperglicemia)",
+                "corticoides (aumentam necessidade de insulina)",
+                "diuréticos tiazídicos (reduzem glicemia)",
+                "ácidos alfa‑hidroxílicos e retinoides tópicos (aumentam risco de hipoglicemia local)",
+                "sulfonilureias (potencializam hipoglicemia)",
+                "inibidores da DPP‑4 (potencializam hipoglicemia)"
+            ],
             "mg": 1.0
         },
         {
@@ -192071,8 +193132,26 @@
             "nomes_alternativos": [
                 "Insulina Humana"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "hipoglicemia",
+                "hiperinsulinemia",
+                "ganho de peso",
+                "edema periférico",
+                "reação local no sítio de aplicação (vermelhidão, prurido, dor)",
+                "hipersensibilidade (rash, urticária, anafilaxia)",
+                "cãibras musculares",
+                "náusea",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "betabloqueadores (mascaram sinais de hipoglicemia)",
+                "agentes simpaticomiméticos (potencializam hiperglicemia)",
+                "corticoides (aumentam necessidade de insulina)",
+                "diuréticos tiazídicos (reduzem glicemia)",
+                "ácidos alfa‑hidroxílicos e retinoides tópicos (aumentam risco de hipoglicemia local)",
+                "sulfonilureias (potencializam hipoglicemia)",
+                "inibidores da DPP‑4 (potencializam hipoglicemia)"
+            ],
             "mg": 0.35
         },
         {
@@ -192087,8 +193166,26 @@
             "nomes_alternativos": [
                 "Insulina Humana"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "hipoglicemia",
+                "hiperinsulinemia",
+                "ganho de peso",
+                "edema periférico",
+                "reação local no sítio de aplicação (vermelhidão, prurido, dor)",
+                "hipersensibilidade (rash, urticária, anafilaxia)",
+                "cãibras musculares",
+                "náusea",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "betabloqueadores (mascaram sinais de hipoglicemia)",
+                "agentes simpaticomiméticos (potencializam hiperglicemia)",
+                "corticoides (aumentam necessidade de insulina)",
+                "diuréticos tiazídicos (reduzem glicemia)",
+                "ácidos alfa‑hidroxílicos e retinoides tópicos (aumentam risco de hipoglicemia local)",
+                "sulfonilureias (potencializam hipoglicemia)",
+                "inibidores da DPP‑4 (potencializam hipoglicemia)"
+            ],
             "mg": 0.35
         },
         {
@@ -192103,8 +193200,26 @@
             "nomes_alternativos": [
                 "Insulina Humana"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "hipoglicemia",
+                "hiperinsulinemia",
+                "ganho de peso",
+                "edema periférico",
+                "reação local no sítio de aplicação (vermelhidão, prurido, dor)",
+                "hipersensibilidade (rash, urticária, anafilaxia)",
+                "cãibras musculares",
+                "náusea",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "betabloqueadores (mascaram sinais de hipoglicemia)",
+                "agentes simpaticomiméticos (potencializam hiperglicemia)",
+                "corticoides (aumentam necessidade de insulina)",
+                "diuréticos tiazídicos (reduzem glicemia)",
+                "ácidos alfa‑hidroxílicos e retinoides tópicos (aumentam risco de hipoglicemia local)",
+                "sulfonilureias (potencializam hipoglicemia)",
+                "inibidores da DPP‑4 (potencializam hipoglicemia)"
+            ],
             "mg": 0.7
         },
         {
@@ -192119,8 +193234,26 @@
             "nomes_alternativos": [
                 "Insulina Humana"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "hipoglicemia",
+                "hiperinsulinemia",
+                "ganho de peso",
+                "edema periférico",
+                "reação local no sítio de aplicação (vermelhidão, prurido, dor)",
+                "hipersensibilidade (rash, urticária, anafilaxia)",
+                "cãibras musculares",
+                "náusea",
+                "cefaleia"
+            ],
+            "incompatibilidades": [
+                "betabloqueadores (mascaram sinais de hipoglicemia)",
+                "agentes simpaticomiméticos (potencializam hiperglicemia)",
+                "corticoides (aumentam necessidade de insulina)",
+                "diuréticos tiazídicos (reduzem glicemia)",
+                "ácidos alfa‑hidroxílicos e retinoides tópicos (aumentam risco de hipoglicemia local)",
+                "sulfonilureias (potencializam hipoglicemia)",
+                "inibidores da DPP‑4 (potencializam hipoglicemia)"
+            ],
             "mg": 0.35
         },
         {
@@ -208281,8 +209414,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -208295,8 +209446,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -208341,8 +209510,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -208355,8 +209542,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 100.0
         },
         {
@@ -208369,8 +209574,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -208383,8 +209606,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 25.0
         },
         {
@@ -208397,8 +209638,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 25.0
         },
         {
@@ -208411,8 +209670,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 25.0
         },
         {
@@ -208425,8 +209702,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 25.0
         },
         {
@@ -208439,8 +209734,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -208453,8 +209766,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -208467,8 +209798,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -208481,8 +209830,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 100.0
         },
         {
@@ -208495,8 +209862,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -208509,8 +209894,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -208523,8 +209926,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -208649,8 +210070,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 100.0
         },
         {
@@ -208663,8 +210102,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -208789,8 +210246,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 100.0
         },
         {
@@ -208803,8 +210278,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 100.0
         },
         {
@@ -208817,8 +210310,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 100.0
         },
         {
@@ -208831,8 +210342,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 100.0
         },
         {
@@ -208845,8 +210374,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 100.0
         },
         {
@@ -208859,8 +210406,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 100.0
         },
         {
@@ -208873,8 +210438,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 100.0
         },
         {
@@ -208887,8 +210470,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 100.0
         },
         {
@@ -208901,8 +210502,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 100.0
         },
         {
@@ -208915,8 +210534,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -208929,8 +210566,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -208943,8 +210598,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -208957,8 +210630,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -208971,8 +210662,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -208985,8 +210694,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -208999,8 +210726,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -209013,8 +210758,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -209027,8 +210790,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -209041,8 +210822,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -209055,8 +210854,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -209069,8 +210886,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -209083,8 +210918,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -209097,8 +210950,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -209111,8 +210982,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 100.0
         },
         {
@@ -209125,8 +211014,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 100.0
         },
         {
@@ -209139,8 +211046,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -209153,8 +211078,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -209167,8 +211110,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -209181,8 +211142,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -209195,8 +211174,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -209209,8 +211206,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -209223,8 +211238,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -209349,8 +211382,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 100.0
         },
         {
@@ -209363,8 +211414,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -209377,8 +211446,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -209391,8 +211478,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 50.0
         },
         {
@@ -209405,8 +211510,26 @@
             "codigo_area_atuacao": "C9C",
             "area_atuacao": "ANTAGONISTAS DA ANGIOTENSINA II PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "tontura",
+                "hipotensão ortostática",
+                "hipercalemia",
+                "aumento da creatinina sérica",
+                "dor de cabeça",
+                "fadiga",
+                "náuseas",
+                "diarreia",
+                "rash cutâneo",
+                "disfunção sexual"
+            ],
+            "incompatibilidades": [
+                "aliskiren (em pacientes diabéticos ou com comprometimento renal)",
+                "suplementos ou alimentos ricos em potássio",
+                "diuréticos poupadores de potássio (ex.: espironolactona, triamtereno)",
+                "anti-inflamatórios não esteroides (AINEs)",
+                "ciclosporina",
+                "inibidores da enzima conversora de angiotensina (IECA) – risco de hipercalemia e insuficiência renal"
+            ],
             "mg": 100.0
         },
         {
@@ -307331,8 +309454,24 @@
                 "Ácido Acetilsalicílico",
                 "Cafeína"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Gastralgia e úlcera gástrica",
+                "Hemorragia gastrointestinal",
+                "Reações de hipersensibilidade cutânea",
+                "Tontura e zumbido (tinnitus)",
+                "Insônia, nervosismo e taquicardia",
+                "Hipertensão arterial",
+                "Irritabilidade"
+            ],
+            "incompatibilidades": [
+                "Anticoagulantes e antiagregantes plaquetários (ex.: varfarina, clopidogrel)",
+                "Corticosteroides (ex.: prednisona)",
+                "Inibidores da enzima conversora de angiotensina (ex.: enalapril)",
+                "Metotrexato",
+                "Álcool",
+                "Inibidores da monoamina oxidase (IMAO)",
+                "Inibidores da CYP1A2 (ex.: cimetidina)"
+            ],
             "mg": 530.0
         },
         {
@@ -307349,8 +309488,24 @@
                 "Ácido Acetilsalicílico",
                 "Cafeína"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Gastralgia e úlcera gástrica",
+                "Hemorragia gastrointestinal",
+                "Reações de hipersensibilidade cutânea",
+                "Tontura e zumbido (tinnitus)",
+                "Insônia, nervosismo e taquicardia",
+                "Hipertensão arterial",
+                "Irritabilidade"
+            ],
+            "incompatibilidades": [
+                "Anticoagulantes e antiagregantes plaquetários (ex.: varfarina, clopidogrel)",
+                "Corticosteroides (ex.: prednisona)",
+                "Inibidores da enzima conversora de angiotensina (ex.: enalapril)",
+                "Metotrexato",
+                "Álcool",
+                "Inibidores da monoamina oxidase (IMAO)",
+                "Inibidores da CYP1A2 (ex.: cimetidina)"
+            ],
             "mg": 530.0
         },
         {
@@ -340405,8 +342560,25 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "urticária",
+                "reação de hipersensibilidade grave (anafilaxia)",
+                "colite pseudomembranosa",
+                "elevação de enzimas hepáticas"
+            ],
+            "incompatibilidades": [
+                "antibióticos bacteriostáticos (tetraciclinas, cloranfenicol, macrolídeos)",
+                "antácidos contendo alumínio ou magnésio",
+                "suplementos de ferro, zinco ou cálcio",
+                "metotrexato (aumento de toxicidade)",
+                "allopurinol (aumento de rash cutâneo)",
+                "probenecida (aumento de concentração plasmática da amoxicilina)"
+            ],
             "mg_ml": 80.0
         },
         {
@@ -340453,8 +342625,25 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "urticária",
+                "reação de hipersensibilidade grave (anafilaxia)",
+                "colite pseudomembranosa",
+                "elevação de enzimas hepáticas"
+            ],
+            "incompatibilidades": [
+                "antibióticos bacteriostáticos (tetraciclinas, cloranfenicol, macrolídeos)",
+                "antácidos contendo alumínio ou magnésio",
+                "suplementos de ferro, zinco ou cálcio",
+                "metotrexato (aumento de toxicidade)",
+                "allopurinol (aumento de rash cutâneo)",
+                "probenecida (aumento de concentração plasmática da amoxicilina)"
+            ],
             "mg_ml": 50.0
         },
         {
@@ -340485,8 +342674,25 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "diarreia",
+                "náusea",
+                "vômito",
+                "erupção cutânea",
+                "prurido",
+                "urticária",
+                "reação de hipersensibilidade grave (anafilaxia)",
+                "colite pseudomembranosa",
+                "elevação de enzimas hepáticas"
+            ],
+            "incompatibilidades": [
+                "antibióticos bacteriostáticos (tetraciclinas, cloranfenicol, macrolídeos)",
+                "antácidos contendo alumínio ou magnésio",
+                "suplementos de ferro, zinco ou cálcio",
+                "metotrexato (aumento de toxicidade)",
+                "allopurinol (aumento de rash cutâneo)",
+                "probenecida (aumento de concentração plasmática da amoxicilina)"
+            ],
             "mg_ml": 80.0
         },
         {
@@ -340518,8 +342724,24 @@
             "nomes_alternativos": [
                 "Amoxicilina Tri-Hidratada"
             ],
-            "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "efeitos_colaterais": [
+                "Diarreia",
+                "Náuseas",
+                "Vômitos",
+                "Erupções cutâneas",
+                "Urticária",
+                "Reações de hipersensibilidade graves (anafilaxia)",
+                "Colite pseudomembranosa",
+                "Alterações hepáticas (elevações de enzimas)",
+                "Candidíase oral"
+            ],
+            "incompatibilidades": [
+                "Probenecida",
+                "Anticoncepcional oral",
+                "Varfarina",
+                "Metotrexato",
+                "Alopurinol"
+            ],
             "mg_ml": 80.0
         },
         {
