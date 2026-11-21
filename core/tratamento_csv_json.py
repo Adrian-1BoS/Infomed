@@ -35,10 +35,11 @@ def forma_farmaceutica(apresentacao):
 # Aproveita no csv e extrai a dosagem presente lá. Tem alguns remedios que apresentam calculos (a verificar)
 def dosagem(apresentacao):
     apres = str(apresentacao).upper()
-    
-    # 1. Regex Unificado: Captura números (incluindo expressões compostas dentro de parênteses como "(10 + 0,4)")
-    # ou números isolados colados/próximos das unidades válidas (MG/ML, U/ML, MU, MG/G, MG ou %).
-    # O uso de \s* garante suporte total a texto grudado (ex: 2MG/ML) ou com espaços.
+    """
+    1. Regex Unificado: Captura números (incluindo expressões compostas dentro de parênteses como "(10 + 0,4)")
+    ou números isolados colados/próximos das unidades válidas (MG/ML, U/ML, MU, MG/G, MG ou %).
+    O uso de \s* garante suporte total a texto grudado (ex: 2MG/ML) ou com espaços.
+    """
     padrao_complexo = r'(?:\(([^)]+)\)|(\d+(?:[\.,]\d+)?))\s*(MG/ML|U/ML|MU|MG/G|MG|%)\b'
     
     match = re.search(padrao_complexo, apres)
@@ -80,7 +81,6 @@ def tratar_substancias(substancia_raw):
 
     return [s.strip().title() for s in subst_str.split(";") if s.strip()]
 
-
 def cod_anvisa(classe_terapeutica):
     cod = str(classe_terapeutica)
     match_cod = re.search(r"^(\w+)\s*-", cod, re.IGNORECASE)
@@ -89,13 +89,11 @@ def cod_anvisa(classe_terapeutica):
         return match_cod.group(1)
     return None
 
-
 def descricao_area_atuacao(classe_terapeutica):
     texto = str(classe_terapeutica)
     if " - " in texto:
         return texto.split(" - ", 1)[1].strip()
     return texto.strip()
-
 
 def processar_csv_anvisa(caminho_csv, caminho_output_json):
     # Tratamento de encoding robusto

@@ -1,0 +1,298 @@
+{
+  "name": "Infomed_telegram copy",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "00000000-0000-0000-0000-000000000000",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.2,
+      "position": [
+        48,
+        384
+      ],
+      "id": "2732fae1-01b5-4ffc-a1b3-43cba5c1460e",
+      "name": "Webhook",
+      "webhookId": "338e960c-46b0-4099-be77-86a9fa62b1fa"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.telegram.org/[sua_API]/sendMessage",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "chat_id",
+              "value": "[seu_chat_id]"
+            },
+            {
+              "name": "text",
+              "value": "=Atenção! {{ $json.body.texto }}\nRemedio {{ $json.body.dados_especificos.alertas[0].medicamento_1 }} e {{ $json.body.dados_especificos.alertas[0].medicamento_2 }} Conflituosos\nDetalhes: {{ $json.body.dados_especificos.alertas[0].detalhes[0] }}\nfonte: {{ $json.body.dados_especificos.alertas[0].fonte }}\nRegistro de ({{ $json.body.horario }}): \nTipo: {{ $json.body.tipo }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        848,
+        240
+      ],
+      "id": "b7437f08-4a48-4edd-9889-a70af0ed2878",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "respondWith": "text",
+        "responseBody": "Logs registrados",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "position": [
+        1104,
+        288
+      ],
+      "id": "55826252-3e47-4f8c-a76a-11826f1f159a",
+      "name": "Respond to Webhook"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 4
+          },
+          "conditions": [
+            {
+              "id": "aaf9a8a3-3b78-4fca-8e13-7454b24a1e1f",
+              "leftValue": "={{ $json.body }}",
+              "rightValue": "",
+              "operator": {
+                "type": "object",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            },
+            {
+              "id": "06f891d7-0362-42da-b15d-1f111879fc74",
+              "leftValue": "={{ $json.body.texto }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            },
+            {
+              "id": "49e61427-a05b-4993-9ac7-20b861dfac33",
+              "leftValue": "={{ $json.body.tipo }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            },
+            {
+              "id": "177ca52e-6bda-40ae-997f-cf3b48b1298a",
+              "leftValue": "={{ $json.body.horario }}",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "notEmpty",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.4,
+      "position": [
+        320,
+        384
+      ],
+      "id": "4a0f1fc1-08f1-41f9-8b26-cf2616e41f16",
+      "name": "If"
+    },
+    {
+      "parameters": {
+        "respondWith": "text",
+        "responseBody": "Erro ao registrar logs",
+        "options": {
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Content-Type",
+                "value": "text"
+              }
+            ]
+          }
+        }
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "position": [
+        592,
+        400
+      ],
+      "id": "72ed29ab-5555-4a1a-8229-489e427a09c7",
+      "name": "Respond to Webhook1"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 4
+          },
+          "conditions": [
+            {
+              "id": "a6475b68-a042-4f19-89ad-cb0bb4db8269",
+              "leftValue": "={{ $json.body.guardar }}",
+              "rightValue": "True",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.4,
+      "position": [
+        592,
+        256
+      ],
+      "id": "3e3006f7-7a3f-409f-a654-5899806e6c3f",
+      "name": "If1"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.telegram.org/[sua_API]/sendMessage",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "chat_id",
+              "value": "[seu_chat_id]"
+            },
+            {
+              "name": "text",
+              "value": "=Registro de ({{ $json.body.horario }}): \nTipo: {{ $json.body.tipo }}\ninfo: {{ $json.body.texto }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.5,
+      "position": [
+        848,
+        400
+      ],
+      "id": "56642dc6-42be-4214-81aa-83bf3043b2cc",
+      "name": "HTTP Request1"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "If1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Respond to Webhook1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If1": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "HTTP Request1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request1": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "ffefb1e5-377c-4d80-b5eb-f4eac9c203bf",
+  "meta": {
+    "instanceId": "5438c197b47e76bfb1e99623cce6d3bb59f907b94dea6d5a34e837dfeefcfb8c"
+  },
+  "nodeGroups": [],
+  "id": "E4BXQVHmxoKxafTm",
+  "tags": []
+}

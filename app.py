@@ -15,7 +15,7 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
 
-# 🚀 CONFIGURAÇÃO DE REDE DA AUTOMAÇÃO LOCAL REFEITA CORRETAMENTE
+# CONFIGURAÇÃO DE REDE DA AUTOMAÇÃO LOCAL
 N8N_WEBHOOK_URL = "http://127.0.0.1:5678/webhook-test/logsRegistros"
 
 # 1. MAPEAMENTO DE PASTAS ABSOLUTAS DO SISTEMA
@@ -58,10 +58,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
-# =====================================================================
 # 3. SCHEMAS DE VALIDAÇÃO DE ENTRADA (Contratos com API Connectors)
-# =====================================================================
 
 class ProntuarioRawPayload(BaseModel):
     """
@@ -98,14 +95,11 @@ class WebhookPayload(BaseModel):
             return self.guardar.lower() in ('true', '1', 't', 'yes')
         return bool(self.guardar)
 
-
-# =====================================================================
 # 4. ROTAS / ENDPOINTS
-# =====================================================================
 
 @app.get("/", status_code=status.HTTP_200_OK)
 def ping():
-    """Rota simples para o Bubble verificar se o servidor backend está online."""
+    # Rota simples para o Bubble verificar se o servidor backend está online.
     return {
         "status": "online",
         "servico": "InfoMed Core API",
@@ -202,9 +196,7 @@ def receber_e_tratar_medicamentos(payload: ProntuarioRawPayload, background_task
         if "alertas_incompatibilidade" not in prontuario_final_categorizado or not prontuario_final_categorizado["alertas_incompatibilidade"]:
             prontuario_final_categorizado["alertas_incompatibilidade"] = []
 
-        # =====================================================================
-        # 🚀 DISPARO AUTOMÁTICO EM BACKGROUND PARA O n8n LOCAL
-        # =====================================================================
+        # DISPARO AUTOMÁTICO EM BACKGROUND PARA O n8n LOCAL
         alertas = prontuario_final_categorizado.get("alertas_incompatibilidade", [])
         if alertas:
             texto_alerta = f"Risco Clínico Detectado para o paciente {payload.patient_name}."
@@ -212,7 +204,6 @@ def receber_e_tratar_medicamentos(payload: ProntuarioRawPayload, background_task
         else:
             texto_sucesso = f"Triagem finalizada sem alertas graves para {payload.patient_name}."
             background_tasks.add_task(disparar_automacao_n8n, texto_sucesso, "log_operacional", {"paciente_id": payload.patient_id})
-        # =====================================================================
 
         logger.info(f"Pipeline concluído com sucesso para o paciente {payload.patient_id}. Enviando resposta...")
         return prontuario_final_categorizado
@@ -233,9 +224,9 @@ def receber_e_tratar_medicamentos(payload: ProntuarioRawPayload, background_task
 
 @app.post("/webhook/logsRegistros", status_code=status.HTTP_200_OK)
 def receber_webhook(payload: WebhookPayload):
-    """
-    Endpoint para recepção, mapeamento e persistência síncrona de eventos externos do Bubble/n8n.
-    """
+    
+    # Endpoint para recepção, mapeamento e persistência síncrona de eventos externos do Bubble/n8n.
+    
     deve_salvar = payload.normalizar_guardar()
     logger.info(f"Webhook interceptado pelo Core. Tipo: {payload.tipo} | Persistir em disco: {deve_salvar}")
 
@@ -286,9 +277,7 @@ def receber_webhook(payload: WebhookPayload):
         )
 
 
-# =====================================================================
 # 5. INICIALIZADOR DO SERVIDOR (Execução local via terminal)
-# =====================================================================
 if __name__ == "__main__":
     import uvicorn
     # Liga o servidor na porta 8080 apontando para o proxy de rede do PowerShell.

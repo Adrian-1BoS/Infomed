@@ -48,15 +48,13 @@ class AIHandler:
         "gemini-3.1-flash-lite",
         "gemini-2.5-flash-lite"
         """
-        #self.gemini_disponivel = True
-        self.gemini_disponivel = False
+        self.gemini_disponivel = True
         self.gemini_models = [
-        "gemini-2.5-flash",
-        "gemini-flash-latest",
-        "gemini-3.8-flash",
-        "gemini-3.6-flash",
-        "gemini-3.1-flash-lite",
-        "gemini-2.5-flash-lite"
+            "gemini-4-hydrogen",
+            "gemini-3.8-flash",
+            "gemini-3-flash",
+            "gemini-3.5-flash-lite",
+            "gemini-3.1-flash-lite"
         ]
         self.modelo_gemini = self.gemini_models[0]
         # Caso gemini não responda
@@ -142,7 +140,7 @@ class AIHandler:
         raise Exception(f"Todos os modelos do Gemini falharam. Último erro: {ultimo_erro}")
 
     def _chamar_groq(self, prompt_sistema: str, pergunta: str) -> Union[Generator, str]:
-        """Fallback utilizando a Groq (Cloud)."""
+        # Fallback utilizando a Groq (Cloud).
         if not self.client_groq:
             logger.error("Ambas as APIs falharam ou chaves não estão configuradas no .env.")
             return "Desculpe, estou enfrentando instabilidades no momento e nenhum serviço de IA pôde responder."
