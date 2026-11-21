@@ -40,7 +40,7 @@ A comunicação é feita via apirest e usando ngrok. Quando o usuario completa o
 O Banco de dados solidificados.json veio das informações da anvisa 
 [CSV da Anvisa](https://dados.anvisa.gov.br/dados/TA_PRECO_MEDICAMENTO.csv) e usando uma [ferramenta para tratar esse csv](core/tratamento_csv_json.py) e transofrormar esse csv com dados que não iremos utilizar em um .json que passara a ser nosso banco de dados, o mesmo é preenchido dinamicamente quando o usuario faz um cadastro, os motores de pesquisa de incompatibilidade e complementos preenche os campos que estavam vazios ou os atualizando.
 
-# Indtegração n8n com Telegram
+# Integração n8n com Telegram
 
 Todos os dados que estão sendo usados no n8n esta passando pelo tuneu do ngrok, mais especificamente quando o python termina de processar os dados e retorna para o bubble e para o n8n
 
