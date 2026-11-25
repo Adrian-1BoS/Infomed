@@ -23,7 +23,7 @@ Aqui funciona como uma escuta, traz as informações do bubble e quando processa
 [incompativeis.py](core/incompativeis.py) aqui se inicia a checagem de incompatibilidades dos remedios cadastrados pelo usuario, uma checagem 1x1 de cada um se o complementos.py ou aquele remedio x já tiver uma incompatibilidade cadastrada daquela busca x o motor já devolve o resultado localmente, caso não tiver registros em incompatibilidades da comparação, ele aciona seu motor de busca usando IA para ter 100% de certeza que aquela comparação esta segura. 
 
 ## tratamento_csv_json.py
-[tratamento_csv_json.py](core/tratamento_csv_json.py) serve unicamente para processar os dados de .csv do arquivo da [anvisa](data/medicamentos.csv) para .json com campos necessarios para a aplicação já que no csv tem muitos campos que não serão usados, fazendo até separação de dados, como identificar se o remedio x é um comprimido(solido), um liquido, como xarope, um injetavel, como a insulina humana NPH ou um colirio ou pegando tambem a dosagem do remedio em si. Usamos como db o [solidificados.json](data/solidificados.json), que, como descrito nas funçoes de cima é alto alimentado com as buscas dos campos de incompatibilidades e efeitos colaterais.
+[tratamento_csv_json.py](core/tratamento_csv_json.py) serve unicamente para processar os dados de .csv do arquivo da [anvisa](data/medicamentos.csv) para .json com campos necessarios para a aplicação já que no csv tem muitos campos que não serão usados, fazendo até separação de dados, como identificar se o remedio x é um comprimido(solido), um liquido, como xarope, um injetavel, como a insulina humana NPH ou um colirio ou pegando tambem a dosagem do remedio em si. Usamos como db o [solidificados.json](data/solidificados.json), que, como descrito nas funçoes de cima é autoalimentado com as buscas dos campos de incompatibilidades e efeitos colaterais.
 
 ## ui_tratamento.py
 Basicamente pega recebe os dados do bubble e modula de uma forma que o sistema reconheça e distribui para os responsaveis essa informação, estruturando o .json recebido e o completando, fazendo o match do nome fornecido com os remedios presentes no [solidificados.json](data/solidificados.json) usando regras e filtros para entregar um resultado mais coreto usando até mesmo em ultimo caso uma chamada na [ai_handler.py](core/ia/ai_handler.py) para buscar o nome fornecido e não encontrado no db, o mesmo faz as requisiçoes para [solidificados.json](data/solidificados.json) e [incompativeis.py](core/incompativeis.py). E quando o termina esses dados são levados de volta para o bubble
@@ -38,7 +38,7 @@ A comunicação é feita via apirest e usando ngrok. Quando o usuario completa o
 # DB em .json e suas informações
 
 O Banco de dados solidificados.json veio das informações da anvisa 
-[CSV da Anvisa](https://dados.anvisa.gov.br/dados/TA_PRECO_MEDICAMENTO.csv) e usando uma [ferramenta para tratar esse csv](core/tratamento_csv_json.py) e transofrormar esse csv com dados que não iremos utilizar em um .json que passara a ser nosso banco de dados, o mesmo é preenchido dinamicamente quando o usuario faz um cadastro, os motores de pesquisa de incompatibilidade e complementos preenche os campos que estavam vazios ou os atualizando.
+[CSV da Anvisa](https://dados.anvisa.gov.br/dados/TA_PRECO_MEDICAMENTO.csv) e usando uma [ferramenta para tratar esse csv](core/tratamento_csv_json.py) e transformar esse csv com dados que não iremos utilizar em um .json que passara a ser nosso banco de dados, o mesmo é preenchido dinamicamente quando o usuario faz um cadastro, os motores de pesquisa de incompatibilidade e complementos preenche os campos que estavam vazios ou os atualizando.
 
 # Integração n8n com Telegram
 
@@ -64,16 +64,16 @@ Todos os dados que estão sendo usados no n8n esta passando pelo tuneu do ngrok,
 
 <img src="data/images/n8n/if2.png"  width="500">
 
-## http Request - para chamar o telegram
+## http Request - para chamar o Telegram
 
 <img src="data/images/n8n/request_true.png"  width="400">
 
-## Parametro para enviar a menssagem se true
+## Parametro para enviar a mensagem se true
 
 <img src="data/images/n8n/request_true_parametros.png"  width="400">
 
 
-## Devolvendo no telegra:
+## Devolvendo no Telegram:
 
 <img src="data/images/n8n/telegram.png" width="300">
 
