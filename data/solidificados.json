@@ -132875,25 +132875,8 @@
             "nomes_alternativos": [
                 "Dipirona Monoidratada"
             ],
-            "efeitos_colaterais": [
-                "Agranulocitose",
-                "Reações de hipersensibilidade (urticária, choque anafilático)",
-                "Hipotensão ortostática",
-                "Náusea e vômito",
-                "Dor abdominal",
-                "Alterações nas enzimas hepáticas",
-                "Edema",
-                "Distúrbios hematológicos (trombocitopenia, leucopenia)",
-                "Eritema cutâneo"
-            ],
-            "incompatibilidades": [
-                "Álcool",
-                "Anticoagulantes orais (ex.: varfarina)",
-                "Antiagregantes plaquetários (ex.: ácido acetilsalicílico)",
-                "Outros anti-inflamatórios não esteroides (ex.: ibuprofeno)",
-                "Antibióticos sulfonamídicos",
-                "Anestésicos gerais que provocam hipotensão"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": null
         },
         {
@@ -133328,25 +133311,8 @@
             "nomes_alternativos": [
                 "Dipirona Monoidratada"
             ],
-            "efeitos_colaterais": [
-                "Agranulocitose",
-                "Reações de hipersensibilidade (urticária, choque anafilático)",
-                "Hipotensão ortostática",
-                "Náusea e vômito",
-                "Dor abdominal",
-                "Alterações nas enzimas hepáticas",
-                "Edema",
-                "Distúrbios hematológicos (trombocitopenia, leucopenia)",
-                "Eritema cutâneo"
-            ],
-            "incompatibilidades": [
-                "Álcool",
-                "Anticoagulantes orais (ex.: varfarina)",
-                "Antiagregantes plaquetários (ex.: ácido acetilsalicílico)",
-                "Outros anti-inflamatórios não esteroides (ex.: ibuprofeno)",
-                "Antibióticos sulfonamídicos",
-                "Anestésicos gerais que provocam hipotensão"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": null
         },
         {
@@ -156085,21 +156051,29 @@
             "nomes_alternativos": [],
             "efeitos_colaterais": [
                 "sonolência",
-                "sedação",
+                "ataxia",
+                "depressão respiratória",
                 "hipotensão",
                 "rash cutâneo",
-                "distúrbios hematológicos",
-                "alterações hepáticas",
-                "tolerância",
-                "dependência"
+                "hepatotoxicidade",
+                "dependência",
+                "depressão do SNC",
+                "náuseas",
+                "vômitos",
+                "anemia hemolítica"
             ],
             "incompatibilidades": [
+                "Warfarina",
+                "Etinilestradiol",
+                "Levonorgestrel",
                 "Carbamazepina",
                 "Fenitoína",
-                "Álcool",
-                "Anticoagulantes orais",
-                "Anticonvulsivantes induzidos por CYP450",
-                "Antidepressivos tricíclicos"
+                "Metronidazol",
+                "Isoniazida",
+                "Rifampicina",
+                "Zidovudina",
+                "Ledipasvir",
+                "Sofosbuvir"
             ],
             "mg": 100.0
         },
@@ -156116,7 +156090,10 @@
                 "Fenobarbital"
             ],
             "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "incompatibilidades": [
+                "Ledipasvir",
+                "Sofosbuvir"
+            ],
             "mg": 100.0
         },
         {
@@ -156132,7 +156109,10 @@
                 "Fenobarbital"
             ],
             "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "incompatibilidades": [
+                "Ledipasvir",
+                "Sofosbuvir"
+            ],
             "mg": 100.0
         },
         {
@@ -156147,21 +156127,29 @@
             "nomes_alternativos": [],
             "efeitos_colaterais": [
                 "sonolência",
-                "sedação",
+                "ataxia",
+                "depressão respiratória",
                 "hipotensão",
                 "rash cutâneo",
-                "distúrbios hematológicos",
-                "alterações hepáticas",
-                "tolerância",
-                "dependência"
+                "hepatotoxicidade",
+                "dependência",
+                "depressão do SNC",
+                "náuseas",
+                "vômitos",
+                "anemia hemolítica"
             ],
             "incompatibilidades": [
+                "Warfarina",
+                "Etinilestradiol",
+                "Levonorgestrel",
                 "Carbamazepina",
                 "Fenitoína",
-                "Álcool",
-                "Anticoagulantes orais",
-                "Anticonvulsivantes induzidos por CYP450",
-                "Antidepressivos tricíclicos"
+                "Metronidazol",
+                "Isoniazida",
+                "Rifampicina",
+                "Zidovudina",
+                "Ledipasvir",
+                "Sofosbuvir"
             ],
             "mg": 100.0
         },
@@ -156177,21 +156165,29 @@
             "nomes_alternativos": [],
             "efeitos_colaterais": [
                 "sonolência",
-                "sedação",
+                "ataxia",
+                "depressão respiratória",
                 "hipotensão",
                 "rash cutâneo",
-                "distúrbios hematológicos",
-                "alterações hepáticas",
-                "tolerância",
-                "dependência"
+                "hepatotoxicidade",
+                "dependência",
+                "depressão do SNC",
+                "náuseas",
+                "vômitos",
+                "anemia hemolítica"
             ],
             "incompatibilidades": [
+                "Warfarina",
+                "Etinilestradiol",
+                "Levonorgestrel",
                 "Carbamazepina",
                 "Fenitoína",
-                "Álcool",
-                "Anticoagulantes orais",
-                "Anticonvulsivantes induzidos por CYP450",
-                "Antidepressivos tricíclicos"
+                "Metronidazol",
+                "Isoniazida",
+                "Rifampicina",
+                "Zidovudina",
+                "Ledipasvir",
+                "Sofosbuvir"
             ],
             "mg": 100.0
         },
@@ -156207,21 +156203,29 @@
             "nomes_alternativos": [],
             "efeitos_colaterais": [
                 "sonolência",
-                "sedação",
+                "ataxia",
+                "depressão respiratória",
                 "hipotensão",
                 "rash cutâneo",
-                "distúrbios hematológicos",
-                "alterações hepáticas",
-                "tolerância",
-                "dependência"
+                "hepatotoxicidade",
+                "dependência",
+                "depressão do SNC",
+                "náuseas",
+                "vômitos",
+                "anemia hemolítica"
             ],
             "incompatibilidades": [
+                "Warfarina",
+                "Etinilestradiol",
+                "Levonorgestrel",
                 "Carbamazepina",
                 "Fenitoína",
-                "Álcool",
-                "Anticoagulantes orais",
-                "Anticonvulsivantes induzidos por CYP450",
-                "Antidepressivos tricíclicos"
+                "Metronidazol",
+                "Isoniazida",
+                "Rifampicina",
+                "Zidovudina",
+                "Ledipasvir",
+                "Sofosbuvir"
             ],
             "mg": 100.0
         },
@@ -156237,21 +156241,29 @@
             "nomes_alternativos": [],
             "efeitos_colaterais": [
                 "sonolência",
-                "sedação",
+                "ataxia",
+                "depressão respiratória",
                 "hipotensão",
                 "rash cutâneo",
-                "distúrbios hematológicos",
-                "alterações hepáticas",
-                "tolerância",
-                "dependência"
+                "hepatotoxicidade",
+                "dependência",
+                "depressão do SNC",
+                "náuseas",
+                "vômitos",
+                "anemia hemolítica"
             ],
             "incompatibilidades": [
+                "Warfarina",
+                "Etinilestradiol",
+                "Levonorgestrel",
                 "Carbamazepina",
                 "Fenitoína",
-                "Álcool",
-                "Anticoagulantes orais",
-                "Anticonvulsivantes induzidos por CYP450",
-                "Antidepressivos tricíclicos"
+                "Metronidazol",
+                "Isoniazida",
+                "Rifampicina",
+                "Zidovudina",
+                "Ledipasvir",
+                "Sofosbuvir"
             ],
             "mg": 100.0
         },
@@ -156267,21 +156279,29 @@
             "nomes_alternativos": [],
             "efeitos_colaterais": [
                 "sonolência",
-                "sedação",
+                "ataxia",
+                "depressão respiratória",
                 "hipotensão",
                 "rash cutâneo",
-                "distúrbios hematológicos",
-                "alterações hepáticas",
-                "tolerância",
-                "dependência"
+                "hepatotoxicidade",
+                "dependência",
+                "depressão do SNC",
+                "náuseas",
+                "vômitos",
+                "anemia hemolítica"
             ],
             "incompatibilidades": [
+                "Warfarina",
+                "Etinilestradiol",
+                "Levonorgestrel",
                 "Carbamazepina",
                 "Fenitoína",
-                "Álcool",
-                "Anticoagulantes orais",
-                "Anticonvulsivantes induzidos por CYP450",
-                "Antidepressivos tricíclicos"
+                "Metronidazol",
+                "Isoniazida",
+                "Rifampicina",
+                "Zidovudina",
+                "Ledipasvir",
+                "Sofosbuvir"
             ],
             "mg": 100.0
         },
@@ -156298,7 +156318,10 @@
                 "Fenobarbital"
             ],
             "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "incompatibilidades": [
+                "Ledipasvir",
+                "Sofosbuvir"
+            ],
             "mg": 100.0
         },
         {
@@ -156314,7 +156337,10 @@
                 "Fenobarbital"
             ],
             "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "incompatibilidades": [
+                "Ledipasvir",
+                "Sofosbuvir"
+            ],
             "mg": 50.0
         },
         {
@@ -156330,7 +156356,10 @@
                 "Fenobarbital"
             ],
             "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "incompatibilidades": [
+                "Ledipasvir",
+                "Sofosbuvir"
+            ],
             "mg": 100.0
         },
         {
@@ -186129,31 +186158,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -186470,31 +186476,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -186619,31 +186602,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -186672,31 +186632,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -186709,31 +186646,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -186746,31 +186660,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -186783,31 +186674,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -186820,31 +186688,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -186857,31 +186702,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -186894,31 +186716,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -187139,31 +186938,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -187256,31 +187032,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -187293,31 +187046,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -187330,31 +187060,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -187367,31 +187074,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -187404,31 +187088,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -187441,31 +187102,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 400.0
         },
         {
@@ -187478,31 +187116,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 400.0
         },
         {
@@ -187851,31 +187466,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -187888,31 +187480,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -187925,31 +187494,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -187962,31 +187508,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 400.0
         },
         {
@@ -187999,31 +187522,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 400.0
         },
         {
@@ -188036,31 +187536,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 400.0
         },
         {
@@ -188073,31 +187550,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 400.0
         },
         {
@@ -188110,31 +187564,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 400.0
         },
         {
@@ -188147,31 +187578,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 400.0
         },
         {
@@ -188184,31 +187592,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 400.0
         },
         {
@@ -188221,31 +187606,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 400.0
         },
         {
@@ -188258,31 +187620,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 400.0
         },
         {
@@ -188295,31 +187634,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 400.0
         },
         {
@@ -188332,31 +187648,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 400.0
         },
         {
@@ -188385,31 +187678,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -188438,31 +187708,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 400.0
         },
         {
@@ -188491,31 +187738,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -188624,31 +187848,8 @@
             "codigo_area_atuacao": "M1A1",
             "area_atuacao": "ANTIRREUMÁTICOS NÃO ESTEROIDAIS PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 600.0
         },
         {
@@ -188661,31 +187862,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 400.0
         },
         {
@@ -188698,31 +187876,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 400.0
         },
         {
@@ -188815,31 +187970,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 400.0
         },
         {
@@ -189156,31 +188288,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 400.0
         },
         {
@@ -196278,22 +195387,22 @@
                 "Sofosbuvir"
             ],
             "efeitos_colaterais": [
-                "Fadiga",
-                "Náusea",
-                "Dor de cabeça",
-                " anemia",
-                "Insuficiência hepática",
-                "Prurido",
-                "Erupções cutâneas"
+                "fadiga",
+                "dor de cabeça",
+                "náuseas",
+                "diarreia",
+                "insônia",
+                "erupções cutâneas",
+                "anemia"
             ],
             "incompatibilidades": [
-                "Amiodarona",
-                "Carbamazepina",
                 "Rifampicina",
+                "Carbamazepina",
                 "Ciclosporina",
-                "Atazanavir/ritonavir",
-                "Efavirenz",
-                "Tipranavir/ritonavir"
+                "Tacrolimus",
+                "Atazanavir",
+                "Ritonavir",
+                "Fenobarbital"
             ],
             "mg": 90.0
         },
@@ -211401,28 +210510,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 5.0
         },
         {
@@ -211435,28 +210524,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 10.0
         },
         {
@@ -211469,28 +210538,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 20.0
         },
         {
@@ -211503,28 +210552,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 5.0
         },
         {
@@ -211537,28 +210566,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 10.0
         },
         {
@@ -211571,28 +210580,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 20.0
         },
         {
@@ -211605,28 +210594,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 5.0
         },
         {
@@ -211639,28 +210608,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 10.0
         },
         {
@@ -211673,28 +210622,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 20.0
         },
         {
@@ -211707,28 +210636,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 10.0
         },
         {
@@ -211773,28 +210682,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 10.0
         },
         {
@@ -211807,28 +210696,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 20.0
         },
         {
@@ -211841,28 +210710,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 5.0
         },
         {
@@ -211923,28 +210772,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 5.0
         },
         {
@@ -211957,28 +210786,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 10.0
         },
         {
@@ -211991,28 +210800,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 20.0
         },
         {
@@ -212025,28 +210814,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 5.0
         },
         {
@@ -212059,28 +210828,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 5.0
         },
         {
@@ -212093,28 +210842,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 10.0
         },
         {
@@ -212127,28 +210856,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 20.0
         },
         {
@@ -212161,28 +210870,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 5.0
         },
         {
@@ -212195,28 +210884,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 10.0
         },
         {
@@ -212229,28 +210898,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 20.0
         },
         {
@@ -212391,28 +211040,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 20.0
         },
         {
@@ -212425,28 +211054,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 5.0
         },
         {
@@ -212459,28 +211068,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 10.0
         },
         {
@@ -212493,28 +211082,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 10.0
         },
         {
@@ -212527,28 +211096,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 20.0
         },
         {
@@ -212593,28 +211142,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 10.0
         },
         {
@@ -212627,28 +211156,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 20.0
         },
         {
@@ -212725,28 +211234,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 10.0
         },
         {
@@ -212759,28 +211248,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 20.0
         },
         {
@@ -212793,28 +211262,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 20.0
         },
         {
@@ -212827,28 +211276,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 10.0
         },
         {
@@ -212909,28 +211338,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 10.0
         },
         {
@@ -212943,28 +211352,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 20.0
         },
         {
@@ -212977,28 +211366,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 5.0
         },
         {
@@ -213043,28 +211412,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 5.0
         },
         {
@@ -213077,28 +211426,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 10.0
         },
         {
@@ -213111,28 +211440,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 20.0
         },
         {
@@ -213145,28 +211454,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 5.0
         },
         {
@@ -213179,28 +211468,8 @@
             "codigo_area_atuacao": "C9A",
             "area_atuacao": "INIBIDORES DA ECA PUROS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Tosse seca",
-                "Hipotensão ortostática",
-                "Hipercalemia",
-                "Tontura",
-                "Edema facial ou angioedema",
-                "Erupções cutâneas",
-                "Insuficiência renal",
-                "Aumento da creatinina sérica",
-                "Alterações hepáticas",
-                "Disfunção sexual"
-            ],
-            "incompatibilidades": [
-                "Diuréticos poupadores de potássio",
-                "Suplementos de potássio",
-                "Lítio",
-                "AINEs (ibuprofeno, diclofenaco, naproxeno)",
-                "Antagonistas do receptor da angiotensina II (candesartana, losartana, valsartana)",
-                "Outros inibidores da enzima conversora de angiotensina (captopril, lisinopril)",
-                "Gravidez (especialmente 3º trimestre)",
-                "Amamentação"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg": 10.0
         },
         {
@@ -318628,21 +316897,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Agranulocitose",
-                "Reações de hipersensibilidade (rash, choque anafilático)",
-                "Hipotensão",
-                "Náuseas e vômitos",
-                "Edema",
-                "Hepatotoxicidade",
-                "Insuficiência renal"
-            ],
-            "incompatibilidades": [
-                "AINEs (ex.: ibuprofeno, diclofenaco)",
-                "Anticoagulantes (ex.: varfarina)",
-                "Álcool",
-                "Outros analgésicos opioides (ex.: codeína)"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 500.0,
             "viscosidade": ""
         },
@@ -318826,21 +317082,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Agranulocitose",
-                "Reações de hipersensibilidade (rash, choque anafilático)",
-                "Hipotensão",
-                "Náuseas e vômitos",
-                "Edema",
-                "Hepatotoxicidade",
-                "Insuficiência renal"
-            ],
-            "incompatibilidades": [
-                "AINEs (ex.: ibuprofeno, diclofenaco)",
-                "Anticoagulantes (ex.: varfarina)",
-                "Álcool",
-                "Outros analgésicos opioides (ex.: codeína)"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 50.0,
             "viscosidade": ""
         },
@@ -319022,25 +317265,8 @@
             "nomes_alternativos": [
                 "Dipirona Monoidratada"
             ],
-            "efeitos_colaterais": [
-                "Agranulocitose",
-                "Reações de hipersensibilidade (urticária, choque anafilático)",
-                "Hipotensão ortostática",
-                "Náusea e vômito",
-                "Dor abdominal",
-                "Alterações nas enzimas hepáticas",
-                "Edema",
-                "Distúrbios hematológicos (trombocitopenia, leucopenia)",
-                "Eritema cutâneo"
-            ],
-            "incompatibilidades": [
-                "Álcool",
-                "Anticoagulantes orais (ex.: varfarina)",
-                "Antiagregantes plaquetários (ex.: ácido acetilsalicílico)",
-                "Outros anti-inflamatórios não esteroides (ex.: ibuprofeno)",
-                "Antibióticos sulfonamídicos",
-                "Anestésicos gerais que provocam hipotensão"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 500.0,
             "viscosidade": ""
         },
@@ -319056,25 +317282,8 @@
             "nomes_alternativos": [
                 "Dipirona Monoidratada"
             ],
-            "efeitos_colaterais": [
-                "Agranulocitose",
-                "Reações de hipersensibilidade (urticária, choque anafilático)",
-                "Hipotensão ortostática",
-                "Náusea e vômito",
-                "Dor abdominal",
-                "Alterações nas enzimas hepáticas",
-                "Edema",
-                "Distúrbios hematológicos (trombocitopenia, leucopenia)",
-                "Eritema cutâneo"
-            ],
-            "incompatibilidades": [
-                "Álcool",
-                "Anticoagulantes orais (ex.: varfarina)",
-                "Antiagregantes plaquetários (ex.: ácido acetilsalicílico)",
-                "Outros anti-inflamatórios não esteroides (ex.: ibuprofeno)",
-                "Antibióticos sulfonamídicos",
-                "Anestésicos gerais que provocam hipotensão"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 500.0,
             "viscosidade": ""
         },
@@ -320463,7 +318672,10 @@
                 "Fenobarbital"
             ],
             "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "incompatibilidades": [
+                "Ledipasvir",
+                "Sofosbuvir"
+            ],
             "mg_ml": 40.0,
             "viscosidade": ""
         },
@@ -320479,21 +318691,29 @@
             "nomes_alternativos": [],
             "efeitos_colaterais": [
                 "sonolência",
-                "sedação",
+                "ataxia",
+                "depressão respiratória",
                 "hipotensão",
                 "rash cutâneo",
-                "distúrbios hematológicos",
-                "alterações hepáticas",
-                "tolerância",
-                "dependência"
+                "hepatotoxicidade",
+                "dependência",
+                "depressão do SNC",
+                "náuseas",
+                "vômitos",
+                "anemia hemolítica"
             ],
             "incompatibilidades": [
+                "Warfarina",
+                "Etinilestradiol",
+                "Levonorgestrel",
                 "Carbamazepina",
                 "Fenitoína",
-                "Álcool",
-                "Anticoagulantes orais",
-                "Anticonvulsivantes induzidos por CYP450",
-                "Antidepressivos tricíclicos"
+                "Metronidazol",
+                "Isoniazida",
+                "Rifampicina",
+                "Zidovudina",
+                "Ledipasvir",
+                "Sofosbuvir"
             ],
             "mg_ml": 40.0,
             "viscosidade": ""
@@ -320511,7 +318731,10 @@
                 "Fenobarbital"
             ],
             "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "incompatibilidades": [
+                "Ledipasvir",
+                "Sofosbuvir"
+            ],
             "mg_ml": 40.0,
             "viscosidade": ""
         },
@@ -323424,31 +321647,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 50.0,
             "viscosidade": ""
         },
@@ -323462,31 +321662,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 100.0,
             "viscosidade": ""
         },
@@ -323534,31 +321711,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 100.0,
             "viscosidade": ""
         },
@@ -323606,31 +321760,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 50.0,
             "viscosidade": ""
         },
@@ -323644,31 +321775,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 100.0,
             "viscosidade": ""
         },
@@ -323682,31 +321790,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 100.0,
             "viscosidade": ""
         },
@@ -323720,31 +321805,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 100.0,
             "viscosidade": ""
         },
@@ -323792,31 +321854,8 @@
             "codigo_area_atuacao": "N2B",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 100.0,
             "viscosidade": ""
         },
@@ -323881,31 +321920,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 100.0,
             "viscosidade": ""
         },
@@ -323953,31 +321969,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 100.0,
             "viscosidade": ""
         },
@@ -324008,31 +322001,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 50.0,
             "viscosidade": ""
         },
@@ -324046,31 +322016,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 50.0,
             "viscosidade": ""
         },
@@ -324084,31 +322031,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 100.0,
             "viscosidade": ""
         },
@@ -324122,31 +322046,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 100.0,
             "viscosidade": ""
         },
@@ -324194,31 +322095,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 50.0,
             "viscosidade": ""
         },
@@ -324232,31 +322110,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 100.0,
             "viscosidade": ""
         },
@@ -324304,31 +322159,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 100.0,
             "viscosidade": ""
         },
@@ -324410,31 +322242,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 50.0,
             "viscosidade": ""
         },
@@ -324448,31 +322257,8 @@
             "codigo_area_atuacao": "N2B2",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS ISENTOS DE PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "dor abdominal",
-                "náusea",
-                "dispepsia",
-                "úlcera gástrica ou duodenal",
-                "hemorragia gastrointestinal",
-                "cefaleia",
-                "tontura",
-                "erupção cutânea",
-                "edema",
-                "elevação de enzimas hepáticas"
-            ],
-            "incompatibilidades": [
-                "outros anti-inflamatórios não esteroides (AINEs)",
-                "anticoagulantes orais (varfarina, acenocumarol)",
-                "antiagregantes plaquetários (ácido acetilsalicílico, clopidogrel)",
-                "corticoides sistêmicos",
-                "lítio",
-                "metotrexato",
-                "inibidores da enzima conversora de angiotensina (enalapril, lisinopril)",
-                "diuréticos de alça (furosemida)",
-                "insuficiência renal grave",
-                "insuficiência hepática grave",
-                "gravidez a partir do terceiro trimestre"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 100.0,
             "viscosidade": ""
         },
@@ -362282,21 +360068,8 @@
             "codigo_area_atuacao": "N2B1",
             "area_atuacao": "ANALGÉSICOS NÃO NARCÓTICOS E ANTIPIRÉTICOS SOB PRESCRIÇÃO",
             "nomes_alternativos": [],
-            "efeitos_colaterais": [
-                "Agranulocitose",
-                "Reações de hipersensibilidade (rash, choque anafilático)",
-                "Hipotensão",
-                "Náuseas e vômitos",
-                "Edema",
-                "Hepatotoxicidade",
-                "Insuficiência renal"
-            ],
-            "incompatibilidades": [
-                "AINEs (ex.: ibuprofeno, diclofenaco)",
-                "Anticoagulantes (ex.: varfarina)",
-                "Álcool",
-                "Outros analgésicos opioides (ex.: codeína)"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 500.0
         },
         {
@@ -362343,25 +360116,8 @@
             "nomes_alternativos": [
                 "Dipirona Monoidratada"
             ],
-            "efeitos_colaterais": [
-                "Agranulocitose",
-                "Reações de hipersensibilidade (urticária, choque anafilático)",
-                "Hipotensão ortostática",
-                "Náusea e vômito",
-                "Dor abdominal",
-                "Alterações nas enzimas hepáticas",
-                "Edema",
-                "Distúrbios hematológicos (trombocitopenia, leucopenia)",
-                "Eritema cutâneo"
-            ],
-            "incompatibilidades": [
-                "Álcool",
-                "Anticoagulantes orais (ex.: varfarina)",
-                "Antiagregantes plaquetários (ex.: ácido acetilsalicílico)",
-                "Outros anti-inflamatórios não esteroides (ex.: ibuprofeno)",
-                "Antibióticos sulfonamídicos",
-                "Anestésicos gerais que provocam hipotensão"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 500.0
         },
         {
@@ -369669,7 +367425,10 @@
                 "Fenobarbital"
             ],
             "efeitos_colaterais": [],
-            "incompatibilidades": [],
+            "incompatibilidades": [
+                "Ledipasvir",
+                "Sofosbuvir"
+            ],
             "mg_ml": 100.0
         },
         {
@@ -380636,24 +378395,8 @@
             "nomes_alternativos": [
                 "Insulina Isofana"
             ],
-            "efeitos_colaterais": [
-                "Hipoglicemia",
-                "Ganho de peso",
-                "Reações no local da aplicação (vermelhidão, edema, prurido)",
-                "Lipodistrofia",
-                "Edema periférico",
-                "Reações alérgicas (urticária, anafilaxia)",
-                "Hipocalemia"
-            ],
-            "incompatibilidades": [
-                "Outros tipos de insulina sem comprovação de compatibilidade",
-                "Heparina",
-                "Soluções com pH > 8",
-                "Antibióticos beta‑lactâmicos (ex.: cefalosporinas)",
-                "Glucagon",
-                "Soluções contendo fenol ou cresol em concentrações diferentes",
-                "Soluções orgânicas (ex.: etanol)"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": null
         },
         {
@@ -414998,24 +412741,8 @@
             "nomes_alternativos": [
                 "Travoprosta"
             ],
-            "efeitos_colaterais": [
-                "hiperemia conjuntival",
-                "irritação ocular",
-                "coceira",
-                "visão turva",
-                "secura ocular",
-                "hiperpigmentação da íris",
-                "hiperpigmentação periorbital",
-                "crescimento de cílios",
-                "cefaleia",
-                "náusea"
-            ],
-            "incompatibilidades": [
-                "hipersensibilidade à travoprosta ou a excipientes da formulação",
-                "uso concomitante com outros análogos de prostaglandinas",
-                "uso concomitante com anti‑inflamatórios não esteroidais tópicos (pode aumentar irritação)",
-                "uso com soluções oftálmicas contendo conservantes incompatíveis (ex.: benzalcônio)"
-            ],
+            "efeitos_colaterais": [],
+            "incompatibilidades": [],
             "mg_ml": 0.04
         },
         {

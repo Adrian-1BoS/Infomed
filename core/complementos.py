@@ -214,7 +214,7 @@ def complementar_db_farmaco(db_json_path, usuario_json_path):
                         print(f"DEBUG: Dados de '{nome_med}' copiados via substância ativa: ({substancias})")
                         continue
 
-                    # Procurar na própria BASE LOCAL se outro medicamento com a mesma substância já possui esses dados
+                    # Procurar na BASE LOCAL se outro medicamento com a mesma substância já possui esses dados
                     encontrado_na_base = False
                     for cat_busca in categorias_db:
                         for item_busca in db_dados.get(cat_busca, []):
@@ -242,12 +242,12 @@ def complementar_db_farmaco(db_json_path, usuario_json_path):
                     print(f"DEBUG: Consultando IA para: {nome_med} (Substâncias: {substancias})...")
                     
                     prompt_farmaceutico = (
-                        "Você é um profissional farmacêutico clínico especialista na regulamentação da ANVISA e no Dicionário de Especialidades Farmacêuticas (DEF). "
+                        "Você é um profissional farmacêutico clínico especialista na regulamentação da ANVISA, em interacoes medicamentosas e no Dicionário de Especialidades Farmacêuticas (DEF). "
                         "Sua função é retornar estritamente no formato JSON as colunas 'efeitos_colaterais' e 'incompatibilidades'.\n"
                         "REGRAS OBRIGATÓRIAS:\n"
                         "1. Utilize exclusivamente a nomenclatura oficial brasileira (DCB) em 'PORTUGUÊS' para todas as substâncias.\n"
                         "2. Exclua absolutamente substâncias estrangeiras, banidas ou sem registro ativo na ANVISA no Brasil.\n"
-                        "3. Seja direto e evite descrições genéricas ou redundantes em formato de texto longo; utilize o nome da classe ou substância de forma concisa.\n"
+                        "3. Para 'efeitos_colaterais', seja direto e conciso. Para 'incompatibilidades', liste EXCLUSIVAMENTE o nome das substâncias ativas (princípios ativos) incompatíveis, sem nomes comerciais ou textos longos.\n"
                         'Formato de saída estrito:\n'
                         '{\n  "efeitos_colaterais": ["..."],\n  "incompatibilidades": ["..."]\n}'
                     )

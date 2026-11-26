@@ -85,6 +85,7 @@ def verificar_incompatibilidades(usuario_json_path="usuario_atualizado.json", db
 
     medicamentos_paciente = extrair_todos_medicamentos_usuario(usuario_dados)
     alertas_incompatibilidade = []
+    atualizou_db = False
 
     print("\nDEBUG: Iniciando verificação de incompatibilidades farmacológicas (Base Local + IA)...")
 
@@ -221,7 +222,49 @@ def verificar_incompatibilidades(usuario_json_path="usuario_atualizado.json", db
                 }
                 alertas_incompatibilidade.append(alerta_ia)
                 print(f"DEBUG: [ALERTA IA] Interação detectada entre '{med1}' e '{med2}'")
-                
+
+                categorias_db = ["remedio_solido", "remedio_liquido", "remedio_injetavel", "remedio_colirio"]
+                substancias_med1 = []
+                substancias_med2 = []
+
+                # 1. Coleta as substâncias ativas dos dois medicamentos envolvidos
+                for cat in categorias_db:
+                    for item_db in db_dados.get(cat, []):
+                        nome_db = item_db.get("nome", "").lower()
+                        if fuzz.ratio(nome_db, med1.lower()) >= 80:
+                            substancias_med1.extend(item_db.get("substancia_ativa", []))
+                        if fuzz.ratio(nome_db, med2.lower()) >= 80:
+                            substancias_med2.extend(item_db.get("substancia_ativa", []))
+
+                # Cria a assinatura ordenada (chave única) das substâncias de cada lado
+                chave_subst_1 = tuple(sorted([s.strip().lower() for s in set(substancias_med1) if s]))
+                chave_subst_2 = tuple(sorted([s.strip().lower() for s in set(substancias_med2) if s]))
+
+                substancias_med1 = list(set(substancias_med1))
+                substancias_med2 = list(set(substancias_med2))
+
+                # 2. Propaga para TODOS os registros da base que possuam a mesma substância ativa
+                for cat in categorias_db:
+                    for item_db in db_dados.get(cat, []):
+                        chave_item = tuple(sorted([s.strip().lower() for s in item_db.get("substancia_ativa", []) if s]))
+                        if not chave_item:
+                            continue
+
+                        # Se o item da base tiver a mesma substância do med1, herda as substâncias do med2
+                        if chave_item == chave_subst_1 and substancias_med2:
+                            item_db.setdefault("incompatibilidades", [])
+                            for subst in substancias_med2:
+                                if not any(subst.lower() == inc.lower() for inc in item_db["incompatibilidades"]):
+                                    item_db["incompatibilidades"].append(subst)
+                                    atualizou_db = True
+
+                        # Se o item da base tiver a mesma substância do med2, herda as substâncias do med1
+                        if chave_item == chave_subst_2 and substancias_med1:
+                            item_db.setdefault("incompatibilidades", [])
+                            for subst in substancias_med1:
+                                if not any(subst.lower() == inc.lower() for inc in item_db["incompatibilidades"]):
+                                    item_db["incompatibilidades"].append(subst)
+                                    atualizou_db = True
     except Exception as e:
         print(f"DEBUG: Erro na auditoria complementar de IA para incompatibilidades: {e}")
 
@@ -240,6 +283,11 @@ def verificar_incompatibilidades(usuario_json_path="usuario_atualizado.json", db
     # Atualiza o próprio usuario_atualizado.json adicionando o bloco de alertas
     usuario_dados["alertas_incompatibilidade"] = alertas_incompatibilidade
     salvar_json(usuario_dados, usuario_json_path)
+    
+    if atualizou_db:
+        salvar_json(db_dados, db_json_path)
+        print(f"DEBUG: Base de dados '{db_json_path}' atualizada com novas incompatibilidades da IA!")
+
 
     print(f"DEBUG: Análise concluída! Relatório salvo em '{output_relatorio_path}' e 'usuario_atualizado.json' atualizado.")
     return resultado_final

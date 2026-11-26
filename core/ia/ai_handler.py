@@ -36,25 +36,22 @@ class AIHandler:
         
         # lista do melhor para o pior de modelos que melhor respondeu
         """
-        "gemini-2.5-flash",
-        "gemini-flash-latest",
+        "gemini-4-hydrogen",
         "gemini-3.8-flash",
-        "gemini-3.6-flash",
-        "gemini-3.1-flash-lite",
-        "gemini-2.5-flash-lite"
+        "gemini-3-flash",
+        "gemini-3.5-flash-lite",
+        "gemini-3.1-flash-lite"
         
         só de teste
         "gemini-3.5-flash",
         "gemini-3.1-flash-lite",
         "gemini-2.5-flash-lite"
         """
-        self.gemini_disponivel = True
+        self.gemini_disponivel = False
         self.gemini_models = [
             "gemini-4-hydrogen",
             "gemini-3.8-flash",
-            "gemini-3-flash",
-            "gemini-3.5-flash-lite",
-            "gemini-3.1-flash-lite"
+            "gemini-3-flash"
         ]
         self.modelo_gemini = self.gemini_models[0]
         # Caso gemini não responda

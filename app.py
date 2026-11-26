@@ -3,7 +3,6 @@
     Responsável por receber os payloads da UI do Bubble, persistir os inputs,
     chamar o orquestrador farmacêutico e retornar o prontuário estruturado.
 """
-
 import os, sys, json, logging, httpx, requests
 from pathlib import Path
 from typing import List, Dict, Any, Optional
@@ -15,56 +14,55 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
 
-# CONFIGURAÇÃO DE REDE DA AUTOMAÇÃO LOCAL
-N8N_WEBHOOK_URL = "http://127.0.0.1:5678/webhook-test/logsRegistros"
+# CONFIGURAÇÃO DE REDE DO n8n
+N8N_WEBHOOK_URL = "http://127.0.0.1:5678/webhook/logsRegistros"
 
-# 1. MAPEAMENTO DE PASTAS ABSOLUTAS DO SISTEMA
+# MAPEAMENTO DE PASTAS
 APP_DIR = Path(__file__).resolve().parent
 CORE_DIR = APP_DIR / "core"
 DATA_DIR = APP_DIR / "data"
 DB_LOCAL_PATH = DATA_DIR / "solidificados.json"
 
-# Injeta a pasta core e a raiz no path do sistema para avoid erros de ImportError
+# Injeta a pasta core e a raiz no path do sistema
 sys.path.append(str(APP_DIR))
 sys.path.append(str(CORE_DIR))
 
-# Garante de forma segura que a pasta 'data' existe em disco antes do servidor subir
+#garante de forma segura que a pasta data existe em disco antes do servidor subir
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 # Configuração de Logs do Console
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("InfoMedAPI")
 
-# 2. IMPORTAÇÃO DO SEU ORQUESTRADOR LOCAL NO CORE
+# Importa o utilitario das 4 ferramentas 
 try:
     from ui_tratamento import processar_tratamento_completo
 except ImportError as ie:
     logger.critical(f"Erro fatal: Não foi possível localizar 'ui_tratamento.py' na pasta 'core/'. Detalhes: {ie}")
     sys.exit(1)
 
-# Inicialização do FastAPI
+# Inicializa o FastAPI
 app = FastAPI(
     title="InfoMed Core API",
     description="Motor de escuta para triagem ANVISA, cache farmacológico e análise cruzada de incompatibilidades.",
     version="1.0.0"
 )
 
-# Configuração de CORS (Obrigatório para o Bubble conseguir fazer as API Calls sem bloqueio)
+# Configuração de CORS 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Permite requisições de qualquer origem (emuladores e web)
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# 3. SCHEMAS DE VALIDAÇÃO DE ENTRADA (Contratos com API Connectors)
+# SCHEMAS DE VALIDAÇÃO DE ENTRADA
 
 class ProntuarioRawPayload(BaseModel):
-    """
-    Contrato unificado e dinâmico mapeado diretamente a partir das tabelas 
-    Paciente e User do Bubble, eliminando dados estáticos de contingência.
-    """
+    
+    #Contrato unificado e dinâmico mapeado diretamente a partir das tabelas paciente e User do Bubble.
+    
     patient_id: str
     batch_id: str
     patient_name: str
@@ -73,7 +71,6 @@ class ProntuarioRawPayload(BaseModel):
     responsible_phone: str      
     medications: List[Dict[str, Any]]
     existing_medications: List[Dict[str, Any]]
-
 
 class WebhookPayload(BaseModel):
     """
@@ -90,7 +87,7 @@ class WebhookPayload(BaseModel):
         populate_by_name = True  # Permite que a API aceite tanto a palavra 'salvar' quanto 'guardar'
 
     def normalizar_guardar(self) -> bool:
-        """Converte strings flexíveis como 'True', 'true' ou '1' vindas do n8n/Bubble em booleanos puros."""
+        # Converte strings flexíveis como 'True', 'true' ou '1' vindas do n8n/Bubble em booleanos puros.
         if isinstance(self.guardar, str):
             return self.guardar.lower() in ('true', '1', 't', 'yes')
         return bool(self.guardar)
@@ -105,7 +102,6 @@ def ping():
         "servico": "InfoMed Core API",
         "ambiente": "Desenvolvimento/Faculdade"
     }
-
 
 def disparar_automacao_n8n(texto: str, tipo: str, dados_clinicos: dict):
     """
@@ -137,7 +133,6 @@ def validation_exception_handler(request, exc):
         status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
         content={"detail": exc.errors(), "mensagem": "O contrato enviado pelo Bubble possui campos divergentes."}
     )
-
 
 @app.post("/medications/sync", status_code=status.HTTP_200_OK)
 def receber_e_tratar_medicamentos(payload: ProntuarioRawPayload, background_tasks: BackgroundTasks):
@@ -221,7 +216,6 @@ def receber_e_tratar_medicamentos(payload: ProntuarioRawPayload, background_task
             except Exception:
                 pass
 
-
 @app.post("/webhook/logsRegistros", status_code=status.HTTP_200_OK)
 def receber_webhook(payload: WebhookPayload):
     
@@ -275,7 +269,6 @@ def receber_webhook(payload: WebhookPayload):
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Falha interna no ecossistema da API InfoMed: {str(e)}"
         )
-
 
 # 5. INICIALIZADOR DO SERVIDOR (Execução local via terminal)
 if __name__ == "__main__":
